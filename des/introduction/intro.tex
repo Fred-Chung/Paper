@@ -3,7 +3,27 @@
 \chapter{Introduction}\label{s-intro}
 
 \section{Background and Importance}
-With the development of technology and alomost all information is digitized, we are more and more likely to be overwhelmed by a large amount of information, and it is difficult to find an effective way to find, organize and understand a large amount of information. Understanding text has become a popular research topic for scientist{\cite{intro-back}}. However
+With the development of technology and alomost all information is digitized, we are more and more likely to be overwhelmed by a large amount of information, and it is difficult to find an effective way to find, organize and understand a large amount of information{\cite{intro-back}}.Then, how to effectively obtain better information and how to automatically classify vast amounts of text data, organization and management become more challenging. Therefore, in the face of these problems and needs, the use of computers for language information processing has been extensively studied. As a research hotspot in the field of natural language processing, automatic text classification technology has been rapidly developed and widely used.
+
+
+Such data is sparse and discrete date which is hard for computer to process.The bag of words models are proposed for samplifying representation in natural language processing.This model can convert a sentence into a vector representation, which is a relatively straightforward method. It does not consider the order of words in the sentence, only considers the number of occurrences of words in the vocabulary in this sentence so that it will miss the relationshaip between each individual vocabulary and induces huge prolem of dimensional disaster. However it still a popular way in representing document.
+
+After representing document by matrix,scientists hope to construct a generative model to
+Imitate document writing. It reduces a complex precudure into some probabilistic steps and specify a sample  distribution for the topic of  document\cite{Finding scientific topics}. We will introduce  a very well-known method in natural language processing - Latent Dirichlet Allocation(LDA) which can extract  abstract "themes"  from a series of documents through the mechanism of generating models.
+
+
+This model assumes the implicit mechanism of published documents written by humans: each document is composed of a few topics, and each topic can be composed of a few important words description. In other words, When writing an article, we will first decide the topics related to our document, then each word we write in text is closely related to these topics.Let's follow the generative process of LDA step by step:
+\begin{itemize}
+  \item For each document, we extract a theme from the theme distribution.
+  \item Extracting a word from the word distribution corresponding to the above-mentioned theme.
+  \item Repeat the above process until each word in the document is traversed.
+\end{itemize}
+
+This generative process is mainly compose of two distributions-the topic distribution of each docuemnt and the word distribution of each topic.In LDA, the topic distribution and word distribution are uncertain. The authors of LDA adopt the Bayesian idea that they should obey a distribution. The topic distribution and word distribution are subject to  polynomial distributions,so the topic distribution and word distribution use Dirichlet distribution as their conjugate prior distribution because the polynomial distribution and Dirichlet distribution is a conjugate structure.
+
+As mentioned above,one commonly-used prior for topic distribution and word distribution is diriclet distribution and recently lots of distributions have been imposed on topic distribtion.For example,The correlation topic model(CTM)\cite{A CORRELATED TOPIC MODEL OF SCIENCE},which exhibits the correlation of topic by introducing logistic noremal distribution.It allows each document to show different topics with different proportions.
+
+
 % Mention of previous work on the subject
 % Statemeng of the importance of the subject
 

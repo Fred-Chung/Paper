@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 JUL 2020 09:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 JUL 2020 23:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -390,7 +390,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...numberline {1.2}topic of research paper}{1}
+l.3 ...numberline {1.2}topic of research paper}{2}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -402,7 +402,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ight the approach and principal finding}{1}
+l.4 ...ight the approach and principal finding}{2}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -414,7 +414,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...berline {1.4}Organization of this paper}{1}
+l.5 ...berline {1.4}Organization of this paper}{2}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -426,7 +426,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...}{\numberline {Chapter 2}Basic language}{2}
+l.6 ...}{\numberline {Chapter 2}Basic language}{3}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -438,7 +438,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...e {2.1}Banach, Operator and Dual Spaces}{2}
+l.7 ...e {2.1}Banach, Operator and Dual Spaces}{3}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -450,7 +450,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...erline {2.2}Topologies in Banach Spaces}{4}
+l.8 ...erline {2.2}Topologies in Banach Spaces}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -462,7 +462,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 ...\numberline {2.3}Bases in Banach spaces}{4}
+l.9 ...\numberline {2.3}Bases in Banach spaces}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -474,7 +474,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...{Chapter 3}Classical Harmonic Analysis}{8}
+l.10 ...{Chapter 3}Classical Harmonic Analysis}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -486,7 +486,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...ysis on Locally Compact Abelian Groups}{8}
+l.11 ...ysis on Locally Compact Abelian Groups}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -498,7 +498,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...er}{\numberline {Chapter 4}Conclusion}{13}
+l.12 ...er}{\numberline {Chapter 4}Conclusion}{14}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -510,7 +510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 \contentsline {chapter}{References}{14}
+l.13 \contentsline {chapter}{References}{15}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -678,16 +678,43 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./des/introduction/intro.tex:9: LaTeX Error: Something's wrong--perhaps a missing \item.
+./des/introduction/intro.tex:7: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 
+l.7 
     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+./des/introduction/intro.tex:8: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 
+    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./des/introduction/intro.tex:10: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 
+     
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `Finding scientific topics' on page 1 undefined on input line 12.
 
 
 ./des/introduction/intro.tex:13: LaTeX Error: Something's wrong--perhaps a missing \item.
@@ -708,20 +735,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 \section
-             {topic of research paper}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:14: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \section{topic of research paper}
-                                      
+l.14 
+     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -732,176 +747,40 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 
-     
+l.16 \begin{itemize}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./des/introduction/intro.tex:18: LaTeX Error: Something's wrong--perhaps a missing \item.
+./des/introduction/intro.tex:16: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:19: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \section
-             {Highlight the approach and principal finding}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:19: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 ...hlight the approach and principal finding}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:20: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.20 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:22: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.22 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:24: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:25: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \section
-             {Organization of this paper}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:25: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 \section{Organization of this paper}
-                                         
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-) (./des/chapter2/heading/h.tex
-
-./des/chapter2/heading/h.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter
-            {Basic language}
+l.16 \begin{itemize}
+                    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 [1
 
 ]
+
+LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE' on page 2 undefined on input line 24.
+
+
+Overfull \hbox (37.37163pt too wide) in paragraph at lines 24--25
+\OT1/cmr/m/n/12 im-posed on topic dis-trib-tion.For ex-am-ple,The cor-re-la-tion topic model(CTM)[[]],which
+ []
+
+) (./des/chapter2/heading/h.tex [2]
 Chapter 2.
-
-./des/chapter2/heading/h.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter{Basic language}
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
 [] 
  []
-
-
-./des/chapter2/heading/h.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter{Basic language}
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/heading/h.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter{Basic language}
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/heading/h.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \chapter{Basic language}
-                            
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -909,78 +788,6 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
  []
 
 ) (./des/chapter2/session1/s1.tex
-
-./des/chapter2/session1/s1.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section
-            {Banach, Operator and Dual Spaces}\label{Banach Spaces}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:1: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 \section{Banach, Operator and Dual Spaces}
-                                              \label{Banach Spaces}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:3: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.3 
-    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:4: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.4 
-    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:5: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 
-    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:9: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.9 
-    
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 ./des/chapter2/session1/s1.tex:10: Undefined control sequence.
 <recently read> \X 
                    
@@ -1391,18 +1198,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-./des/chapter2/session1/s1.tex:26: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
 ./des/chapter2/session1/s1.tex:27: Undefined control sequence.
 <recently read> \X 
                    
@@ -1557,30 +1352,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session1/s1.tex:35: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:38: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 
 ./des/chapter2/session1/s1.tex:39: LaTeX Error: Environment example undefined.
@@ -1790,19 +1561,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-
-./des/chapter2/session1/s1.tex:60: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.60 
-     
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[2
+[3
 
 ]
 
@@ -1817,30 +1576,6 @@ l.61 \begin{example}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
-
-
-./des/chapter2/session1/s1.tex:63: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \begin{enumerate}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session1/s1.tex:63: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.63 \begin{enumerate}
-                      
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
 
 ./des/chapter2/session1/s1.tex:64: Undefined control sequence.
 <recently read> \lp 
@@ -2620,7 +2355,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[3]
+[4]
 ./des/chapter2/session1/s1.tex:128: Undefined control sequence.
 <recently read> \norm 
                       
@@ -3171,7 +2906,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[4]
+[5]
 ./des/chapter2/session3/s3.tex:19: Undefined control sequence.
 <recently read> \X 
                    
@@ -3335,7 +3070,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[5]
+[6]
 
 ./des/chapter2/session3/s3.tex:73: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{example}.
 
@@ -3546,7 +3281,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[6]
+[7]
 ./des/chapter2/session3/s3.tex:144: Undefined control sequence.
 <recently read> \X 
                    
@@ -3602,7 +3337,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (./des/chapter3/heading/h.tex [7]
+) (./des/chapter3/heading/h.tex [8]
 Chapter 3.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
@@ -3765,7 +3500,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8
+[9
 
 ]
 
@@ -4245,7 +3980,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9]
+[10]
 ./des/chapter3/session1/s1.tex:117: Undefined control sequence.
 <recently read> \T 
                    
@@ -4697,7 +4432,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[10]
+[11]
 ./des/chapter3/session1/s1.tex:169: Undefined control sequence.
 <recently read> \ssnorm 
                         
@@ -5225,7 +4960,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[11]
+[12]
 ./des/chapter3/session1/s1.tex:245: Undefined control sequence.
 l.245 \[\norm
              {\phi_1\phi_2}_{M_p(\hatt{G})}\leq\norm{\phi_1}_{M_p(\hatt{G})}
@@ -5727,7 +5462,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) (./des/chapter3/session2/s2.tex) (./des/chapter3/session3/s3.tex) (./des/chapter4/heading/h.tex [12]
+) (./des/chapter3/session2/s2.tex) (./des/chapter3/session3/s3.tex) (./des/chapter4/heading/h.tex [13]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -5749,7 +5484,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (./des/bib/b.tex [13
+) (./des/bib/b.tex [14
 
 ]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
@@ -5761,7 +5496,7 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
  [] 
  []
 
-[14
+[15
 
 
 ]
@@ -5801,7 +5536,11 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15] (./unswthesis.aux) )
+[16] (./unswthesis.aux)
+
+LaTeX Warning: There were undefined references.
+
+ )
 (\end occurred inside a group at level 2)
 
 ### simple group (level 2) entered at line 55 ({)
@@ -5810,17 +5549,17 @@ or  <return>  to continue without it.
 Here is how much of TeX's memory you used:
  2643 strings out of 480471
  34810 string characters out of 5899396
- 274205 words of memory out of 5000000
+ 274206 words of memory out of 5000000
  18597 multiletter control sequences out of 15000+600000
  540499 words of font info for 56 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,1079b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,1079b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (19 pages, 556983 bytes).
+Output written on unswthesis.pdf (20 pages, 560090 bytes).
 PDF statistics:
- 144 PDF objects out of 1000 (max. 8388607)
- 97 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 99 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
