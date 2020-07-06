@@ -1,0 +1,131 @@
+\section{Banach, Operator and Dual Spaces}\label{Banach Spaces}
+%%%%%%%%%%%
+
+
+
+We recall some basic definitions and concepts from Banach space theory and
+functional analysis. A good introductory reference for this material is
+\cite{TEST}.
+
+A {\em Banach space} $\X$ is a vector space $V$ over a field $\F$ that is
+equipped with a norm
+$\norm{\,\cdot\,}_{\X}$ that makes $V$ complete with respect to the metric $d$
+given by $d(x,x')=\norm{x-x'}_{\X}$. In this thesis we shall always assume that
+the
+underlying field $\F$ of scalars is $\C$. Suppose $\Y$ is also a Banach space
+with norm $\norm{\,\cdot\,}_{\Y}$. A linear operator
+$T:\X\rightarrow\Y$ is said to be {\em bounded} if
+$\sup\{\norm{Tx}_{\Y}:x\in\X,\norm{x}_{\X}=1\}<\infty$. The collection of
+$\Y$-valued bounded linear operators on $\X$ is denoted $\B(\X,\Y)$, and is
+itself a Banach space when equipped with the {\em operator norm}
+$\norm{T}=\sup\{\norm{Tx}_{\Y}:x\in\X,\norm{x}_{\X}\leq 1\}$. A $\Y$-valued
+linear
+operator on $\X$ is bounded if and only if it is continuous with respect to the
+topologies on $\X$ and $\Y$ induced by their respective norms. Furthermore, if
+$T\in\B(\X,\Y)$ then $\norm{Tx}_{\Y}\leq\norm{T}\norm{x}_{\X}$ for all $x\in\X$.
+
+Henceforth, the norm of a Banach space $\X$ will be denoted
+$\norm{\,\cdot\,}_{\X}$ (except when $\X$ is an $L^p$ space --- see the
+example below), while the operator norm $\norm{\,\cdot\,}$ will
+contain no subscript because it is clear from the operator's definition what
+spaces its norm is induced from. The space $\B(\X,\X)$ of bounded linear
+operators sending elements of $\X$ into $\X$ will be denoted $\B(\X)$. An
+important class of operators included in $\B(\X)$ are the {\em projections} on
+$\X$, those bounded linear maps $P$ satisfying $P^2=P$.
+
+There are many examples of Banach spaces. We give one example that will feature
+regularly throughout the thesis.
+
+\begin{example}\label{L^p example}
+Let $(\Omega,\A,\mu)$ be a measure space and $1\leq p<\infty$. Let
+$\X=L^p(\Omega,\A,\mu)$ be the space of all equivalence classes of
+$\C$-valued $\A$-measurable functions $f$ on $\Omega$ with the property that
+$\int_{\Omega}|f(x)|^p\,d\mu(x)<\infty$. We shall usually blur the distinction
+between the equivalence classes of $L^p(\Omega,\A,\mu)$ and the representatives
+of these classes. The norm on $\X$ is given by
+$\norm{f}_{\X}=(\int_{\Omega}|f(x)|^p\,d\mu(x))^{1/p}$ and
+makes $\X$ a Banach space. When the underlying $\sigma$-algebra and measure is
+standard (for example, when $\Omega=\R$, $\A$ is the Borel $\sigma$-algebra
+and $\mu$ is Lebesgue measure on $\R$), we shall denote
+$L^p(\Omega,\A,\mu)$ by $L^p(\Omega)$.
+Because it
+is notationally less cumbersome to write $\norm{\,\cdot\,}_p$ instead of
+$\norm{\,\cdot\,}_{L^p(\Omega,\A,\mu)}$, we shall do so whenever the context
+permits no ambiguity. A particularly useful fact is that if $(\Omega,\A,\mu)$ is
+a finite measure space and $1\leq p<r<q\leq\infty$, then
+$L^p(\Omega)\cap L^q(\Omega)\subset L^r(\Omega)$ and
+$L^q(\Omega)\subset L^p(\Omega)$. A quick source of information on these spaces
+is \cite[\S 6.4]{Pedersen}.
+\end{example}
+
+\begin{example}
+We give a few of the sequence spaces.
+\begin{enumerate}
+\item For $1\leq p<\infty$, define $\lp$ to be
+the space of all functions $f:\N\rightarrow\C$ such that
+$\sum_{n=1}^{\infty}|f(n)|^p<\infty$, and equip it with the norm
+$\norm{f}_{\lp}=(\,\sum_{n=1}^{\infty}|f(n)|^p\,)^{1/p}$. Thus $\lp$ may be
+identified with $L^p(\N)$, where the underlying measure is counting measure on
+$\N$.
+\item The space $\ell^{\infty}$ is the set of all bounded functions
+$f:\N\rightarrow\C$ with norm $\norm{f}_{\ell^{\infty}}=\sup\{|f(n)|:n\in\N\}$.
+\item The subset $c$ of $\ell^{\infty}$ of all convergent sequences
+has norm given by $\norm{f}_c=\norm{f}_{\ell^{\infty}}$ for $f\in c$.
+\item The subset $c_0$ of $\ell^{\infty}$ of all bounded functions converging to
+zero has norm given by $\norm{f}_{c_0}=\norm{f}_{\ell^{\infty}}$ for $f\in c_0$.
+\end{enumerate}These are all Banach spaces.
+\end{example}
+
+To every Banach space is associated another Banach space known as its dual.
+Suppose $\X$ is a Banach space. A {\em linear functional} on $\X$ is a linear
+map from $\X$ into $\C$. The set of all bounded linear functionals on $\X$,
+denoted
+by $\X^*$, is made a vector space via pointwise operations. We equip $\X^*$ with
+a norm given by $\norm{x^*}_{\X^*}=\sup\{|x^*(x)|:x\in\X,\norm{x}\leq 1\}$.
+Thus $\X^*$ coincides with $\B(\X,\C)$ and is itself a Banach
+space. We call $\X^*$ the {\em dual space} of $\X$. Given $x^*\in\X^*$ and
+$x\in\X$, it is standard to write
+$\ip<x,x^*>$ for $x^*(x)$.
+
+It can be shown that for $1<p<\infty$, the dual space of $\X=L^p(\Omega,\A,\mu)$
+is isometrically isomorphic to $\X=L^q(X,\Omega,\mu)$, where $q$ satisfies
+$1/p+1/q=1$. Thus $(\lp)^*$ is isomorphic to $\ell^q$ as a Banach space. It is
+also known that $c_0^*=\ell^1$ and $(\ell^1)^*=\ell^{\infty}$. See
+\cite[Chapter III, \S 5 and \S 11]{Con} for more details.
+
+Given a Banach space $\X$, we may take its dual $\X^*$. This is also a Banach
+space and hence has a dual $(\X^*)^*$, called {\em the second dual of $\X$}
+and written $\X^{**}$. Continuing in this way we may construct a sequence
+$\X,\X^*,\X^{**},\X^{***},\ldots$ of Banach spaces. For which
+spaces $\X$ does this list contain any repetitions? This question leads us to
+consider an important class of Banach spaces, known as the reflexive Banach
+spaces.
+
+Let $\X$ be Banach space. To each $x\in\X$ we may associate a unique element
+$\hatt{x}\in\X^{**}$ by the rule $\hatt{x}(x^*)=\ip<x,x^*>$ for all $x^*\in\X$.
+The map $x\mapsto\hatt{x}$ from $\X$ into $\X^{**}$ is called the {\em natural
+map} of $\X$ into its second dual.
+
+A Banach space $\X$ is said to be {\em reflexive} if
+$\X^{**}=\{\hatt{x}:x\in\X\}$. If $\X$ is reflexive then its second dual
+$\X^{**}$ is isometrically isomorphic to $\X$. However, the converse does not
+hold (see \cite[III.11]{Con}). It is a consequence of the Riesz Representation
+Theorem \cite[I.3.4]{Con} that every Hilbert space is reflexive.
+The spaces $\X=L^p(X,\Omega,\mu)$ and
+$\lp$ are also reflexive for $1<p<\infty$, but by the above remarks $c_0$ is
+not. Since
+$c_0^{**}=\ell^{\infty}$, it is clear that $c_0\subset c_0^{**}$. In fact,
+$c_0$ is isometrically embedded into its second dual $\ell^{\infty}$. This fact
+generalises to
+all Banach spaces. The space $C[0,1]$ of continuous functions on $[0,1]$ with
+supremum norm is another example of a non-reflexive Banach space.
+
+A {\em Banach algebra} $\mathfrak{A}$ is an algebra over $\F$ that has a norm
+$\norm{\,\cdot\,}_{\mathfrak{A}}$ relative to which $\mathfrak{A}$ is a Banach
+space and
+\[\norm{ab}_{\mathfrak{A}}\leq\norm{a}_{\mathfrak{A}}\norm{b}_{\mathfrak{A}}\]
+for all $a,b\in\mathfrak{A}$. If $\mathfrak{A}$ has an identity $e$, then it is
+assumed that $\norm{e}_{\mathfrak{A}}=1$. In this thesis we shall always take
+$\F$ to be $\C$. An example of a Banach algebra is the space $C[0,1]$ equipped
+with the supremum norm, with multiplication of elements in $C[0,1]$ defined
+pointwise.

@@ -1,0 +1,137 @@
+## Unbounded Dirichlet Blief Model
+
+### 1. Layerwise Dirichlet-Dirichlet connection
+
+$$C_{i'..}^{l} \sim Multi(M^l;\pi_{i'.}^l \otimes w_{i'.}^l) \tag{1}$$
+* Information pass from Topic i' to Topic i .
+* $\pi_{i'.}^l$ is the Topic-Word matrix in layer $l$.
+* All layer has same Topic number.
+* $w_{i'i}^l$ is the probability of Information distribution from topic i' to i.
+
+$$\pi_i^{l+1} \sim Dirihlet(\alpha_d +\sum_{i'}{C_{i'.i}})\tag{2}$$
+
+* This is the reconstruction process.
+* $\sum_{i'}{C_{i'.i}}$  is a V by 1 Vector.
+
+### 2. Poisson-Multinomial Equivalence
+
+$C_{i'ki}^{l} \sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag{3}$
+
+
+### 3.Gibbs Sampling Inference
+
+#### Sampling $C_i^l$ Each element $C_{i'ki}^l$ is distriburd as  Eq.3.
+
+$$P(C_{i'ki}^{l}|.) \sim \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}!}$$
+
+$$P(\pi_i^{l+1}|C_{i'ki}^{l},..) = \frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1}$$
+
+The posterior distribution of $C_{i'ki}^{l}$ is:
+
+$$P(C_{i'ki}^{l}|.) \propto \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}!} .\frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1} $$
+
+and
+
+$\sum{C_{i'ki}} = M^l$ **{? I am not sure how to get the value of $C_{i'ki}$}**
+
+#### Sampling $\pi_{i'}^l$,its posterior distribution is Dirichlet distribution.
+
+* Likelihood
+$$\sum_i{C_{i'ki}} \sim Multi(M^l;\pi_{i'.}^l)$$
+
+* prior distribution comes from upper layer
+
+#### Sampling $w$
+
+* Likelihood
+$$\sum_k{C_{i'ki}} \sim Multi(M^l;w_{i'.}^l)$$
+
+* Prior distribution
+
+$$W_{i'i} \sim Dirichlet(\alpha_w)$$
+
+* Posterior distribution
+
+$$p(w_{i'}|..) \sim Dirichlet(\alpha_w+w_{i'.})$$
+
+
+### 4.Initilization
+
+$M^{l} \sim Posiion(M)$
+
+$\alpha^{l} \sim Dirichlet(\alpha_w)$ 假设每层topic数量为10
+
+$\alpha_d$ 假设单词数量为100
+
+
+```python
+import pandas as pd
+import numpy as np
+class layer_para():
+    def __init__(self,layer):
+        self.layer_len = layer
+        self.topic_num = 10
+        self.word_num = 100
+
+
+        self.hyper_m = 200
+        self.hyper_alphaw = 3
+        self.hyper_alphad = 3
+
+        self.layer_info = []
+
+        self.initlize(layer)
+
+    def initlize(self,layer):
+
+        for  layer_num in range(layer):
+            if layer_num == 0:
+                tw = np.random.dirichlet([3]*self.word_num,self.topic_num).T
+
+                m = np.random.poisson(lam = self.hyper_m)
+
+                wi = np.random.dirichlet([self.hyper_alphaw]*self.topic_num)
+
+                node_word_node = np.zeros((self.topic_num,self.word_num*self.topic_num),dtype=int)
+
+
+                for topic_idx in range(self.topic_num):
+                    piw = np.kron(tw[:,topic_idx],wi)
+                    node_word_node[topic_idx] = np.random.multinomial(n = self.hyper_m, pvals = piw)
+
+                word_topic_count = np.sum(node_word_node,0)
+                word_topic_count = word_topic_count.reshape(self.word_num,self.topic_num)
+
+                ad = np.array([self.hyper_alphad] * 100)
+
+                self.layer_info.append({'m':m,'wi':wi,'word_topic_count':word_topic_count,'node_word_node':node_word_node})
+
+                tw = np.zeros((self.word_num,self.topic_num))
+                for i in range(self.topic_num):
+                    tw[:,i] = np.random.dirichlet(ad+cs[:,i])
+            else:
+                m = np.random.poisson(lam = self.hyper_m)
+
+                wi = np.random.dirichlet([self.hyper_alphaw]*self.topic_num)
+
+                node_word_node = np.zeros((self.topic_num,self.word_num*self.topic_num),dtype=int)
+
+
+                for topic_idx in range(self.topic_num):
+                    piw = np.kron(tw[:,topic_idx],wi)
+                    node_word_node[topic_idx] = np.random.multinomial(n = self.hyper_m, pvals = piw)
+
+                word_topic_count = np.sum(node_word_node,0)
+                word_topic_count = word_topic_count.reshape(self.word_num,self.topic_num)
+
+                ad = np.array([self.hyper_alphad] * 100)
+
+                self.layer_info.append({'m':m,'wi':wi,'word_topic_count':word_topic_count,'node_word_node':node_word_node})
+
+
+                tw = np.zeros((self.word_num,self.topic_num))
+                for i in range(self.topic_num):
+                    tw[:,i] = np.random.dirichlet(ad+cs[:,i])
+
+
+````

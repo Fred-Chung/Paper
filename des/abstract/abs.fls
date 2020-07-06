@@ -1,0 +1,6 @@
+PWD /home/xpeng/UNSW/paper/des/abstract
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT abs.tex
+OUTPUT abs.log

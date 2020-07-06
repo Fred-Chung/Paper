@@ -1,0 +1,46 @@
+\section{Topologies in Banach Spaces}\label{topologies}
+%%%%%%%%%%%%
+A Banach space $\X$ is easily made a topological space with the topology induced
+by its norm, called the {\em norm topology} of $\X$. We say a sequence of
+vectors {\em converges in $\X$} if it converges in the norm topology of $\X$.
+Another
+topology is the {\em weak topology} of $\X$. A sequence $\{x_n\}_{n=1}^{\infty}$
+of vectors in $\X$ converges to $x\in\X$ in the weak topology of $\X$ if
+$\lim_{n\rightarrow\infty}\ip<x_n-x,x^*>=0$ for all $x^*\in\X^*$. As their names
+suggest, convergence in the norm topology implies convergence in the weak
+topology, or in other words, if a sequence converges then it also converges
+weakly.
+
+We shall consider three topologies in the Banach space $\B(\X)$.
+Suppose $\{T_n\}_{n=1}^{\infty}$ is a sequence of operators in $\B(\X)$.
+We say it
+converges to $T$ {\em in norm} if $\norm{T-T_n}\rightarrow 0$, {\em strongly} if
+$\norm{Tx-T_nx}_{\X}\rightarrow 0$ for all $x\in\X$, and {\em weakly} if
+$\ip<Tx-T_nx,x^*>\rightarrow 0$ for all $x\in\X$ and $x^*\in\X^*$. The
+topologies
+induced are called the norm operator topology, the strong operator topology and
+the weak
+operator topology of $\B(\X)$ respectively. A sequence which converges strongly
+will converge weakly, and in turn, convergence in the norm topology implies
+strong convergence. All three topologies have unique limits and distinguish
+points.
+
+The following proposition is easy to verify and is included for familiarisation
+with the concepts discussed thus far. It shall also be used to establish later
+results.
+
+\begin{proposition}\label{SOT convergence}
+Let $\X$ be a Banach space and suppose $\{T_n\}_{n=1}^{\infty}$ is a sequence of
+operators uniformly bounded in norm by some $K>0$ and converging to $T$
+in the strong operator topology of $\B(\X)$. Then $\norm{T}\leq
+K$.
+\end{proposition}
+
+\begin{proof}
+We want to show $\norm{Tx}_{\X}\leq K\norm{x}_{\X}$ for all $x\in\X$. Fix
+$x\in\X$ and $\epsilon>0$ and choose an $n\in\N$ such that
+$\norm{Tx-T_nx}_{\X}<\epsilon$. Then
+\[\norm{Tx}_{\X}\leq\norm{Tx-T_nx}_{\X}+\norm{T_nx}_{\X}
+<\epsilon+K\norm{x}_{\X},\]
+and the proposition follows.
+\end{proof}

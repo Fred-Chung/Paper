@@ -1,0 +1,153 @@
+\section{Bases in Banach spaces}\label{bases}
+%%%%%%%%%%%%
+
+
+The definition and usefulness of a basis in a finite dimensional vector space is
+well-known. It is natural then to want an analogous concept for
+Banach spaces. The most useful approach is found in the notion of a Schauder
+basis. A comprehensive introduction to such bases is \cite[pp. 1--52]{Lind},
+upon which most of the material in this section is based.
+
+\begin{definition}
+A sequence $\{x_n\}_{n=1}^{\infty}$ in a Banach space $\X$ is called a {\em
+Schauder basis of $\X$} if, for every $x\in\X$, there is a unique sequence of
+scalars $\{a_n\}_{n=1}^{\infty}$ such that $x=\sum_{n=1}^{\infty}a_nx_n$. A
+sequence $\{x_n\}_{n=1}^{\infty}$ which is a Schauder basis for its closed
+linear span is called a {\em basic sequence}.
+\end{definition}
+
+A Banach space $\X$ is called {\em separable} if it has a countable dense
+subset.
+Thus if $\X$ has a Schauder basis then $\X$ is separable. In general the
+converse
+is not true. Since the class of Schauder bases is the only type of bases
+considered in this
+thesis, it will henceforth be implicit that any discussion about bases refers
+only to Schauder bases.
+
+
+\begin{example}
+The ordered set of unit vectors $e_n=(0,0,0,\ldots,1,0,\ldots)$, where the $1$
+occurs in the $n$th coordinate, forms a basis in each of the spaces
+$c$, $c_0$ and $\lp$. Another example of a basis in $c$ is given by
+$x_1=(1,1,1,\ldots)$
+and $x_n=e_{n-1}$ for $n>1$. If $x=(b_1,b_2,\ldots)\in c$, then the expansion of
+$x$ with respect to this basis is
+\[x=(\lim_{k\rightarrow\infty}a_k)x_1+(a_1-\lim_{k\rightarrow\infty}a_k)x_2+
+(a_2-\lim_{k\rightarrow\infty}a_k)x_3+\cdots.\]
+\end{example}
+
+
+If a Banach space $\X$ has a basis, we may consider $\X$ as a sequence
+space via an identification of each element $x=\sum_{n=1}^{\infty}a_nx_n$ in
+$\X$ with the unique sequence of coefficients $(a_1,a_2,a_3,\ldots)$. To do this
+note that it is essential to describe the basis as an ordered sequence rather
+than merely as a set. The following example highlights a deeper reason for
+why we must specify the ordering of the vectors in a basis.
+
+\begin{example}\label{summing basis}
+Consider the sequence of vectors $\{x_n\}_{n=1}^{\infty}$ in $c$ given by
+\[x_n=(\underbrace{0,0,\ldots,0}_{n-1},1,1,\cdots),\]
+for $n\in\Z^+$. It is not hard to see that this is a basis for $c$.
+It is called the {\em summing basis} in $c$.
+Consider the sequence $b$ defined by
+\[b_n=\sum_{k=1}^n(-1)^{k+1}\frac{1}{k}\]
+for $n\in\Z^+$. By Leibniz' test for alternating series,
+$b_n$ has a limit as $n\rightarrow\infty$, so $b\in c$. The expansion of $b$
+with
+respect to the summing basis is $b=\sum_{n=1}^{\infty}a_nx_n$ where
+$a_n=(-1)^{n+1}\frac{1}{n}$. Now consider the following rearrangement of the
+series. Define $\pi:\Z^+\rightarrow\Z^+$ by
+\[\pi(n)=\left\{\begin{array}{ll}
+				2k & \mbox{if $n=3k$}\\
+				4k+1 & \mbox{if $n=3k+1$}\\
+				4k+3 & \mbox{if $n=3k+2$.}
+			\end{array}\right.
+\]
+Then $\pi$ is clearly a permutation of $\Z^+$. However, the expansion
+\[b'\equiv\sum_{n=1}^{\infty}a_{\pi(n)}x_{\pi(n)}\]
+does not lie in $c$ since
+\[b_{3n}'=\sum_{k=1}^n\left(\frac{1}{2k-1}+\frac{1}{2k+1}-\frac{1}{2k}\right)
+\geq 2\sum_{k=1}^n\frac{1}{k}\]
+diverges as $n\rightarrow\infty$.
+\end{example}
+
+Not every basis has the defect that the convergence of an expansion with respect
+to the basis is dependent on the order of summation of the expansion. For
+example, expansions in finite dimensional spaces can be summed in any order
+without altering convergence. The following proposition gives various methods
+for
+checking whether a sum of vectors can be freely rearranged while still
+respecting convergence.
+
+\begin{proposition}\label{unconditional conv}
+\cite[Proposition 1.c.1]{Lind}
+Let $\{x_n\}_{n=1}^{\infty}$ be a sequence of vectors in a Banach space $\X$.
+Then the following are equivalent.
+
+(i) The series $\sum_{n=1}^{\infty}x_{\pi(n)}$ converges for every permutation
+$\pi$ of the integers.
+
+(ii) The series $\sum_{k=1}^{\infty}x_{n_k}$ converges for every choice of
+$n_1<n_2<n_3\ldots$.
+
+(iii) The series $\sum_{n=1}^{\infty}\varepsilon_nx_n$ converges
+for every choice of signs $\varepsilon_n=\pm 1$.
+
+(iv) For every $\epsilon>0$ there exists an integer $n_0$ such that
+$\ssnorm{\sum_{j\in J}x_j}_{\X}<\epsilon$ for every finite set of integers $J$
+which satisfies $\min\{j\in J\}>n_0$.
+\end{proposition}
+
+With the aid of the proposition, there are now easier ways to verify that the
+series
+$\sum_{n=1}^{\infty}a_nx_n$ given in Example \reff{bases}{summing basis} is
+dependent on the order of summation. Simply observe that
+$\sum_{n=1}^{\infty}a_{2n-1}x_{2n-1}$ does not converge in $c$ and hence
+statement (ii) of the proposition fails to hold.
+
+\begin{definition}
+Let $\{x_n\}_{n=1}^{\infty}$ be a sequence of vectors in a Banach space $\X$.
+A series $\sum_{n=1}^{\infty}x_n$ which satisfies any of the conditions (i),
+(ii), (iii) or (iv) in Proposition \reff{bases}{unconditional conv} is said to
+be
+{\em unconditionally convergent}. A basis $\{x_n\}_{n=1}^{\infty}$ of a Banach
+space $\X$ is {\em unconditional} if for every $x\in\X$, its expansion
+$x=\sum_{n=1}^{\infty}a_nx_n$ converges unconditionally. Otherwise the basis is
+said to be {\em conditional}.
+\end{definition}
+
+Thus the standard ordered bases $\{e_n\}_{n=1}^{\infty}$ for $c$, $c_0$ and
+$\lp$,
+$1\leq p<\infty$ are unconditional bases. This means that any reordering of
+$\{e_n\}_{n=1}^{\infty}$ also yields unconditional bases in these spaces.
+The summing basis for $c$ is clearly a conditional basis.
+
+Given a basis $\{x_n\}_{n=1}^{\infty}$, one might ask what
+complex sequences $\{\phi_n\}_{n=1}^{\infty}$ give rise to a bounded multiplier
+transform? That is, is there a constant $C>0$ such that for all $x\in\X$,
+\[\snorm{\sum_{n=1}^{\infty}\phi_na_{n,x}x_n}_{\X}\leq C\norm{x}_{\X},\]
+where $\sum_{n=1}^{\infty}a_{n,x}x_n$ is the expansion of each $x\in\X$ with
+respect to the basis? If that basis is unconditional, then the space of such
+sequences is just $\ell^{\infty}$ (see \cite[Proposition 1.c.7]{Lind}).
+
+
+We have seen that conditional bases do exist, and some of the resulting
+difficulties that arise when working with a conditional basis. Is there any way
+in which we can avoid such problems in separable Banach spaces? In other words,
+can we always find an unconditional
+basis for a separable Banach space? The answer is no. The space $L^1[0,1]$ has
+no unconditional basis. In fact, $L^1[0,1]$ cannot even be embedded in a space
+with an unconditional basis \cite[Propostion 1.d.1]{Lind}.
+
+There are many open problems regarding unconditional bases. For example,
+suppose $\X$ is a Banach space with an unconditional basis, and let $\Y$ be
+a complemented subspace of $\X$. Does $\Y$ have an unconditional basis? One
+outstanding problem has recently been solved (see \cite{Gowers}).
+Does every infinite dimensional Banach space $\X$ contain an unconditional
+basic sequence? The answer is no.
+We shall not pursue such broad problems in this thesis. Instead, we shall use
+tools from harmonic analysis and spectral theory to examine whether or not
+particular sequences in certain Banach spaces are conditional, and whether or
+not
+they form bases for those spaces.

@@ -1,0 +1,53 @@
+\documentclass[mstat,12pt]{unswthesis}
+\linespread{1}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{latexsym,amsmath}
+\usepackage{graphicx}
+\usepackage{afterpage}
+
+\hyphenation{Mar-cin-kie-wicz Rade-macher}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%  And now the document begins
+%  The \beforepreface and \afterpreface commands puts the
+%  contents page etc in
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{des/title/title}
+\begin{document}
+
+\beforepreface
+
+\afterpage{\blankpage}
+
+% plagiarism
+\input{des/plagiarism/plag}
+% Abstract
+\input{des/abstract/abs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Now we can start on the first chapter
+% Within chapters we have sections, subsections and so forth
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    Chapter 1
+\input{des/introduction/intro}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    Chapter 2
+\input{des/chapter2/heading/h.tex}
+\input{des/chapter2/session1/s1}
+\input{des/chapter2/session2/s2}
+\input{des/chapter2/session3/s3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 		\chapter3
+\input{des/chapter3/heading/h.tex}
+\input{des/chapter3/session1/s1}
+\input{des/chapter3/session2/s2}
+\input{des/chapter3/session3/s3}
+%%%%%%%%%%%%%
+\input{des/chapter4/heading/h.tex}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{des/bib/b.tex}
+\end{document}
