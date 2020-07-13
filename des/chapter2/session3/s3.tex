@@ -1,153 +1,179 @@
-\section{Bases in Banach spaces}\label{bases}
-%%%%%%%%%%%%
+\section{Markov Chain Monte Carlo and Gibbs Sampling}\label{bases}
 
+\subsection{Monte Carlo Method}
+The Monte Carlo method is a calculation method. The principle is to understand a system through a large number of random samples, and then get the value to be calculated.
 
-The definition and usefulness of a basis in a finite dimensional vector space is
-well-known. It is natural then to want an analogous concept for
-Banach spaces. The most useful approach is found in the notion of a Schauder
-basis. A comprehensive introduction to such bases is \cite[pp. 1--52]{Lind},
-upon which most of the material in this section is based.
+It is very powerful and flexible, yet quite easy to understand and easy to implement. For many problems, it is often the simplest calculation method, and sometimes even the only feasible method.
+As a random sampling method, Markov Chain Monte Carlo (hereinafter referred to as MCMC) has a wide range of applications in the fields of machine learning, deep learning, and natural language processing, and is the basis of many complex algorithms.
 
-\begin{definition}
-A sequence $\{x_n\}_{n=1}^{\infty}$ in a Banach space $\X$ is called a {\em
-Schauder basis of $\X$} if, for every $x\in\X$, there is a unique sequence of
-scalars $\{a_n\}_{n=1}^{\infty}$ such that $x=\sum_{n=1}^{\infty}a_nx_n$. A
-sequence $\{x_n\}_{n=1}^{\infty}$ which is a Schauder basis for its closed
-linear span is called a {\em basic sequence}.
-\end{definition}
+The early Monte Carlo methods were designed to solve some summation or integration problems that are not very easy to solve. Such as points:
+\[
+Y = \int_a^b f(x)
 
-A Banach space $\X$ is called {\em separable} if it has a countable dense
-subset.
-Thus if $\X$ has a Schauder basis then $\X$ is separable. In general the
-converse
-is not true. Since the class of Schauder bases is the only type of bases
-considered in this
-thesis, it will henceforth be implicit that any discussion about bases refers
-only to Schauder bases.
-
-
-\begin{example}
-The ordered set of unit vectors $e_n=(0,0,0,\ldots,1,0,\ldots)$, where the $1$
-occurs in the $n$th coordinate, forms a basis in each of the spaces
-$c$, $c_0$ and $\lp$. Another example of a basis in $c$ is given by
-$x_1=(1,1,1,\ldots)$
-and $x_n=e_{n-1}$ for $n>1$. If $x=(b_1,b_2,\ldots)\in c$, then the expansion of
-$x$ with respect to this basis is
-\[x=(\lim_{k\rightarrow\infty}a_k)x_1+(a_1-\lim_{k\rightarrow\infty}a_k)x_2+
-(a_2-\lim_{k\rightarrow\infty}a_k)x_3+\cdots.\]
-\end{example}
-
-
-If a Banach space $\X$ has a basis, we may consider $\X$ as a sequence
-space via an identification of each element $x=\sum_{n=1}^{\infty}a_nx_n$ in
-$\X$ with the unique sequence of coefficients $(a_1,a_2,a_3,\ldots)$. To do this
-note that it is essential to describe the basis as an ordered sequence rather
-than merely as a set. The following example highlights a deeper reason for
-why we must specify the ordering of the vectors in a basis.
-
-\begin{example}\label{summing basis}
-Consider the sequence of vectors $\{x_n\}_{n=1}^{\infty}$ in $c$ given by
-\[x_n=(\underbrace{0,0,\ldots,0}_{n-1},1,1,\cdots),\]
-for $n\in\Z^+$. It is not hard to see that this is a basis for $c$.
-It is called the {\em summing basis} in $c$.
-Consider the sequence $b$ defined by
-\[b_n=\sum_{k=1}^n(-1)^{k+1}\frac{1}{k}\]
-for $n\in\Z^+$. By Leibniz' test for alternating series,
-$b_n$ has a limit as $n\rightarrow\infty$, so $b\in c$. The expansion of $b$
-with
-respect to the summing basis is $b=\sum_{n=1}^{\infty}a_nx_n$ where
-$a_n=(-1)^{n+1}\frac{1}{n}$. Now consider the following rearrangement of the
-series. Define $\pi:\Z^+\rightarrow\Z^+$ by
-\[\pi(n)=\left\{\begin{array}{ll}
-				2k & \mbox{if $n=3k$}\\
-				4k+1 & \mbox{if $n=3k+1$}\\
-				4k+3 & \mbox{if $n=3k+2$.}
-			\end{array}\right.
 \]
-Then $\pi$ is clearly a permutation of $\Z^+$. However, the expansion
-\[b'\equiv\sum_{n=1}^{\infty}a_{\pi(n)}x_{\pi(n)}\]
-does not lie in $c$ since
-\[b_{3n}'=\sum_{k=1}^n\left(\frac{1}{2k-1}+\frac{1}{2k+1}-\frac{1}{2k}\right)
-\geq 2\sum_{k=1}^n\frac{1}{k}\]
-diverges as $n\rightarrow\infty$.
-\end{example}
 
-Not every basis has the defect that the convergence of an expansion with respect
-to the basis is dependent on the order of summation of the expansion. For
-example, expansions in finite dimensional spaces can be summed in any order
-without altering convergence. The following proposition gives various methods
-for
-checking whether a sum of vectors can be freely rearranged while still
-respecting convergence.
+We can get the answer by Newton-Leibniz formula if the function is simple enough.However,
+In most cases, it is difficult to find the original function of $f(x)$. Of course, we can use the Monte Carlo method to simulate the conversion approximation
 
-\begin{proposition}\label{unconditional conv}
-\cite[Proposition 1.c.1]{Lind}
-Let $\{x_n\}_{n=1}^{\infty}$ be a sequence of vectors in a Banach space $\X$.
-Then the following are equivalent.
+Then we can sample$n$ values ​​in the $[a,b]$, interval: $x_0,x_1,\dots,\x_n$, and use their average values ​​to represent all $f(x)$ values ​​in the $[a,b]$ interval. So our approximate solution to the definite integral above is:
+\[
+  Y = \frac{b-a}{n}\sum^n f(x_i)
+\]
 
-(i) The series $\sum_{n=1}^{\infty}x_{\pi(n)}$ converges for every permutation
-$\pi$ of the integers.
+The above method has an implicit assumption that the distribution follows a uniform distribution from a to b, but the actual situation is will subject to  various types of distribution.We can improve our method as follows
+\begin{eqnarray*}
+Y &=& \int_a^b f(x) \\
+  &=& \int_a^b \frac{f(x)}{p(x)}p(x) \\
+  &=& \frac{1}{n} \sum^n \frac{f(x_i)}{p(x_i)}\\
+\end{eqnarray*}
 
-(ii) The series $\sum_{k=1}^{\infty}x_{n_k}$ converges for every choice of
-$n_1<n_2<n_3\ldots$.
+Our question now turns to how to find the distribution of $x$
+\subsection{Sampling Method}
+The key to the Monte Carlo method is to get the probability distribution of $x$. If the probability distribution of $x$ is found, we can sample n sample sets based on this probability distribution based on the probability distribution and bring it into the Monte Carlo summation formula to solve.
 
-(iii) The series $\sum_{n=1}^{\infty}\varepsilon_nx_n$ converges
-for every choice of signs $\varepsilon_n=\pm 1$.
+For the common uniform distribution, $uniform (0,1)$,It  is very easy to sample samples, generally through the linear congruential generator can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
 
-(iv) For every $\epsilon>0$ there exists an integer $n_0$ such that
-$\ssnorm{\sum_{j\in J}x_j}_{\X}<\epsilon$ for every finite set of integers $J$
-which satisfies $\min\{j\in J\}>n_0$.
-\end{proposition}
+Assuming that $x$ is a continuous random variable, subject to a random distribution$f(x)$, its cumulative distribution function is $F(X)$.We assume that $Y = F(X)$ is subject to 0-1 uniform distribution and $F^{-1}(Y)$ have same distribution with $X$.For example:
+PDF of Expoential distribution:
+\[
+  f(x) = \lambda e^{\lambda*x}
+\]
+CDF of Expoential distribution:
+\[
+  F(x) = 1- exp^{\lambda*x}
+\]
+Inverse sampling inference:
 
-With the aid of the proposition, there are now easier ways to verify that the
-series
-$\sum_{n=1}^{\infty}a_nx_n$ given in Example \reff{bases}{summing basis} is
-dependent on the order of summation. Simply observe that
-$\sum_{n=1}^{\infty}a_{2n-1}x_{2n-1}$ does not converge in $c$ and hence
-statement (ii) of the proposition fails to hold.
+\begin{eqnarray*}
+u &~& Uniform(0,1) \\
+F(F^{-1}(Y)) &=& 1- exp^{\lambda*F^{-1}(Y)} = u \\
+F^{-1}(Y) &=&-\frac{\log(1-u)}{\lambda}
+\end{eqnarray*}
 
-\begin{definition}
-Let $\{x_n\}_{n=1}^{\infty}$ be a sequence of vectors in a Banach space $\X$.
-A series $\sum_{n=1}^{\infty}x_n$ which satisfies any of the conditions (i),
-(ii), (iii) or (iv) in Proposition \reff{bases}{unconditional conv} is said to
-be
-{\em unconditionally convergent}. A basis $\{x_n\}_{n=1}^{\infty}$ of a Banach
-space $\X$ is {\em unconditional} if for every $x\in\X$, its expansion
-$x=\sum_{n=1}^{\infty}a_nx_n$ converges unconditionally. Otherwise the basis is
-said to be {\em conditional}.
-\end{definition}
+But many times, our probability distribution is not a common distribution, which means that we can't easily get a sample set of these unusual probability distributions. We need to Reject-Sampling method.
 
-Thus the standard ordered bases $\{e_n\}_{n=1}^{\infty}$ for $c$, $c_0$ and
-$\lp$,
-$1\leq p<\infty$ are unconditional bases. This means that any reordering of
-$\{e_n\}_{n=1}^{\infty}$ also yields unconditional bases in these spaces.
-The summing basis for $c$ is clearly a conditional basis.
-
-Given a basis $\{x_n\}_{n=1}^{\infty}$, one might ask what
-complex sequences $\{\phi_n\}_{n=1}^{\infty}$ give rise to a bounded multiplier
-transform? That is, is there a constant $C>0$ such that for all $x\in\X$,
-\[\snorm{\sum_{n=1}^{\infty}\phi_na_{n,x}x_n}_{\X}\leq C\norm{x}_{\X},\]
-where $\sum_{n=1}^{\infty}a_{n,x}x_n$ is the expansion of each $x\in\X$ with
-respect to the basis? If that basis is unconditional, then the space of such
-sequences is just $\ell^{\infty}$ (see \cite[Proposition 1.c.7]{Lind}).
+The basic idea of Reject-Sampling is to cover the "smaller probability distribution" with a "larger probability distribution". This "larger probability distribution" is more easier to sample (standard distribution), and at the same time accept this  sample with a certain probability. The sample can be seen as a sample from the "smaller probability distribution"
 
 
-We have seen that conditional bases do exist, and some of the resulting
-difficulties that arise when working with a conditional basis. Is there any way
-in which we can avoid such problems in separable Banach spaces? In other words,
-can we always find an unconditional
-basis for a separable Banach space? The answer is no. The space $L^1[0,1]$ has
-no unconditional basis. In fact, $L^1[0,1]$ cannot even be embedded in a space
-with an unconditional basis \cite[Propostion 1.d.1]{Lind}.
+We can solve some cases  by Reject-Sampling when the probability distribution is not common.However,in the case of high dimensions, Rejection Sampling will have two problems. The first is that the proposal  distribution $q$ is difficult to find, and the second is that it is difficult to determine a reasonable value of $k$. These two problems will lead to a high rejection rate and an increase in useless calculations.
 
-There are many open problems regarding unconditional bases. For example,
-suppose $\X$ is a Banach space with an unconditional basis, and let $\Y$ be
-a complemented subspace of $\X$. Does $\Y$ have an unconditional basis? One
-outstanding problem has recently been solved (see \cite{Gowers}).
-Does every infinite dimensional Banach space $\X$ contain an unconditional
-basic sequence? The answer is no.
-We shall not pursue such broad problems in this thesis. Instead, we shall use
-tools from harmonic analysis and spectral theory to examine whether or not
-particular sequences in certain Banach spaces are conditional, and whether or
-not
-they form bases for those spaces.
+
+From the probability density function $p(X)$ of a known distribution, we want to get  samples $X$that subject to this distribution.
+\begin{itemize}
+  \item Sample $Y$ from proposal distribution $p(x)$
+  \item Sample $U$ from uniform(0-1) distribution
+  \item if $U<\frac{f(Y)}{c*g(Y)}$,then we accept Y,else continue.
+\end{itemize}
+
+
+\subsection{Markov Chain}
+This is a random process from state to state in the state space. This process requires the "no memory" attribute: the probability distribution of the next state can only be determined by the current state, and the events before it in the time series have nothing to do with it. This special type of "no memory" is called the Markov attribute. Markov chains have many applications as statistical models of actual processes
+
+
+In order to obtain a theoretical result, let's look at a smaller example (this will facilitate our subsequent calculation demonstration), assuming that in a region, people either live in the city or live in the countryside. The matrix below tells us some laws (or tendencies) of population migration. For example, the first column of row 1 indicates that 90 percent of the population currently living in cities will choose to continue to live in cities next year.
+\begin{equation}
+H_x={
+\left[ \begin{array}{ccc}
+0.9 & 0.1 \\
+0.2 & 0.8\\
+\end{array}
+\right ]}
+
+\end{equation}}
+
+As a simple start, try to calculate the odds of people living in cities today who will live in the countryside after 2 years. Analysis shows that 90 of people currently living in the city will continue to choose to live in the city after 1 year, and 10 will move to the country. Then another year passed, and 10 of those who chose to stay in the city last year moved to the countryside. And 98 of those who moved to the village last year will choose to stay in the village. This analysis process is shown in the figure below, and finally the probability that people who live in the city will live in the countryside after 2 years = 0.90×0.10+0.10×0.98
+
+
+In fact, you will find that our calculation process is to do the square of the matrix. As shown in the following figure, you will find that the calculation in the second row and first column of the result matrix is ​​performing the operation that is processed above. On this basis, we can also continue to calculate the situation after n years, that is, the result of calculating the self-multiplication of matrix A n time
+https://zhuanlan.zhihu.com/p/37121528
+The algorithm is as follows:
+
+Enter the Markov chain state transition matrix , set the state transition times threshold , the required number of samples ;Sampling from any simple probability distribution to get the initial state value ;sample  from the conditional probability distribution ;The sample set is the corresponding sample set that meets our stationary distribution.
+
+
+If it is assumed that we can obtain the Markov chain state transition matrix corresponding to the stationary distribution of the samples we need to sample, then we can use the Markov chain sampling to obtain the sample set we need, and then perform Monte Carlo simulation.
+
+But an important question is, given a random distribution at will, how to get the Markov chain state transition matrix $P$ corresponding to it?
+
+\subsection{MCMC Sampling and M-H Sampling}
+Mostly,
+Target stationary distribution $\pi(x)$and a certain Markov chain state transition matrix $Q$ does not satisfy the detailed stationary condition:
+\[
+  \pi(i)Q(i,j) \neq \pi(j)Q(j,i)
+\]
+
+
+We introduce a $\alpha(i,j)$ so that the above formula can take the equal sign.
+\[
+  \pi(i)Q(i,j)\alpha(i,j) \eq \pi(j)Q(j,i)\alpha(j,i)
+\]
+
+But how can we get the $\alpha$,by symmetry:
+\begin{eqnarray*}
+\alpha(i,j) &=& \pi(j)Q(j,i)\\
+\alpha(j,i) &=& \pi(i)Q(i,j)
+\end{eqnarray*}
+
+
+$\alpha$ is generally called acceptance rate, and the value is between $[0-1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.
+
+MCMC sampling algorithm is as follows:
+\begin{enumerate}
+  \item Enter any given Markov chain state transition matrix $Q$, target stable distribution $\pi(x)$, set the threshold of state transition times $n1$, the number of required samples $n2$;
+  \item Get the initial state value $x_0$ from any simple probability distribution;
+  \item For $t$ =0 in $n_1+n_2-1$
+    \begin{itemize}
+      \item Get the sample value $x_*$ from the conditional probability distribution $Q(x_*|x_0)$.
+      \item Sample $U$ from uniform distribution.
+      \item if $u<\pi(x_*)Q(x_*|x_0)$，then accept x_*.
+    \end{itemize}
+\end{enumerate}
+
+
+But this sampling algorithm is still more difficult to apply in practice, because in the third step, because accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable. At this time, it is our Metropolis-Hastings sampling Method.
+
+M-H sampling solves the problem of low MCMC sampling acceptance rate in the previous section.
+
+We can expand both sides of \[
+  \pi(i)Q(i,j)\alpha(i,j) \eq \pi(j)Q(j,i)\alpha(j,i)
+\], and at this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c\alpha(ij)$ (accurately, the maximum expansion of both sides is 1), so that we can Improves the acceptance rate of jumps in sampling, so we can take:
+\[
+  \alpha = min{\frac{Q(j,i)\alpha(j,i)}{Q(i,j)\alpha(i,j)},1}
+\]
+
+In the era of big data, M-H sampling faces two major challenges:
+\begin{enumerate}
+  \item Our data features are very many, M-H sampling due to the existence of the acceptance rate calculation formula [formula], the calculation time required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, [Formula] is generally less than 1. Sometimes it is hard to calculate but it is rejected. Can it be done without refusing to transfer?
+  \item Due to the large feature dimension, it is often difficult to find the joint distribution of each feature dimension of the target, but it is convenient to find the conditional probability distribution between each feature. At this time, can we only have convenient sampling in the case of conditional probability distribution between various dimensions?
+\end{enumerate}
+
+\subsection{Gibbs Sampling}
+Gibbs Sampling Method is a one special MCMC technique used for sampling variales in large dimensions by sampling each variable from its conditional distribution iterative.
+
+Starting from a two-dimensional data distribution, assuming that $\pi(x_1,x_2)$ is a two-dimensional joint data distribution, observe the first two points with the same feature size$A(x_1^{(1)},x_2^{(1)}$ and $B(x_1^{(1)},x_2^{(2))}$.For example:
+\[
+  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(2)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}
+\]
+
+\[
+  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(1)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}
+\]
+
+Since the right sides of the two formulas are equal, we have:
+\[
+  \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(2)}|x_1^{(1)}) =   \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(1)}|x_1^{(1)})
+\]
+
+Observing the above detail balance formula , we find that on the straight line of $x_1 = x_1^{(1)}$, if the conditional probability distribution $\pi(x_2|x_1^{(1)})$ is used as the state transition probability of the Markov chain, the transition between any two points meets Detail balanceconditions! In the same way, on the straight line of $x_2 = x_2^{(1)}$, if the conditional probability distribution $\pi(x_1|x_2^{(1)})$  is used as the state transition probability of the Markov chain, the transition between any two points also meets the detail balance condition.
+
+
+With the  transition matrix, we can infer a two-dimensional Gibbs sample, which requires a conditional probability between two dimensions. The algorithm is as follows:
+\begin{enumerate}
+  \item Given stationary distribution $\pi(x_1,x_2)$,Set the threshold value of the number of state transitions $n_1$, the number of required samples $n_2$.
+  \item Randomly initialize values $x_1^{(1)}$ and $x_2^{(1)}$.
+  \item for t in [0,n1+n2-1]:
+      \begin{itemize}
+        \item Get sample $x_2^{(t+1)}$ from conditional distribution $p(x_2|x_1^t)$
+        \item Get sample $x_1^{(t+1)}$ from conditional distribution $p(x_1|x_2^t)$
+      \end{itemize}
+\end{enumerate}

@@ -1,9 +1,8 @@
-PWD /home/xpeng/UNSW/paper/des/bib
+PWD /home/xpeng/UNSW/paper/des/chapter3/session3
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT b.tex
-OUTPUT b.log
+INPUT s3.tex
+OUTPUT s3.log
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm

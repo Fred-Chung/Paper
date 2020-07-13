@@ -103,7 +103,6 @@ INPUT des/introduction/intro.tex
 INPUT des/introduction/intro.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/session1/s1.tex
@@ -117,8 +116,12 @@ INPUT des/chapter3/heading/h.tex
 INPUT des/chapter3/heading/h.tex
 INPUT des/chapter3/session1/s1.tex
 INPUT des/chapter3/session1/s1.tex
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT des/chapter3/session2/s2.tex
 INPUT des/chapter3/session2/s2.tex
+INPUT lda.png
+INPUT ./lda.png
+INPUT ./lda.png
 INPUT des/chapter3/session3/s3.tex
 INPUT des/chapter3/session3/s3.tex
 INPUT des/chapter4/heading/h.tex

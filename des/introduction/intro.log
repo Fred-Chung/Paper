@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 JUL 2020 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  8 JUL 2020 19:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1490,11 +1490,11 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Finding scientific topics}
+\citation{find}
 ./intro.tex:12: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.12 ...  document\cite{Finding scientific topics}
+l.12 ...tion for the topic of  document\cite{find}
                                                   . We will introduce  a ver...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1503,7 +1503,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Finding scientific topics' on page  undefined on input line 12.
+LaTeX Warning: Citation `find' on page  undefined on input line 12.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -2966,11 +2966,11 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no M in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{A CORRELATED TOPIC MODEL OF SCIENCE}
+\citation{corr}
 ./intro.tex:24: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...\cite{A CORRELATED TOPIC MODEL OF SCIENCE}
+l.24 ...he correlation topic model(CTM)\cite{corr}
                                                   ,which exhibits the correl...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2979,7 +2979,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE' on page  undefined on input line 24.
+LaTeX Warning: Citation `corr' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no , in font nullfont!
@@ -3271,11 +3271,11 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{dirichlet brlief network for topic structure}
+\citation{zhao}
 ./intro.tex:24: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...ichlet brlief network for topic structure}
+l.24 ...nn machines and neural network.\cite{zhao}
                                                   .
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3284,7 +3284,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `dirichlet brlief network for topic structure' on page  undefined on input line 24.
+LaTeX Warning: Citation `zhao' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!

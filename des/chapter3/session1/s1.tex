@@ -1,299 +1,32 @@
-\section{Harmonic Analysis on Locally Compact Abelian Groups}\label{lca}
+\section{Model construction}\label{lca}
 %%%%%%%%%%%%%%%%
-
-In this section we give the necessary background from which we can begin to
-answer
-the questions from
-above. The theory mentioned here can be found in \cite{Katznelson}
-and is quite
-standard. In what follows, if $G$ is a group, the inverse of an
-element $x\in G$ will be denoted by $-x$, and the group operation from
-$G\times G$ into $G$ will be denoted by $(x,y)\mapsto x+y$.
-
-
-\begin{definition} A {\em locally compact Abelian group} (or an LCA group)
-$G$ is an Abelian group
-which is also a locally compact Hausdorff space such that the group operations
-$x\mapsto -x$ from $G$ onto $G$ and $(x,y)\mapsto x+y$ from $G\times G$
-onto $G$ are continuous.
-\end{definition}
-
-The most-studied examples of LCA groups are the integers $\Z$, the circle group
-$\T$ and real line $\R$ with their usual topologies.
-It is easy to verify that any Abelian group can be made into an LCA group
-when endowed with the discrete topology. In this thesis the circle group $\T$
-will feature most often. It can be modelled by the unit circle
-$\{\omega\in\C:|\omega|=1\}$
-in the complex plane, or as the quotient group $\R/2\pi\Z$. We shall usually
-adopt the latter model,
-thinking of $\T$ as the interval $[0,2\pi]$ with endpoints identified and
-addition as the group operation.
-
-A good reason to study LCA groups is
-that we can use them to construct measure spaces that are translation invariant.
-
-\begin{definition} Let $G$ be a locally compact Abelian group. A {\em Haar
-measure} on $G$ is a positive regular Borel measure $\mu$ having the
-following two properties:
-
-(i) $\mu(E)<\infty$ if $E\subseteq G$ is compact; and
-
-(ii) $\mu(E+x)=\mu(E)$ for all measurable $E\subseteq G$ and all $x\in G$.
-\end{definition}
-
-\begin{theorem}\cite[Chapter VII, \S 2]{Katznelson}
-Let $G$ be an LCA group. Then a Haar measure on $G$ exists and is unique up to
-multiplication of a positive constant.
-\end{theorem}
-
-Hence one often speaks of {\em the} Haar measure. For $G=\T$, Haar measure is
-usually taken to be normalised
-Lebesgue measure, $(2\pi)^{-1}dt$. If $G$ is discrete and infinite, Haar measure
-is usually
-normalised to have mass one at each point. We denote the $L^p$ space of
-functions on $G$ with respect to Haar measure by $L^p(G)$. As mentioned in
-Example \reff{Banach Spaces}{L^p example}, we will not usually distinguish
-between functions defined on $G$ and their $L^p$ equivalence classes.
-
-Using Haar measure, we may turn $L^1(G)$ into a Banach algebra.
-
-\begin{theorem}\label{convolution}
-Let $G$ be an LCA group with Haar measure $dy$
-and suppose $f,g\in L^1(G)$. Then for almost all $x\in G$, the function
-$y\mapsto f(x-y)g(y)$ for $y\in G$ is integrable on $G$.
-If we write
-\[h(x)=\int_G f(x-y)g(y)dy,\]
-then $h\in L^1(G)$ and $\norm{h}_1\leq\norm{f}_1\norm{g}_1$.
-\end{theorem}
-
-\begin{definition} Let $G,f,g$ be as in Theorem \reff{lca}{convolution}. Then
-the {\em convolution} of $f$ and $g$, denoted $f*g$, is given by
-\[(f*g)(x)=\int_G f(x-y)g(y)dy\]
-for almost all $x\in G$
-\end{definition}
-
-\begin{corollary} Let $G$ be an LCA group. Then $L^1(G)$ is a
-Banach Algebra under convolution and pointwise addition.
-\end{corollary}
-
-Our next aim is to define the Fourier transform of a function in $L^1(G)$.
-We start by introducing the characters of $G$.
-
-\begin{definition} A {\em character} on an LCA group $G$ is a continuous mapping
-$\xi$ from $G$ into $\C$ such that $|\xi(x)|=1$
-and $\xi(x+y)=\xi(x)\xi(y)$ for all $x,y\in G$. The set of all characters of
-$G$ is denoted $\hatt{G}$.
-\end{definition}
-
-Thus a character is a continuous homomorphism of $G$ into $\T$. It can be shown
-that the set of characters on $\T$ is the set $\{\varphi_n\}_{n\in\Z}$, where
-$\varphi_n(t)=e^{int}$ for all $n\in\Z$ and all $t\in[0,2\pi]$. Every character
-of
-$\Z$ has the form $n\mapsto e^{int}$ for some $t\in[0,2\pi]$. The characters of
-$\R$ are all of the form $x\mapsto e^{ixy}$ for some $y\in\R$.
-
-For any LCA group $G$, the set of characters $\hatt{G}$ can be made
-an Abelian group. We shall denote its group operation by $+$ (in what follows,
-this should cause no confusion with the group operation $+$ for $G$) and
-define it by $(\xi_1+\xi_2)(x)=\xi_1(x)\xi_2(x)$ for all $x\in G$.
-We write $\ip<x,\xi>$ for $\xi(x)$.
-
-A topology is defined on $\hatt{G}$ by specifying that
-$\{\xi_n\}_{n=1}^{\infty}\subset\hatt{G}$ converges to $\xi\in\hatt{G}$ if
-$\{\xi_n\}_{n=1}^{\infty}\subset\hatt{G}$ converges uniformly to $\xi$ on all
-compact subsets of $G$. It can be shown that this topology turns $\hatt{G}$ into
-a locally compact Abelian group (see \cite[Chapter VII, \S 3]{Katznelson}).
-We say that $\hatt{G}$ is the {\em dual group}
-of $G$.
-
-The {\em Pontryagin Duality Theorem} (see \cite[p.189]{Katznelson}) asserts
-that, for $x\in G$
-and $\xi\in\hatt{G}$, the mapping $\xi\mapsto \ip<x,\xi>$ is a character on
-$\hatt{G}$, and every character on $\hatt{G}$ is of this form. Moreover, the
-topology induced by uniform convergence on compact subsets of $\hatt{G}$
-coincides with the original topology on $G$. In otherwords, if $\hatt{G}$ is the
-dual group of $G$, then $G$ is the dual of $\hatt{G}$.
-
-We illustrate the Pontryagin Duality Theorem for the LCA group $\T$.
-We saw that there exists a
-bijection between $\hatt{\T}$ and $\Z$, since given any $\xi\in\hatt{\T}$, there
-is a unique $n\in\Z$ such that $\ip<t,\xi>=e^{int}$ for all $t\in\T$.
-Moreover, the topology $\hatt{T}$ is the
-discrete topology. Thus $\hatt{\T}\simeq\Z$. One may similarly show that
-$\hatt{\Z}\simeq\T$. This duality may be described (by abuse of notation) as
-$\ip<n,t>=e^{int}=\ip<t,n>$ for
-all $t\in\T$ and all $n\in\Z$. (On
-the left hand side, we regard $n$ as an element of $\Z$ while on the right
-hand side we regard it as a function on $\T$.)
-
-We now have all the tools needed to define the Fourier transform of an
-integrable
-function on an LCA group.
-
-\begin{definition}\label{Fourier transf}
-Let $G$ be an LCA group. Then the {\em
-Fourier transform} of a function $f\in L^1(G)$ is defined by
-\[\hatt{f}(\xi) = \int_G \overline{\ip<y,\xi>}f(y)dy\]
-for all $\xi\in\hatt{G}$, where $dy$ is Haar measure on $G$.
-\end{definition}
-
-Thus the Fourier transform of a function $f\in L^1(\Z)$ is
-\[\hatt{f}(t)=\sum_{n=-\infty}^{\infty}e^{-int}f(n)\]
-for all $t\in\T$, since Haar measure on $\Z$ is unit point-mass measure.
-Similarly, the Fourier transform of a function $f\in L^1(\T)$ is
-\[\hatt{f}(n) = \frac{1}{2\pi}\int_0^{2\pi}e^{-int}f(t)dt\]
-for all $n\in\Z$, where $dt$ is Lebesgue measure. The {\em Fourier series} of
-$f$ is the corresponding formal expression
-\[\sum_{n=-\infty}^{\infty}\hatt{f}(n)\varphi_n\]
-where $\varphi_n(t)=e^{int}$ for all $t\in\T$ and all $n\in\Z$.
-
-
-We aim to use the Fourier transform to construct a large class of operators
-which act on the $L^p$ space of a given LCA group. We may do this via {\em
-Plancherel's Theorem}.
-
-\begin{theorem}\label{isometry}\cite[Chapter VII, \S 4]{Katznelson}
-{\em Plancherel's Theorem.} Let $G$ be a locally compact Abelian group. Then the
-Fourier transform on $L^1(G)$ is an isometry of $L^1\cap L^2(G)$ onto a dense
-subspace of $L^2(\hatt{G})$. Hence it can be extended to an isometry of $L^2(G)$
-onto $L^2(\hatt{G})$.
-\end{theorem}
-
-For the circle group $\T$, Plancherel's theorem takes the following form.
-
-\begin{theorem}\label{Plancherel for T}\cite[Theorem I.5.5]{Katznelson}
-
-(i) Let $f\in L^2(\T)$. Then
-\[\sum_{n=\infty}^{\infty}|\hatt{f}(n)|^2=
-\frac{1}{2\pi}\int_0^{2\pi}|f(t)|^2\,dt,\]
-that is, $\ssnorm{\hatt{f}}_{L^2(\Z)}=\norm{f}_{L^2(\T)}$.
-
-(ii) For each $f\in L^2(\T)$,
-\[f=\lim_{N\rightarrow\infty}\sum_{n=-N}^N\hatt{f}_n\varphi_n\]
-in $L^2(\T)$ norm, where $\varphi_n:t\mapsto e^{int}$.
-
-(iii) Given any sequence $\{a_n\}_{n=-\infty}^{\infty}$ of complex numbers in
-$L^2(\Z)$, then there exists a unique $f\in L^2(\T)$ such that
-$a_n=\hatt{f}(n)$.
-
-Thus the correspondence $f\leftrightarrow\{\hatt{f}(n)\}_{n=-\infty}^{\infty}$
-is an isometry between $L^2(\T)$ and $L^2(\Z)$.
-\end{theorem}
-
-
-A by-product of the above theorem is that the set $\{\varphi_n\}_{n\in\Z}$ of
-functions in the Hilbert space $L^2(\T)$ forms a complete orthonormal system
-(and
-hence an unconditional basis) with respect to the inner product
-\[\ip<f,g>=\frac{1}{2\pi}\int_0^{2\pi}f(t)\overline{g(t)}\,dt.\]
-
-It is harder to establish whether or not $\{\varphi_n\}_{n\in\Z}$ is a basis for
-$L^p(\T)$ when $1\leq p<\infty$ and $p\neq2$. Standard results about Fej\'{e}r's
-kernel (see Section \ref{lca} and \cite[I.2.6]{Katznelson}) give the following
-facts. First recall that a {\em trigonometric polynomial} is a function on
-$\T$ of
-the form $\sum_{n=-N}^Na_n\varphi_n$ where $N\in\N$ and $a_n\in\C$.
-
-\begin{theorem}\label{Fejer facts}
-Fix $1\leq p<\infty$. Then
-
-(i) the trigonometric polynomials are dense in $L^p(\T)$;
-
-(ii) if $f,g\in L^p(\T)$ and $\hatt{f}(n)=\hatt{g}(n)$ for all $n\in\Z$,
-then $f=g$; and
-
-
-(iii) if the Fourier series of a function $f\in L^p(\T)$ does converge in
-$L^p$-norm, then it converges to $f$.
-\end{theorem}
-
-So if the Fourier series does converge for each function in $L^p(\T)$,
-$\{\varphi_n\}_{n\in\Z}$ is a basis for $L^p(\T)$. Otherwise,
-one would like to know whether or not $\{\varphi_n\}_{n\in\Z}$ is a basic
-sequence in $L^p(\T)$ for $p\neq2$, and whether this sequence is unconditional.
-One way to study such problems is through multiplier transforms.
-
-\begin{definition}\label{multipliers}
-Let $G$ be an LCA group and let
-$\phi:\hatt{G}\rightarrow\C$ be bounded and measurable on $\hatt{G}$. By
-Plancherel's Theorem, define $S_{\phi}$ to be the continuous linear mapping of
-$L^2(G)$ into itself for which
-$({S_{\phi}f})\,\hatt{\,} = \phi \hatt{f}$ for all $f\in L^2(G)$.
-Then for $1\leq p\leq\infty$, $\phi$ is said to be an
-{\em $L^p(G)$ multiplier} if
-and only if there is a constant $C>0$ such that
-\begin{equation}\label{eq-multiplier norm}
-\norm{S_{\phi}f}_p\leq C_p\norm{f}_p
-\end{equation}
-for all $f\in L^2\cap L^p(\T)$.
-In this case $S_{\phi}$ is called the {\em multiplier transform corresponding
-to $\phi$ on $L^p(G)$} and $\phi$ may also be referred to as a
-{\em Fourier multiplier} or a {\em multiplier function} for $L^p(G)$.
-\end{definition}
-
-
-The space of Fourier multipliers for $L^p(G)$ will be denoted by
-$M_p(\hatt{G})$. We turn $M_p(\hatt{G})$ into a Banach space by equipping it
-with
-the following norm: for $\phi\in M_p(\hatt{G})$ define
-$\norm{\phi}_{M_p(\hatt{G})}$ to be the usual operator norm on $L^p(G)$ for the
-operator $S_{\phi}$. Thus $\norm{\phi}_{M_p(\hatt{G})}$ is the smallest
-possible $C\geq 0$ for which (\ref{eq-multiplier norm}) holds. It is
-trivial to check from the definitions that if $\phi_1,\phi_2\in M_p(\hatt{G})$,
-then the product $\phi_1\phi_2$, defined by pointwise operations, is in
-$M_p(\hatt{G})$ and
-\[\norm{\phi_1\phi_2}_{M_p(\hatt{G})}\leq\norm{\phi_1}_{M_p(\hatt{G})}
-\norm{\phi_2}_{M_p(\hatt{G})}.\]
-In fact, we have the following result.
-
-\begin{proposition}\label{multiplier algebra}\cite[\S3]{BG Spectral}
-Let $G$ be an LCA group. Then for $1\leq p<\infty$,
-$M_p(\hatt{G})$ is a Banach algebra under pointwise operations, and the mapping
-$\phi\mapsto S_{\phi}$ is an identity-preserving algebra homomorphism of
-$M_p(\hatt{G})$ into $\B(L^p(G))$.
-\end{proposition}
-
-The next example illustrates some of the concepts that
-have been introduced so far.
-
-\begin{example}\label{lca example}
-Let $G=\T$ and let $\varphi_n:t\mapsto e^{int}$ for all $t\in\T$ and $n\in\Z$.
-Fix an $m\in\Z$
-and consider the characteristic function $\chi_{\{m\}}$ on $\Z$.
-Then for any $f\in L^2(\T)$ we have, by Definition \reff{lca}{multipliers},
-\[\bigl(S_{\chi_{\{m\}}}f\bigr)\,\hatt{\,}\,(n)=\chi_{\{m\}}(n)\hatt{f}(n)
-=\chi_{\{m\}}(n)\hatt{f}(m)=\hatt{\varphi}_m(n)\hatt{f}=
-\bigl(\hatt{f}(m)\varphi_m\bigr)\,\hatt{\,}\,(n)\]
-for all $n\in\Z$. Thus $S_{\chi_{\{m\}}}f=\hatt{f}(m)\varphi_m$, and
-$S_{\chi_{\{m\}}}$ projects each $f$ onto the $m$th term of its Fourier
-series.
-
-Now we consider the convolution product of $f$ with $\varphi_m$.
-For almost all $t\in\T$ we have
+\subsection{Unigram and mixture of unigram model}
+Before intrducing Topic-word Model,Let us review some basic model for short test.
+$N$ represents the number of words in the document to be generated, $w_n$ represents the $n$th word $w$ generated, and $p(w)$ represents the distribution of the word $w$, which can be obtained through statistical learning of the corpus, such as giving a book to count each word in The probability of occurrence in the book.The whole test can be represented by Vector $W = (w_1,w_2,\dots,w_n)$.
+We assume that words are independent of each other, so that the probability that this document will be generated is:
 \begin{eqnarray*}
-(\varphi_m*f)(t) &=& \frac{1}{2\pi}\int_0^{2\pi}\varphi_m(t-s)f(s)ds \\
-& = & e^{imt}\,\frac{1}{2\pi}\int_0^{2\pi}e^{-ims}f(s)ds \\
-& = & e^{imt}\hatt{f}(m).
+p(W) &=& p(w_1,w_2,\dots,w_n) \\
+    &=& p(w_1)p(w_2)..p(w_n)
 \end{eqnarray*}
-Thus $S_{\chi_{\{m\}}}$ and the operator $f\mapsto\varphi_m*f$ coincide on
-$L^2(\T)$. It is easy to see that $\ssnorm{S_{\chi_{\{m\}}}}=1$ and hence
-$\ssnorm{\chi_{\{m\}}}_{M_p(\hatt{G})}=1$.
-\end{example}
+As mentioned in section of Introduction,each text can be converted into a vector $N=(n_1,n_2,\dots,n_V)$ by Bag of Word model and V is number of Vocabulary.
+We further assume that the text matrix is subject to a multinomial distribution.
+\[
+  p(w_1)p(w_2)..p(w_n) = \prod_{k=11}^V p_k^{n_k}
+\]
 
-We now give one reason why multiplier transforms are of interest to us.
-Let $\varphi_n(t)=e^{int}$ for each $n\in\Z$ and $t\in\T$. One might hope that
-$\{\varphi_n\}_{n\in\Z}$ is a basis for $L^p(\T)$. Assume for the moment that
-this is the case. The expansion of a
-function $f\in L^p(\T)$ with respect to this basis is then given by
-$\sum_{n\in\Z}\hatt{f}(n)\varphi_n$.
-If one wanted to prove that the basis was unconditional, it would suffice to
-find (by Proposition \reff{bases}{unconditional conv}) a constant $C_p$
-depending only on $p$ such that
-\[\snorm{\sum_{n\in\Z}\varepsilon_n\hatt{f}(n)\varphi_n}_p\leq C_p\norm{f}_p\]
-for all $f\in L^p(\T)$ and all choices
-$\varepsilon_n=\pm 1$. This would be
-equivalent to finding a constant $C_p$ such that
-\[\norm{S_{\varepsilon}f}_p\leq C_p\norm{f}_p\]
-for all $f\in L^2\cap L^p(\T)$ and all functions $\varepsilon:\Z\rightarrow\C$
-taking values in $\{-1,1\}$. Motivated by this, we develop the general theory of
-multipliers a little furt
+The disadvantage of the method of the unigram model is that the generated text has no theme and is too simple. The mixture of unigram\cite{Text Classication from Labeled and Unlabeled
+Documents using EM} method improves it. The model samples a topic from distribution $p(z)$ before generate each word .
+\[
+  p(W|Z) = \sum_zp(z)\prod_{n=2}^{N}p(w_n|z)
+\]
+$z$ represents a theme, $p(z)$ represents the probability distribution of the theme, $z$ is generated by $p(z)$ according to probability; $ p(w|z)$ represents the distribution of $w$ given $z$, which can be regarded as a $k * V$ matrix, $k$ is the number of topics, $V$ is the number of words, each line represents the probability distribution of words corresponding to this topic, that is, the probability of each word contained in topic $z$, generated by this probability distribution with a certain probability.
+\subsection{Probabilistic Latent Semantic Analysis}
+Another widely used topic model is PLSA model.
+In the PLSA model, the topic is actually a probability distribution on words. Each topic represents a probability distribution on a different word, and each document can be regarded as a probability distribution on the topic. Each document is generated by such a two-layer probability distribution, which is also the core idea of ​​the generation model proposed by PLSA\cite{Probabilistic Latent Semantic Analysis}.
+
+
+PLSA models the joint distribution of d and w by the following formula:
+\[
+  p(d,w_n) = p(d)\sum_{k=1}^{K}p(w_n|z)p(z|d)
+\]
+It is easy to find that for a new document, we cannot know what its corresponding $P(d)$ is, so although the PLSA model is a generative model on a given document, it cannot generate a new unknown document.Another problem with this model is that as the number of documents increases, the parameters of $P(z|d)$ also increase linearly, which leads to the problem of overfitting the model no matter how much training data there is. These two points have become two major flaws that limit the more widespread use of the PLSA model.

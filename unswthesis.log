@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  7 JUL 2020 09:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  12 JUL 2020 20:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -450,7 +450,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...n}{\numberline {2.1.1}Prior Probability}{4}
+l.8 ...n}{\numberline {2.1.1}Prior Probability}{3}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -486,7 +486,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...rline {2.2}Topologies in Banach Spaces}{4}
+l.11 ...on}{\numberline {2.1.4}conjugate prior}{4}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -498,7 +498,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...numberline {2.3}Bases in Banach spaces}{4}
+l.12 ...n}{\numberline {2.2}Basic distribution}{4}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -510,7 +510,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...{Chapter 3}Classical Harmonic Analysis}{8}
+l.13 ...}{\numberline {2.2.1}Beta distribution}{4}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -522,7 +522,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 ...ysis on Locally Compact Abelian Groups}{8}
+l.14 ...mberline {2.2.2}Dirichlet distribution}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -534,7 +534,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...er}{\numberline {Chapter 4}Conclusion}{13}
+l.15 ....3}Poisson and Multinomal distribution}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -546,7 +546,235 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 \contentsline {chapter}{References}{14}
+l.16 ...section}{\numberline {2.2.4}conclusion}{5}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:17: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.17 ...v Chain Monte Carlo and Gibbs Sampling}{6}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:18: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...{\numberline {2.3.1}Monte Carlo Method}{6}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:19: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...on}{\numberline {2.3.2}Sampling Method}{7}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:20: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.20 ...ction}{\numberline {2.3.3}Markov Chain}{8}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:21: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.21 ... {2.3.4}MCMC Sampling and M-H Sampling}{9}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:22: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.22 ...on}{\numberline {2.3.5}Gibbs Sampling}{10}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:23: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.23 ...Chapter 3}Latent Dirichlet Allocation}{12}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:24: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.24 ...}{\numberline {3.1}Model construction}{12}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:25: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.25 ...}Unigram and mixture of unigram model}{12}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:26: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.26 ...robabilistic Latent Semantic Analysis}{13}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:27: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...line {3.2}Latent Dirichlet Allocation}{13}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:28: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.28 ...{3.2.1}Generative process of document}{14}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:29: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.29 ...berline {3.2.2}Gibbs Sampling for LDA}{16}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:30: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 ...rline {3.2.3}Perplexity and Inference}{17}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:31: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.31 ...erline {3.3}Dirichlet belief networks}{17}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:32: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.32 ...{3.3.1}Research on Topic Distribution}{17}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:33: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...mberline {3.3.2}Introduction of DIRBN}{18}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:34: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...er}{\numberline {Chapter 4}Conclusion}{19}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:35: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \contentsline {chapter}{References}{20}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -750,9 +978,6 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-LaTeX Warning: Citation `Finding scientific topics' on page 1 undefined on input line 12.
-
-
 ./des/introduction/intro.tex:13: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
@@ -803,14 +1028,7 @@ If that doesn't work, type  X <return>  to quit.
 [1
 
 ]
-
-LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE' on page 2 undefined on input line 24.
-
-
-LaTeX Warning: Citation `dirichlet brlief network for topic structure' on page 2 undefined on input line 24.
-
-
-Overfull \hbox (37.37163pt too wide) in paragraph at lines 24--25
+Overfull \hbox (36.87157pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/12 im-posed on topic dis-trib-tion.For ex-am-ple,The cor-re-la-tion topic model(CTM)[[]],which
  []
 
@@ -826,957 +1044,568 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
  [] 
  []
 
-) (./des/chapter2/session1/s1.tex) (./des/chapter2/session2/s2.tex
-./des/chapter2/session2/s2.tex:3: Undefined control sequence.
-<recently read> \X 
-                   
-l.3 A Banach space $\X
-                      $ is easily made a topological space with the topology...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:4: Undefined control sequence.
-<recently read> \X 
-                   
-l.4 ...norm, called the {\em norm topology} of $\X
-                                                  $. We say a sequence of
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:5: Undefined control sequence.
-<recently read> \X 
-                   
-l.5 vectors {\em converges in $\X
-                                 $} if it converges in the norm topology of ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:5: Undefined control sequence.
-<recently read> \X 
-                   
-l.5 ...if it converges in the norm topology of $\X
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:7: Undefined control sequence.
-<recently read> \X 
-                   
-l.7 topology is the {\em weak topology} of $\X
-                                              $. A sequence $\{x_n\}_{n=1}^{...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:8: Undefined control sequence.
-<recently read> \X 
-                   
-l.8 of vectors in $\X
-                     $ converges to $x\in\X$ in the weak topology of $\X$ if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:8: Undefined control sequence.
-l.8 of vectors in $\X$ converges to $x\in\X
-                                           $ in the weak topology of $\X$ if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:8: Undefined control sequence.
-<recently read> \X 
-                   
-l.8 ...ges to $x\in\X$ in the weak topology of $\X
-                                                  $ if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:9: Undefined control sequence.
-l.9 $\lim_{n\rightarrow\infty}\ip
-                                 <x_n-x,x^*>=0$ for all $x^*\in\X^*$. As the...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:9: Undefined control sequence.
-l.9 ...w\infty}\ip<x_n-x,x^*>=0$ for all $x^*\in\X
-                                                  ^*$. As their names
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[3
+) (./des/chapter2/session1/s1.tex [3
 
 ]
-./des/chapter2/session2/s2.tex:14: Undefined control sequence.
-<recently read> \B 
-                   
-l.14 ...r three topologies in the Banach space $\B
-                                                  (\X)$.
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...unction. If the posterior probability p(θ
+                                                  |x) and the gas prior prob...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...p(θ|x) and the gas prior probability p(θ
+                                                  ) of a random variable Θ ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character Θ (U+0398)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ... probability p(θ) of a random variable Θ
+                                                   belong to the same distri...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...o the same distribution cluster, then p(θ
+                                                  |x) and p(θ) are called c...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...istribution cluster, then p(θ|x) and p(θ
+                                                  ) are called conjugate dis...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...gate distributions, and , Also called p(θ
+                                                  ) is the conjugate prior o...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.33 ...te prior of the likelihood function p(x|θ
+                                                  ).
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+) (./des/chapter2/session2/s2.tex [4]
+./des/chapter2/session2/s2.tex:16: Misplaced alignment tab character &.
+l.16   f(p|\alpha,\beta) &
+                          =& \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\al...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:16: Misplaced alignment tab character &.
+l.16   f(p|\alpha,\beta) &=&
+                             \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\al...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:20: Undefined control sequence.
+l.20   f(n_1,n_2,\ndot
+                      ,N|p) = p^{K}(1-p)^{N-K}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:14: Undefined control sequence.
-l.14 ...hree topologies in the Banach space $\B(\X
-                                                  )$.
+./des/chapter2/session2/s2.tex:25: Undefined control sequence.
+<argument> f(n_1,n_2,\ndot 
+                           ,N|p)f(p|\alpha ,\beta )
+l.25   {f(n1,n2,...N,\alpha,\beta)}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:15: Undefined control sequence.
-<recently read> \B 
-                   
-l.15 ...\infty}$ is a sequence of operators in $\B
-                                                  (\X)$.
+./des/chapter2/session2/s2.tex:30: Undefined control sequence.
+l.30 ...N,\alpha,\beta) &=& \int_p f(n_1,n_2,\ndot
+                                                  ,N|p)f(p|\alpha,\beta) \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:15: Undefined control sequence.
-l.15 ...fty}$ is a sequence of operators in $\B(\X
-                                                  )$.
+./des/chapter2/session2/s2.tex:35: Undefined control sequence.
+l.35   f(n_1,n_2,\ndot
+                      ,N|p)f(p|\alpha,\beta) &=& \frac{1}{B(\alpha,\beta)}x^...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:17: Undefined control sequence.
-<recently read> \norm 
-                      
-l.17 converges to $T$ {\em in norm} if $\norm
-                                             {T-T_n}\rightarrow 0$, {\em str...
+./des/chapter2/session2/s2.tex:36: Undefined control sequence.
+<argument> f(n_1,n_2,\ndot 
+                           ,N|p)f(p|\alpha ,\beta )
+l.36   {f(n1,n2,...N,\alpha,\beta)}
+                                    \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:18: Undefined control sequence.
-<recently read> \norm 
-                      
-l.18 $\norm
-           {Tx-T_nx}_{\X}\rightarrow 0$ for all $x\in\X$, and {\em weakly} if
+
+Overfull \hbox (7.83727pt too wide) in alignment at lines 34--38
+ [][][] []
+ []
+
+) (./des/chapter2/session3/s3.tex [5]
+./des/chapter2/session3/s3.tex:12: Missing $ inserted.
+<inserted text> 
+                $
+l.12 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./des/chapter2/session3/s3.tex:12: Missing } inserted.
+<inserted text> 
+                }
+l.12 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter2/session3/s3.tex:12: Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.12 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./des/chapter2/session3/s3.tex:12: Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.12 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./des/chapter2/session3/s3.tex:13: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.13 \]
+       
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./des/chapter2/session3/s3.tex:13: Missing $ inserted.
+<inserted text> 
+                $
+l.13 \]
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter2/session3/s3.tex:13: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.13 \]
+       
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 Then we can sample$n$ values ​
+                                     ​in the $[a,b]$, interval: $x_0,x_1,\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 Then we can sample$n$ values ​​
+                                        in the $[a,b]$, interval: $x_0,x_1,\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./des/chapter2/session3/s3.tex:18: Undefined control sequence.
+l.18 ...n the $[a,b]$, interval: $x_0,x_1,\dots,\x
+                                                  _n$, and use their average...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:18: Undefined control sequence.
-l.18 $\norm{Tx-T_nx}_{\X
-                        }\rightarrow 0$ for all $x\in\X$, and {\em weakly} if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:18: Undefined control sequence.
-l.18 ...x-T_nx}_{\X}\rightarrow 0$ for all $x\in\X
-                                                  $, and {\em weakly} if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
 
-./des/chapter2/session2/s2.tex:19: Undefined control sequence.
-<recently read> \ip 
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...ts,\x_n$, and use their average values ​
+                                                  ​to represent all $f(x)$...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...\x_n$, and use their average values ​​
+                                                  to represent all $f(x)$ va...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...s ​​to represent all $f(x)$ values ​
+                                                  ​in the $[a,b]$ interval...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.18 ...��​to represent all $f(x)$ values ​​
+                                                  in the $[a,b]$ interval. S...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[6]
+Overfull \hbox (45.25694pt too wide) in paragraph at lines 36--38
+[]\OT1/cmr/m/n/12 Assuming that $\OML/cmm/m/it/12 x$ \OT1/cmr/m/n/12 is a con-tin-u-ous ran-dom vari-able, sub-ject to a ran-dom distribution$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$,
+ []
+
+[7]
+./des/chapter2/session3/s3.tex:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./des/chapter2/session3/s3.tex:81: Missing } inserted.
+<inserted text> 
+                }
+l.81 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter2/session3/s3.tex:81: Display math should end with $$.
+<to be read again> 
+                   \@@par 
+l.81 
+     
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./des/chapter2/session3/s3.tex:81: Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.81 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./des/chapter2/session3/s3.tex:82: LaTeX Error: Bad math environment delimiter.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.82 \end{equation}
+                   }
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./des/chapter2/session3/s3.tex:82: You can't use `\eqno' in vertical mode.
+\endmathdisplay@a ...\df@tag \@empty \else \veqno 
+                                                  \alt@tag \df@tag \fi \ifx ...
+l.82 \end{equation}
+                   }
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+./des/chapter2/session3/s3.tex:82: Missing $ inserted.
+<inserted text> 
+                $
+l.82 \end{equation}
+                   }
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter2/session3/s3.tex:82: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.82 \end{equation}
+                   }
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
+
+./des/chapter2/session3/s3.tex:82: Extra }, or forgotten \endgroup.
+l.82 \end{equation}}
                     
-l.19 $\ip
-         <Tx-T_nx,x^*>\rightarrow 0$ for all $x\in\X$ and $x^*\in\X^*$. The
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+
+./des/chapter2/session3/s3.tex:87: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...d first column of the result matrix is ​
+                                                  ​performing the operatio...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:87: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.87 ...irst column of the result matrix is ​​
+                                                  performing the operation t...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[8]
+./des/chapter2/session3/s3.tex:108: Undefined control sequence.
+l.108   \pi(i)Q(i,j)\alpha(i,j) \eq
+                                    \pi(j)Q(j,i)\alpha(j,i)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:19: Undefined control sequence.
-l.19 ...Tx-T_nx,x^*>\rightarrow 0$ for all $x\in\X
-                                                  $ and $x^*\in\X^*$. The
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:19: Undefined control sequence.
-l.19 ...ghtarrow 0$ for all $x\in\X$ and $x^*\in\X
-                                                  ^*$. The
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./des/chapter2/session3/s3.tex:128: Package inputenc Error: Unicode character ， (U+FF0C)
+(inputenc)                not set up for use with LaTeX.
 
-./des/chapter2/session2/s2.tex:23: Undefined control sequence.
-<recently read> \B 
-                   
-l.23 operator topology of $\B
-                             (\X)$ respectively. A sequence which converges ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.128       \item if $u<\pi(x_*)Q(x_*|x_0)$，
+                                              then accept x_*.
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-./des/chapter2/session2/s2.tex:23: Undefined control sequence.
-l.23 operator topology of $\B(\X
-                                )$ respectively. A sequence which converges ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./des/chapter2/session3/s3.tex:128: Missing $ inserted.
+<inserted text> 
+                $
+l.128 ...f $u<\pi(x_*)Q(x_*|x_0)$，then accept x_
+                                                  *.
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
 
 
-./des/chapter2/session2/s2.tex:32: LaTeX Error: Environment proposition undefined.
+./des/chapter2/session3/s3.tex:129: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 \begin{proposition}
-                        \label{SOT convergence}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session2/s2.tex:33: Undefined control sequence.
-<recently read> \X 
-                   
-l.33 Let $\X
-            $ be a Banach space and suppose $\{T_n\}_{n=1}^{\infty}$ is a se...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:35: Undefined control sequence.
-<recently read> \B 
-                   
-l.35 in the strong operator topology of $\B
-                                           (\X)$. Then $\norm{T}\leq
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:35: Undefined control sequence.
-l.35 in the strong operator topology of $\B(\X
-                                              )$. Then $\norm{T}\leq
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:35: Undefined control sequence.
-<recently read> \norm 
-                      
-l.35 ...operator topology of $\B(\X)$. Then $\norm
-                                                  {T}\leq
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session2/s2.tex:37: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{proposition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \end{proposition}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session2/s2.tex:40: Undefined control sequence.
-<recently read> \norm 
-                      
-l.40 We want to show $\norm
-                           {Tx}_{\X}\leq K\norm{x}_{\X}$ for all $x\in\X$. Fix
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:40: Undefined control sequence.
-l.40 We want to show $\norm{Tx}_{\X
-                                   }\leq K\norm{x}_{\X}$ for all $x\in\X$. Fix
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:40: Undefined control sequence.
-l.40 We want to show $\norm{Tx}_{\X}\leq K\norm
-                                               {x}_{\X}$ for all $x\in\X$. Fix
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:40: Undefined control sequence.
-l.40 ... to show $\norm{Tx}_{\X}\leq K\norm{x}_{\X
-                                                  }$ for all $x\in\X$. Fix
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:40: Undefined control sequence.
-l.40 ...}_{\X}\leq K\norm{x}_{\X}$ for all $x\in\X
-                                                  $. Fix
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:41: Undefined control sequence.
-l.41 $x\in\X
-            $ and $\epsilon>0$ and choose an $n\in\N$ such that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:41: Undefined control sequence.
-l.41 ...\X$ and $\epsilon>0$ and choose an $n\in\N
-                                                  $ such that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:42: Undefined control sequence.
-<recently read> \norm 
-                      
-l.42 $\norm
-           {Tx-T_nx}_{\X}<\epsilon$. Then
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:42: Undefined control sequence.
-l.42 $\norm{Tx-T_nx}_{\X
-                        }<\epsilon$. Then
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 \[\norm
-            {Tx}_{\X}\leq\norm{Tx-T_nx}_{\X}+\norm{T_nx}_{\X}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 \[\norm{Tx}_{\X
-                    }\leq\norm{Tx-T_nx}_{\X}+\norm{T_nx}_{\X}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 \[\norm{Tx}_{\X}\leq\norm
-                              {Tx-T_nx}_{\X}+\norm{T_nx}_{\X}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 \[\norm{Tx}_{\X}\leq\norm{Tx-T_nx}_{\X
-                                           }+\norm{T_nx}_{\X}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 \[\norm{Tx}_{\X}\leq\norm{Tx-T_nx}_{\X}+\norm
-                                                  {T_nx}_{\X}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:43: Undefined control sequence.
-l.43 ...\X}\leq\norm{Tx-T_nx}_{\X}+\norm{T_nx}_{\X
-                                                  }
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:44: Undefined control sequence.
-l.44 <\epsilon+K\norm
-                     {x}_{\X},\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session2/s2.tex:44: Undefined control sequence.
-l.44 <\epsilon+K\norm{x}_{\X
-                            },\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./des/chapter2/session3/s3.tex
-
-./des/chapter2/session3/s3.tex:11: LaTeX Error: Environment definition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \begin{definition}
+l.129     \end{itemize}
                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:12: Undefined control sequence.
-<recently read> \X 
-                   
-l.12 ..._n\}_{n=1}^{\infty}$ in a Banach space $\X
-                                                  $ is called a {\em
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:13: Undefined control sequence.
-<recently read> \X 
-                   
-l.13 Schauder basis of $\X
-                          $} if, for every $x\in\X$, there is a unique seque...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:13: Undefined control sequence.
-l.13 Schauder basis of $\X$} if, for every $x\in\X
-                                                  $, there is a unique seque...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-./des/chapter2/session3/s3.tex:17: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
+./des/chapter2/session3/s3.tex:129: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:19: Undefined control sequence.
-<recently read> \X 
-                   
-l.19 A Banach space $\X
-                       $ is called {\em separable} if it has a countable dense
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:21: Undefined control sequence.
-<recently read> \X 
-                   
-l.21 Thus if $\X
-                $ has a Schauder basis then $\X$ is separable. In general the
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:21: Undefined control sequence.
-<recently read> \X 
-                   
-l.21 Thus if $\X$ has a Schauder basis then $\X
-                                               $ is separable. In general the
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[4]
-
-./des/chapter2/session3/s3.tex:29: LaTeX Error: Environment example undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29 \begin{example}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:32: Undefined control sequence.
-<recently read> \lp 
-                    
-l.32 $c$, $c_0$ and $\lp
-                        $. Another example of a basis in $c$ is given by
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session3/s3.tex:38: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{example}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \end{example}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:41: Undefined control sequence.
-<recently read> \X 
-                   
-l.41 If a Banach space $\X
-                          $ has a basis, we may consider $\X$ as a sequence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:41: Undefined control sequence.
-<recently read> \X 
-                   
-l.41 ...pace $\X$ has a basis, we may consider $\X
-                                                  $ as a sequence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:43: Undefined control sequence.
-<recently read> \X 
-                   
-l.43 $\X
-        $ with the unique sequence of coefficients $(a_1,a_2,a_3,\ldots)$. T...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session3/s3.tex:48: LaTeX Error: Environment example undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \begin{example}
-                    \label{summing basis}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:51: Undefined control sequence.
-l.51 for $n\in\Z
-                ^+$. It is not hard to see that this is a basis for $c$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:55: Undefined control sequence.
-l.55 for $n\in\Z
-                ^+$. By Leibniz' test for alternating series,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:60: Undefined control sequence.
-l.60 series. Define $\pi:\Z
-                           ^+\rightarrow\Z^+$ by
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:60: Undefined control sequence.
-l.60 series. Define $\pi:\Z^+\rightarrow\Z
-                                          ^+$ by
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:67: Undefined control sequence.
-<recently read> \Z 
-                   
-l.67 Then $\pi$ is clearly a permutation of $\Z
-                                               ^+$. However, the expansion
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session3/s3.tex:73: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{example}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.73 \end{example}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[5]
-
-./des/chapter2/session3/s3.tex:83: LaTeX Error: Environment proposition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.83 \begin{proposition}
-                        \label{unconditional conv}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:85: Undefined control sequence.
-<recently read> \X 
-                   
-l.85 ... sequence of vectors in a Banach space $\X
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:98: Undefined control sequence.
-<recently read> \ssnorm 
-                        
-l.98 $\ssnorm
-             {\sum_{j\in J}x_j}_{\X}<\epsilon$ for every finite set of integ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:98: Undefined control sequence.
-l.98 $\ssnorm{\sum_{j\in J}x_j}_{\X
-                                   }<\epsilon$ for every finite set of integ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter2/session3/s3.tex:100: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{proposition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.100 \end{proposition}
+l.129     \end{itemize}
                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:104: Undefined control sequence.
-l.104 ...1}^{\infty}a_nx_n$ given in Example \reff
-                                                  {bases}{summing basis} is
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-./des/chapter2/session3/s3.tex:109: LaTeX Error: Environment definition undefined.
+./des/chapter2/session3/s3.tex:129: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.109 \begin{definition}
-                        
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.129     \end{itemize}
+                       
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
-./des/chapter2/session3/s3.tex:110: Undefined control sequence.
-<recently read> \X 
-                   
-l.110 ...sequence of vectors in a Banach space $\X
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:112: Undefined control sequence.
-l.112 (ii), (iii) or (iv) in Proposition \reff
-                                              {bases}{unconditional conv} is...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:115: Undefined control sequence.
-<recently read> \X 
-                   
-l.115 space $\X
-               $ is {\em unconditional} if for every $x\in\X$, its expansion
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:115: Undefined control sequence.
-l.115 ... {\em unconditional} if for every $x\in\X
-                                                  $, its expansion
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+./des/chapter2/session3/s3.tex:129: Missing $ inserted.
+<inserted text> 
+                $
+l.129     \end{itemize}
+                       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 
-./des/chapter2/session3/s3.tex:118: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
+./des/chapter2/session3/s3.tex:133: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118 \end{definition}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.133 ...ch as 0.1, most of our sampled values ​
+                                                  ​are rejected and the sa...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:121: Undefined control sequence.
-<recently read> \lp 
-                    
-l.121 $\lp
-          $,
+
+./des/chapter2/session3/s3.tex:133: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.133 ...as 0.1, most of our sampled values ​​
+                                                  are rejected and the sampl...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+./des/chapter2/session3/s3.tex:138: Undefined control sequence.
+l.138   \pi(i)Q(i,j)\alpha(i,j) \eq
+                                    \pi(j)Q(j,i)\alpha(j,i)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session3/s3.tex:128: Undefined control sequence.
-l.128 ... constant $C>0$ such that for all $x\in\X
-                                                  $,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:129: Undefined control sequence.
-l.129 \[\snorm
-              {\sum_{n=1}^{\infty}\phi_na_{n,x}x_n}_{\X}\leq C\norm{x}_{\X},\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:129: Undefined control sequence.
-l.129 ...{\sum_{n=1}^{\infty}\phi_na_{n,x}x_n}_{\X
-                                                  }\leq C\norm{x}_{\X},\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:129: Undefined control sequence.
-l.129 ...{\infty}\phi_na_{n,x}x_n}_{\X}\leq C\norm
-                                                  {x}_{\X},\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:129: Undefined control sequence.
-l.129 ...}\phi_na_{n,x}x_n}_{\X}\leq C\norm{x}_{\X
-                                                  },\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:130: Undefined control sequence.
-l.130 ...n,x}x_n$ is the expansion of each $x\in\X
-                                                  $ with
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:144: Undefined control sequence.
-<recently read> \X 
-                   
-l.144 suppose $\X
-                 $ is a Banach space with an unconditional basis, and let $\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:144: Undefined control sequence.
-<recently read> \Y 
-                   
-l.144 ... with an unconditional basis, and let $\Y
-                                                  $ be
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:145: Undefined control sequence.
-<recently read> \X 
-                   
-l.145 a complemented subspace of $\X
-                                    $. Does $\Y$ have an unconditional basis...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:145: Undefined control sequence.
-<recently read> \Y 
-                   
-l.145 a complemented subspace of $\X$. Does $\Y
-                                               $ have an unconditional basis...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter2/session3/s3.tex:147: Undefined control sequence.
-<recently read> \X 
-                   
-l.147 ...ery infinite dimensional Banach space $\X
-                                                  $ contain an unconditional
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./des/chapter3/heading/h.tex [6] [7]
+[9] [10]) (./des/chapter3/heading/h.tex [11]
 Chapter 3.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
@@ -1788,2120 +1617,174 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
  [] 
  []
 
-./des/chapter3/heading/h.tex:23: Undefined control sequence.
-l.23 the set of functions $\{\varphi_n\}_{n\in\Z
-                                                }\subset L^p(\T)$, where
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/heading/h.tex:23: Undefined control sequence.
-l.23 ...ions $\{\varphi_n\}_{n\in\Z}\subset L^p(\T
-                                                  )$, where
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/heading/h.tex:24: Undefined control sequence.
-l.24 ... this a basis for the Banach space $L^p(\T
-                                                  )$?
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ) (./des/chapter3/session1/s1.tex
-
-./des/chapter3/session1/s1.tex:14: LaTeX Error: Environment definition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14 \begin{definition}
-                        A {\em locally compact Abelian group} (or an LCA group)
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+./des/chapter3/session1/s1.tex:18: Missing \endcsname inserted.
+<to be read again> 
+                   \@@par 
+l.18 Documents using EM}
+                         method improves it. The model samples a topic from ...
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
 
 
-./des/chapter3/session1/s1.tex:19: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
+LaTeX Warning: Citation `Text Classi{\@@par }cation from Labeled and Unlabeled Documents using EM' on page 12 undefined on input line 18.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:21: Undefined control sequence.
-<recently read> \Z 
-                   
-l.21 ...xamples of LCA groups are the integers $\Z
-                                                  $, the circle group
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:22: Undefined control sequence.
-<recently read> \T 
-                   
-l.22 $\T
-        $ and real line $\R$ with their usual topologies.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:22: Undefined control sequence.
-<recently read> \R 
-                   
-l.22 $\T$ and real line $\R
-                           $ with their usual topologies.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:24: Undefined control sequence.
-<recently read> \T 
-                   
-l.24 ...ology. In this thesis the circle group $\T
-                                                  $
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:26: Undefined control sequence.
-l.26 $\{\omega\in\C
-                   :|\omega|=1\}$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:27: Undefined control sequence.
-<recently read> \R 
-                   
-l.27 ...omplex plane, or as the quotient group $\R
-                                                  /2\pi\Z$. We shall usually
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:27: Undefined control sequence.
-l.27 ...plane, or as the quotient group $\R/2\pi\Z
-                                                  $. We shall usually
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:29: Undefined control sequence.
-<recently read> \T 
-                   
-l.29 thinking of $\T
-                    $ as the interval $[0,2\pi]$ with endpoints identified and
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:35: LaTeX Error: Environment definition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 \begin{definition}
-                        Let $G$ be a locally compact Abelian group. A {\em Haar
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[8
+[12
 
 ]
 
-./des/chapter3/session1/s1.tex:42: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
+./des/chapter3/session1/s1.tex:25: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.25 ...bution, which is also the core idea of ​
+                                                  ​the generation model pr...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:44: LaTeX Error: Environment theorem undefined.
+./des/chapter3/session1/s1.tex:25: Package inputenc Error: Unicode character ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{theorem}
-                    \cite[Chapter VII, \S 2]{Katznelson}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.25 ...ion, which is also the core idea of ​​
+                                                  the generation model propo...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:47: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{theorem}.
+LaTeX Warning: Citation `Probabilistic Latent Semantic Analysis' on page 13 undefined on input line 25.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.47 \end{theorem}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+) (./des/chapter3/session2/s2.tex
+<lda.png, id=81, 1084.05pt x 548.0475pt>
+File: lda.png Graphic file (type png)
+<use lda.png>
+Package pdftex.def Info: lda.png  used on input line 8.
+(pdftex.def)             Requested size: 426.79134pt x 215.76974pt.
 
-./des/chapter3/session1/s1.tex:49: Undefined control sequence.
-l.49 ...peaks of {\em the} Haar measure. For $G=\T
-                                                  $, Haar measure is
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:55: Undefined control sequence.
-l.55 Example \reff
-                  {Banach Spaces}{L^p example}, we will not usually distinguish
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:55: Missing $ inserted.
-<inserted text> 
-                $
-l.55 Example \reff{Banach Spaces}{L^
-                                    p example}, we will not usually distinguish
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./des/chapter3/session1/s1.tex:55: Extra }, or forgotten $.
-l.55 Example \reff{Banach Spaces}{L^p example}
-                                              , we will not usually distinguish
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-./des/chapter3/session1/s1.tex:56: Missing $ inserted.
-<inserted text> 
-                $
-l.56 ...een functions defined on $G$ and their $L^
-                                                  p$ equivalence classes.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Overfull \hbox (237.10861pt too wide) in paragraph at lines 49--57
-\OT1/cmr/m/n/12 As men-tioned in Ex-am-ple Ba-nach SpacesL$[]\OML/cmm/m/it/12 example; wewillnotusuallydistinguishbetweenfunctionsdefinedon$\OT1/cmr/m/n/12 G$\OML/cmm/m/it/12 andtheir$\OT1/cmr/m/n/12 L$[]$
+Overfull \hbox (2.84546pt too wide) in paragraph at lines 8--9
+[][] 
  []
 
+[13]
+Overfull \hbox (2.90704pt too wide) in paragraph at lines 20--21
+[]\OT1/cmr/m/n/12 Sampling from Dirich-let dis-tri-bu-tion $\OML/cmm/m/it/12 eta$ \OT1/cmr/m/n/12 to gen-er-ate word distribution$\OML/cmm/m/it/12 ^^L[]$
+ []
 
-./des/chapter3/session1/s1.tex:60: LaTeX Error: Environment theorem undefined.
+[14 <./lda.png (PNG copy)>]
+./des/chapter3/session2/s2.tex:39: Undefined control sequence.
+l.39 ...\int \prod_{k=1}^K p_k^{n_k} Dir(p|\alphha
+                                                  ) d_p \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+./des/chapter3/session2/s2.tex:55: Undefined control sequence.
+l.55 ...        &=& \frac{1}{B(\alpha)}\int \prowd
+                                                  _{k=1}{V}p_k^{n_k+\alpha_k...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[15]
+./des/chapter3/session2/s2.tex:70: Undefined control sequence.
+l.70 ...beta) & = & p(\vec{w}|\vec{z},\beta)p(\vev
+                                                  {z}|\alpha) \\
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝐾 (U+1D43E)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.60 \begin{theorem}
-                    \label{convolution}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:66: Undefined control sequence.
-<recently read> \norm 
-                      
-l.66 then $h\in L^1(G)$ and $\norm
-                                  {h}_1\leq\norm{f}_1\norm{g}_1$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:66: Undefined control sequence.
-l.66 then $h\in L^1(G)$ and $\norm{h}_1\leq\norm
-                                                {f}_1\norm{g}_1$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:66: Undefined control sequence.
-l.66 ...L^1(G)$ and $\norm{h}_1\leq\norm{f}_1\norm
-                                                  {g}_1$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+l.98 ...em  Choose the right number of topics 𝐾
+                                                  , choose the right hyperpa...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:67: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{theorem}.
+./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝛼 (U+1D6FC)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67 \end{theorem}
-                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.98 ...hoose the right hyperparameter vector 𝛼
+                                                  ⃗$\vec{\alpha}$ and $\ve...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:69: LaTeX Error: Environment definition undefined.
+./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character ⃗ (U+20D7)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69 \begin{definition}
-                        Let $G,f,g$ be as in Theorem \reff{lca}{convolution}...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:69: Undefined control sequence.
-l.69 ...nition} Let $G,f,g$ be as in Theorem \reff
-                                                  {lca}{convolution}. Then
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+l.98 ...se the right hyperparameter vector 𝛼⃗
+                                                  $\vec{\alpha}$ and $\vec{\...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:73: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
+./des/chapter3/session2/s2.tex:99: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.99 　
+        \item Corresponding to each word of each document in the corpus, ran...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
 
-./des/chapter3/session1/s1.tex:75: LaTeX Error: Environment corollary undefined.
+./des/chapter3/session2/s2.tex:100: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
 
-See the LaTeX manual or LaTeX Companion for explanation.
+See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.75 \begin{corollary}
-                       Let $G$ be an LCA group. Then $L^1(G)$ is a
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+l.100 　
+         \item Rescan the corpus, for each word, use Gibbs sampling formula ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
 
+[16]) (./des/chapter3/session3/s3.tex
 
-./des/chapter3/session1/s1.tex:77: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{corollary}.
+LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 17 undefined on input line 8.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.77 \end{corollary}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+[17]
 
+LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 18 undefined on input line 19.
 
-./des/chapter3/session1/s1.tex:82: LaTeX Error: Environment definition undefined.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \begin{definition}
-                        A {\em character} on an LCA group $G$ is a continuou...
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (0.79845pt too wide) in paragraph at lines 34--38
+[]\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
+ []
 
-./des/chapter3/session1/s1.tex:83: Undefined control sequence.
-<recently read> \C 
-                   
-l.83 $\xi$ from $G$ into $\C
-                            $ such that $|\xi(x)|=1$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:85: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.85 $G$ is denoted $\hatt
-                          {G}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:86: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 \end{definition}
-                     
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:88: Undefined control sequence.
-<recently read> \T 
-                   
-l.88 ... a continuous homomorphism of $G$ into $\T
-                                                  $. It can be shown
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:89: Undefined control sequence.
-<recently read> \T 
-                   
-l.89 that the set of characters on $\T
-                                      $ is the set $\{\varphi_n\}_{n\in\Z}$,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:89: Undefined control sequence.
-l.89 ... on $\T$ is the set $\{\varphi_n\}_{n\in\Z
-                                                  }$, where
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:90: Undefined control sequence.
-l.90 $\varphi_n(t)=e^{int}$ for all $n\in\Z
-                                           $ and all $t\in[0,2\pi]$. Every c...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:92: Undefined control sequence.
-<recently read> \Z 
-                   
-l.92 $\Z
-        $ has the form $n\mapsto e^{int}$ for some $t\in[0,2\pi]$. The chara...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:93: Undefined control sequence.
-<recently read> \R 
-                   
-l.93 $\R
-        $ are all of the form $x\mapsto e^{ixy}$ for some $y\in\R$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:93: Undefined control sequence.
-l.93 ...e form $x\mapsto e^{ixy}$ for some $y\in\R
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:95: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.95 ...CA group $G$, the set of characters $\hatt
-                                                  {G}$ can be made
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:99: Undefined control sequence.
-<recently read> \ip 
-                    
-l.99 We write $\ip
-                  <x,\xi>$ for $\xi(x)$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:101: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.101 A topology is defined on $\hatt
-                                     {G}$ by specifying that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:102: Undefined control sequence.
-l.102 $\{\xi_n\}_{n=1}^{\infty}\subset\hatt
-                                           {G}$ converges to $\xi\in\hatt{G}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:102: Undefined control sequence.
-l.102 ...subset\hatt{G}$ converges to $\xi\in\hatt
-                                                  {G}$ if
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:103: Undefined control sequence.
-l.103 $\{\xi_n\}_{n=1}^{\infty}\subset\hatt
-                                           {G}$ converges uniformly to $\xi$...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:104: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.104 ... be shown that this topology turns $\hatt
-                                                  {G}$ into
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:106: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.106 We say that $\hatt
-                        {G}$ is the {\em dual group}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:111: Undefined control sequence.
-l.111 and $\xi\in\hatt
-                      {G}$, the mapping $\xi\mapsto \ip<x,\xi>$ is a charact...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:111: Undefined control sequence.
-l.111 ...\in\hatt{G}$, the mapping $\xi\mapsto \ip
-                                                  <x,\xi>$ is a character on
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:112: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.112 $\hatt
-            {G}$, and every character on $\hatt{G}$ is of this form. Moreove...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:112: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.112 $\hatt{G}$, and every character on $\hatt
-                                               {G}$ is of this form. Moreove...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:113: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.113 ... convergence on compact subsets of $\hatt
-                                                  {G}$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:114: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.114 ...topology on $G$. In otherwords, if $\hatt
-                                                  {G}$ is the
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:115: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.115 ...up of $G$, then $G$ is the dual of $\hatt
-                                                  {G}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[9]
-./des/chapter3/session1/s1.tex:117: Undefined control sequence.
-<recently read> \T 
-                   
-l.117 ...gin Duality Theorem for the LCA group $\T
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:119: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.119 bijection between $\hatt
-                              {\T}$ and $\Z$, since given any $\xi\in\hatt{\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:119: Undefined control sequence.
-l.119 bijection between $\hatt{\T
-                                 }$ and $\Z$, since given any $\xi\in\hatt{\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:119: Undefined control sequence.
-<recently read> \Z 
-                   
-l.119 bijection between $\hatt{\T}$ and $\Z
-                                           $, since given any $\xi\in\hatt{\...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:119: Undefined control sequence.
-l.119 ...}$ and $\Z$, since given any $\xi\in\hatt
-                                                  {\T}$, there
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:119: Undefined control sequence.
-l.119 ...and $\Z$, since given any $\xi\in\hatt{\T
-                                                  }$, there
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:120: Undefined control sequence.
-l.120 is a unique $n\in\Z
-                         $ such that $\ip<t,\xi>=e^{int}$ for all $t\in\T$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:120: Undefined control sequence.
-<recently read> \ip 
-                    
-l.120 is a unique $n\in\Z$ such that $\ip
-                                         <t,\xi>=e^{int}$ for all $t\in\T$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:120: Undefined control sequence.
-l.120 ...that $\ip<t,\xi>=e^{int}$ for all $t\in\T
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:121: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.121 Moreover, the topology $\hatt
-                                   {T}$ is the
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:122: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.122 discrete topology. Thus $\hatt
-                                    {\T}\simeq\Z$. One may similarly show that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:122: Undefined control sequence.
-l.122 discrete topology. Thus $\hatt{\T
-                                       }\simeq\Z$. One may similarly show that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:122: Undefined control sequence.
-l.122 discrete topology. Thus $\hatt{\T}\simeq\Z
-                                                $. One may similarly show that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:123: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.123 $\hatt
-            {\Z}\simeq\T$. This duality may be described (by abuse of notati...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:123: Undefined control sequence.
-l.123 $\hatt{\Z
-               }\simeq\T$. This duality may be described (by abuse of notati...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:123: Undefined control sequence.
-l.123 $\hatt{\Z}\simeq\T
-                        $. This duality may be described (by abuse of notati...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:124: Undefined control sequence.
-<recently read> \ip 
-                    
-l.124 $\ip
-          <n,t>=e^{int}=\ip<t,n>$ for
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:124: Undefined control sequence.
-l.124 $\ip<n,t>=e^{int}=\ip
-                           <t,n>$ for
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:125: Undefined control sequence.
-l.125 all $t\in\T
-                 $ and all $n\in\Z$. (On
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:125: Undefined control sequence.
-l.125 all $t\in\T$ and all $n\in\Z
-                                  $. (On
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:126: Undefined control sequence.
-<recently read> \Z 
-                   
-l.126 ... side, we regard $n$ as an element of $\Z
-                                                  $ while on the right
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:127: Undefined control sequence.
-<recently read> \T 
-                   
-l.127 hand side we regard it as a function on $\T
-                                                 $.)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:133: LaTeX Error: Environment definition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.133 \begin{definition}
-                        \label{Fourier transf}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:136: Undefined control sequence.
-l.136 \[\hatt
-             {f}(\xi) = \int_G \overline{\ip<y,\xi>}f(y)dy\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:136: Undefined control sequence.
-<argument> \ip 
-               <y,\xi >
-l.136 ...tt{f}(\xi) = \int_G \overline{\ip<y,\xi>}
-                                                  f(y)dy\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:137: Undefined control sequence.
-l.137 for all $\xi\in\hatt
-                          {G}$, where $dy$ is Haar measure on $G$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:138: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.138 \end{definition}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:140: Undefined control sequence.
-l.140 ...rier transform of a function $f\in L^1(\Z
-                                                  )$ is
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:141: Undefined control sequence.
-l.141 \[\hatt
-             {f}(t)=\sum_{n=-\infty}^{\infty}e^{-int}f(n)\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:142: Undefined control sequence.
-l.142 for all $t\in\T
-                     $, since Haar measure on $\Z$ is unit point-mass measure.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:142: Undefined control sequence.
-<recently read> \Z 
-                   
-l.142 for all $t\in\T$, since Haar measure on $\Z
-                                                 $ is unit point-mass measure.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:143: Undefined control sequence.
-l.143 ...rier transform of a function $f\in L^1(\T
-                                                  )$ is
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:144: Undefined control sequence.
-l.144 \[\hatt
-             {f}(n) = \frac{1}{2\pi}\int_0^{2\pi}e^{-int}f(t)dt\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:145: Undefined control sequence.
-l.145 for all $n\in\Z
-                     $, where $dt$ is Lebesgue measure. The {\em Fourier ser...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:147: Undefined control sequence.
-l.147 \[\sum_{n=-\infty}^{\infty}\hatt
-                                      {f}(n)\varphi_n\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:148: Undefined control sequence.
-l.148 where $\varphi_n(t)=e^{int}$ for all $t\in\T
-                                                  $ and all $n\in\Z$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:148: Undefined control sequence.
-l.148 ...e^{int}$ for all $t\in\T$ and all $n\in\Z
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:155: LaTeX Error: Environment theorem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.155 \begin{theorem}
-                     \label{isometry}\cite[Chapter VII, \S 4]{Katznelson}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:158: Undefined control sequence.
-l.158 subspace of $L^2(\hatt
-                            {G})$. Hence it can be extended to an isometry o...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:159: Undefined control sequence.
-l.159 onto $L^2(\hatt
-                     {G})$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:160: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{theorem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.160 \end{theorem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:162: Undefined control sequence.
-<recently read> \T 
-                   
-l.162 For the circle group $\T
-                              $, Plancherel's theorem takes the following form.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:164: LaTeX Error: Environment theorem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.164 \begin{theorem}
-                     \label{Plancherel for T}\cite[Theorem I.5.5]{Katznelson}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:166: Undefined control sequence.
-l.166 (i) Let $f\in L^2(\T
-                          )$. Then
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:167: Undefined control sequence.
-l.167 \[\sum_{n=\infty}^{\infty}|\hatt
-                                      {f}(n)|^2=
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[10]
-./des/chapter3/session1/s1.tex:169: Undefined control sequence.
-<recently read> \ssnorm 
-                        
-l.169 that is, $\ssnorm
-                       {\hatt{f}}_{L^2(\Z)}=\norm{f}_{L^2(\T)}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:169: Undefined control sequence.
-l.169 that is, $\ssnorm{\hatt
-                             {f}}_{L^2(\Z)}=\norm{f}_{L^2(\T)}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:169: Undefined control sequence.
-l.169 that is, $\ssnorm{\hatt{f}}_{L^2(\Z
-                                         )}=\norm{f}_{L^2(\T)}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:169: Undefined control sequence.
-l.169 that is, $\ssnorm{\hatt{f}}_{L^2(\Z)}=\norm
-                                                 {f}_{L^2(\T)}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:169: Undefined control sequence.
-l.169 ...norm{\hatt{f}}_{L^2(\Z)}=\norm{f}_{L^2(\T
-                                                  )}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:171: Undefined control sequence.
-l.171 (ii) For each $f\in L^2(\T
-                                )$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:172: Undefined control sequence.
-l.172 ...im_{N\rightarrow\infty}\sum_{n=-N}^N\hatt
-                                                  {f}_n\varphi_n\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:173: Undefined control sequence.
-l.173 in $L^2(\T
-                )$ norm, where $\varphi_n:t\mapsto e^{int}$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:176: Undefined control sequence.
-l.176 $L^2(\Z
-             )$, then there exists a unique $f\in L^2(\T)$ such that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:176: Undefined control sequence.
-l.176 ..., then there exists a unique $f\in L^2(\T
-                                                  )$ such that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:177: Undefined control sequence.
-l.177 $a_n=\hatt
-                {f}(n)$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:179: Undefined control sequence.
-l.179 ...e correspondence $f\leftrightarrow\{\hatt
-                                                  {f}(n)\}_{n=-\infty}^{\inf...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:180: Undefined control sequence.
-l.180 is an isometry between $L^2(\T
-                                    )$ and $L^2(\Z)$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:180: Undefined control sequence.
-l.180 is an isometry between $L^2(\T)$ and $L^2(\Z
-                                                  )$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:181: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{theorem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 \end{theorem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:184: Undefined control sequence.
-l.184 ...em is that the set $\{\varphi_n\}_{n\in\Z
-                                                  }$ of
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:185: Undefined control sequence.
-l.185 functions in the Hilbert space $L^2(\T
-                                            )$ forms a complete orthonormal ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:188: Undefined control sequence.
-l.188 \[\ip
-           <f,g>=\frac{1}{2\pi}\int_0^{2\pi}f(t)\overline{g(t)}\,dt.\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:190: Undefined control sequence.
-l.190 ...ish whether or not $\{\varphi_n\}_{n\in\Z
-                                                  }$ is a basis for
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:191: Undefined control sequence.
-l.191 $L^p(\T
-             )$ when $1\leq p<\infty$ and $p\neq2$. Standard results about F...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:194: Undefined control sequence.
-<recently read> \T 
-                   
-l.194 $\T
-         $ of
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:195: Undefined control sequence.
-l.195 ...$\sum_{n=-N}^Na_n\varphi_n$ where $N\in\N
-                                                  $ and $a_n\in\C$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:195: Undefined control sequence.
-l.195 ..._n\varphi_n$ where $N\in\N$ and $a_n\in\C
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:197: LaTeX Error: Environment theorem undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.197 \begin{theorem}
-                     \label{Fejer facts}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:200: Undefined control sequence.
-l.200 ...nometric polynomials are dense in $L^p(\T
-                                                  )$;
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:202: Undefined control sequence.
-l.202 (ii) if $f,g\in L^p(\T
-                            )$ and $\hatt{f}(n)=\hatt{g}(n)$ for all $n\in\Z$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:202: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.202 (ii) if $f,g\in L^p(\T)$ and $\hatt
-                                         {f}(n)=\hatt{g}(n)$ for all $n\in\Z$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:202: Undefined control sequence.
-l.202 ...f $f,g\in L^p(\T)$ and $\hatt{f}(n)=\hatt
-                                                  {g}(n)$ for all $n\in\Z$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:202: Undefined control sequence.
-l.202 ...$\hatt{f}(n)=\hatt{g}(n)$ for all $n\in\Z
-                                                  $,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:206: Undefined control sequence.
-l.206 ...Fourier series of a function $f\in L^p(\T
-                                                  )$ does converge in
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:208: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{theorem}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.208 \end{theorem}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:210: Undefined control sequence.
-l.210 ...oes converge for each function in $L^p(\T
-                                                  )$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:211: Undefined control sequence.
-l.211 $\{\varphi_n\}_{n\in\Z
-                            }$ is a basis for $L^p(\T)$. Otherwise,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:211: Undefined control sequence.
-l.211 ...rphi_n\}_{n\in\Z}$ is a basis for $L^p(\T
-                                                  )$. Otherwise,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:212: Undefined control sequence.
-l.212 ...now whether or not $\{\varphi_n\}_{n\in\Z
-                                                  }$ is a basic
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:213: Undefined control sequence.
-l.213 sequence in $L^p(\T
-                         )$ for $p\neq2$, and whether this sequence is uncon...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:216: LaTeX Error: Environment definition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.216 \begin{definition}
-                        \label{multipliers}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:218: Undefined control sequence.
-l.218 $\phi:\hatt
-                 {G}\rightarrow\C$ be bounded and measurable on $\hatt{G}$. By
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:218: Undefined control sequence.
-l.218 $\phi:\hatt{G}\rightarrow\C
-                                 $ be bounded and measurable on $\hatt{G}$. By
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:218: Undefined control sequence.
-<recently read> \hatt 
-                      
-l.218 ...ow\C$ be bounded and measurable on $\hatt
-                                                  {G}$. By
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:221: Undefined control sequence.
-l.221 $({S_{\phi}f})\,\hatt
-                           {\,} = \phi \hatt{f}$ for all $f\in L^2(G)$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:221: Undefined control sequence.
-l.221 $({S_{\phi}f})\,\hatt{\,} = \phi \hatt
-                                            {f}$ for all $f\in L^2(G)$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:226: Undefined control sequence.
-l.226 \norm
-           {S_{\phi}f}_p\leq C_p\norm{f}_p
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:226: Undefined control sequence.
-l.226 \norm{S_{\phi}f}_p\leq C_p\norm
-                                     {f}_p
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:228: Undefined control sequence.
-l.228 for all $f\in L^2\cap L^p(\T
-                                  )$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:232: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{definition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.232 \end{definition}
-                      
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:236: Undefined control sequence.
-l.236 $M_p(\hatt
-                {G})$. We turn $M_p(\hatt{G})$ into a Banach space by equipp...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:236: Undefined control sequence.
-l.236 $M_p(\hatt{G})$. We turn $M_p(\hatt
-                                         {G})$ into a Banach space by equipp...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:238: Undefined control sequence.
-l.238 the following norm: for $\phi\in M_p(\hatt
-                                                {G})$ define
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:239: Undefined control sequence.
-<recently read> \norm 
-                      
-l.239 $\norm
-            {\phi}_{M_p(\hatt{G})}$ to be the usual operator norm on $L^p(G)...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:239: Undefined control sequence.
-l.239 $\norm{\phi}_{M_p(\hatt
-                             {G})}$ to be the usual operator norm on $L^p(G)...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:240: Undefined control sequence.
-<recently read> \norm 
-                      
-l.240 operator $S_{\phi}$. Thus $\norm
-                                      {\phi}_{M_p(\hatt{G})}$ is the smallest
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:240: Undefined control sequence.
-l.240 ... $S_{\phi}$. Thus $\norm{\phi}_{M_p(\hatt
-                                                  {G})}$ is the smallest
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:242: Undefined control sequence.
-l.242 ...tions that if $\phi_1,\phi_2\in M_p(\hatt
-                                                  {G})$,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:244: Undefined control sequence.
-l.244 $M_p(\hatt
-                {G})$ and
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[11]
-./des/chapter3/session1/s1.tex:245: Undefined control sequence.
-l.245 \[\norm
-             {\phi_1\phi_2}_{M_p(\hatt{G})}\leq\norm{\phi_1}_{M_p(\hatt{G})}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:245: Undefined control sequence.
-l.245 \[\norm{\phi_1\phi_2}_{M_p(\hatt
-                                      {G})}\leq\norm{\phi_1}_{M_p(\hatt{G})}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:245: Undefined control sequence.
-l.245 ...rm{\phi_1\phi_2}_{M_p(\hatt{G})}\leq\norm
-                                                  {\phi_1}_{M_p(\hatt{G})}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:245: Undefined control sequence.
-l.245 ..._p(\hatt{G})}\leq\norm{\phi_1}_{M_p(\hatt
-                                                  {G})}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:246: Undefined control sequence.
-l.246 \norm
-           {\phi_2}_{M_p(\hatt{G})}.\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:246: Undefined control sequence.
-l.246 \norm{\phi_2}_{M_p(\hatt
-                              {G})}.\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:249: LaTeX Error: Environment proposition undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.249 \begin{proposition}
-                         \label{multiplier algebra}\cite[\S3]{BG Spectral}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:251: Undefined control sequence.
-l.251 $M_p(\hatt
-                {G})$ is a Banach algebra under pointwise operations, and th...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:253: Undefined control sequence.
-l.253 $M_p(\hatt
-                {G})$ into $\B(L^p(G))$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:253: Undefined control sequence.
-<recently read> \B 
-                   
-l.253 $M_p(\hatt{G})$ into $\B
-                              (L^p(G))$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:254: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{proposition}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.254 \end{proposition}
-                       
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./des/chapter3/session1/s1.tex:259: LaTeX Error: Environment example undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.259 \begin{example}
-                     \label{lca example}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:260: Undefined control sequence.
-l.260 Let $G=\T
-               $ and let $\varphi_n:t\mapsto e^{int}$ for all $t\in\T$ and $...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:260: Undefined control sequence.
-l.260 ...arphi_n:t\mapsto e^{int}$ for all $t\in\T
-                                                  $ and $n\in\Z$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:260: Undefined control sequence.
-l.260 ...sto e^{int}$ for all $t\in\T$ and $n\in\Z
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:261: Undefined control sequence.
-l.261 Fix an $m\in\Z
-                    $
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:262: Undefined control sequence.
-<recently read> \Z 
-                   
-l.262 ...acteristic function $\chi_{\{m\}}$ on $\Z
-                                                  $.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:263: Undefined control sequence.
-l.263 Then for any $f\in L^2(\T
-                               )$ we have, by Definition \reff{lca}{multipli...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:263: Undefined control sequence.
-l.263 ...\in L^2(\T)$ we have, by Definition \reff
-                                                  {lca}{multipliers},
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:264: Undefined control sequence.
-l.264 \[\bigl(S_{\chi_{\{m\}}}f\bigr)\,\hatt
-                                            {\,}\,(n)=\chi_{\{m\}}(n)\hatt{f...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:264: Undefined control sequence.
-l.264 ...igr)\,\hatt{\,}\,(n)=\chi_{\{m\}}(n)\hatt
-                                                  {f}(n)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:265: Undefined control sequence.
-l.265 =\chi_{\{m\}}(n)\hatt
-                           {f}(m)=\hatt{\varphi}_m(n)\hatt{f}=
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:265: Undefined control sequence.
-l.265 =\chi_{\{m\}}(n)\hatt{f}(m)=\hatt
-                                       {\varphi}_m(n)\hatt{f}=
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:265: Undefined control sequence.
-l.265 ...}}(n)\hatt{f}(m)=\hatt{\varphi}_m(n)\hatt
-                                                  {f}=
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:266: Undefined control sequence.
-l.266 \bigl(\hatt
-                 {f}(m)\varphi_m\bigr)\,\hatt{\,}\,(n)\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:266: Undefined control sequence.
-l.266 \bigl(\hatt{f}(m)\varphi_m\bigr)\,\hatt
-                                             {\,}\,(n)\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:267: Undefined control sequence.
-l.267 for all $n\in\Z
-                     $. Thus $S_{\chi_{\{m\}}}f=\hatt{f}(m)\varphi_m$, and
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:267: Undefined control sequence.
-l.267 ...l $n\in\Z$. Thus $S_{\chi_{\{m\}}}f=\hatt
-                                                  {f}(m)\varphi_m$, and
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:272: Undefined control sequence.
-l.272 For almost all $t\in\T
-                            $ we have
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:276: Undefined control sequence.
-l.276 & = & e^{imt}\hatt
-                        {f}(m).
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:279: Undefined control sequence.
-l.279 $L^2(\T
-             )$. It is easy to see that $\ssnorm{S_{\chi_{\{m\}}}}=1$ and hence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:279: Undefined control sequence.
-<recently read> \ssnorm 
-                        
-l.279 $L^2(\T)$. It is easy to see that $\ssnorm
-                                                {S_{\chi_{\{m\}}}}=1$ and hence
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:280: Undefined control sequence.
-<recently read> \ssnorm 
-                        
-l.280 $\ssnorm
-              {\chi_{\{m\}}}_{M_p(\hatt{G})}=1$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:280: Undefined control sequence.
-l.280 $\ssnorm{\chi_{\{m\}}}_{M_p(\hatt
-                                       {G})}=1$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-./des/chapter3/session1/s1.tex:281: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{example}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.281 \end{example}
-                   
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter3/session1/s1.tex:284: Undefined control sequence.
-l.284 Let $\varphi_n(t)=e^{int}$ for each $n\in\Z
-                                                 $ and $t\in\T$. One might h...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:284: Undefined control sequence.
-l.284 ...t)=e^{int}$ for each $n\in\Z$ and $t\in\T
-                                                  $. One might hope that
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:285: Undefined control sequence.
-l.285 $\{\varphi_n\}_{n\in\Z
-                            }$ is a basis for $L^p(\T)$. Assume for the mome...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:285: Undefined control sequence.
-l.285 ...rphi_n\}_{n\in\Z}$ is a basis for $L^p(\T
-                                                  )$. Assume for the moment ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:287: Undefined control sequence.
-l.287 function $f\in L^p(\T
-                           )$ with respect to this basis is then given by
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:288: Undefined control sequence.
-l.288 $\sum_{n\in\Z
-                   }\hatt{f}(n)\varphi_n$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:288: Undefined control sequence.
-l.288 $\sum_{n\in\Z}\hatt
-                         {f}(n)\varphi_n$.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:290: Undefined control sequence.
-l.290 find (by Proposition \reff
-                                {bases}{unconditional conv}) a constant $C_p$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:292: Undefined control sequence.
-l.292 \[\snorm
-              {\sum_{n\in\Z}\varepsilon_n\hatt{f}(n)\varphi_n}_p\leq C_p\nor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:292: Undefined control sequence.
-l.292 \[\snorm{\sum_{n\in\Z
-                           }\varepsilon_n\hatt{f}(n)\varphi_n}_p\leq C_p\nor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:292: Undefined control sequence.
-l.292 \[\snorm{\sum_{n\in\Z}\varepsilon_n\hatt
-                                              {f}(n)\varphi_n}_p\leq C_p\nor...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:292: Undefined control sequence.
-l.292 ...lon_n\hatt{f}(n)\varphi_n}_p\leq C_p\norm
-                                                  {f}_p\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:293: Undefined control sequence.
-l.293 for all $f\in L^p(\T
-                          )$ and all choices
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:296: Undefined control sequence.
-l.296 \[\norm
-             {S_{\varepsilon}f}_p\leq C_p\norm{f}_p\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:296: Undefined control sequence.
-l.296 \[\norm{S_{\varepsilon}f}_p\leq C_p\norm
-                                              {f}_p\]
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:297: Undefined control sequence.
-l.297 for all $f\in L^2\cap L^p(\T
-                                  )$ and all functions $\varepsilon:\Z\right...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:297: Undefined control sequence.
-l.297 ...^p(\T)$ and all functions $\varepsilon:\Z
-                                                  \rightarrow\C$
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/chapter3/session1/s1.tex:297: Undefined control sequence.
-l.297 ...ll functions $\varepsilon:\Z\rightarrow\C
-                                                  $
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) (./des/chapter3/session2/s2.tex) (./des/chapter3/session3/s3.tex) (./des/chapter4/heading/h.tex [12]
+) (./des/chapter4/heading/h.tex [18]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -3923,7 +1806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (./des/bib/b.tex [13
+) (./des/bib/b.tex [19
 
 ]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
@@ -3934,32 +1817,6 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
  [] 
  []
-
-[14
-
-
-]
-./des/bib/b.tex:94: Undefined control sequence.
-<recently read> \CC 
-                    
-l.94 Doust, I., Norms of $0$-$1$ matrices in $\CC
-                                                 _p$,  pp 50-55, Proc.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-./des/bib/b.tex:100: Undefined control sequence.
-<recently read> \CC 
-                    
-l.100 Schur multipliers on $\CC
-                               _p$ spaces,
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
 
 )
 
@@ -3975,30 +1832,32 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[15] (./unswthesis.aux)
+[20
+
+
+] (./unswthesis.aux)
 
 LaTeX Warning: There were undefined references.
 
  )
-(\end occurred inside a group at level 2)
+(\end occurred inside a group at level 1)
 
-### simple group (level 2) entered at line 55 ({)
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2629 strings out of 480471
- 34545 string characters out of 5899396
- 273195 words of memory out of 5000000
- 18588 multiletter control sequences out of 15000+600000
+ 2604 strings out of 480471
+ 34235 string characters out of 5899396
+ 273002 words of memory out of 5000000
+ 18561 multiletter control sequences out of 15000+600000
  539791 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,1079b,312s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,1079b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (19 pages, 548101 bytes).
+Output written on unswthesis.pdf (24 pages, 609766 bytes).
 PDF statistics:
- 140 PDF objects out of 1000 (max. 8388607)
- 94 compressed objects within 1 object stream
+ 157 PDF objects out of 1000 (max. 8388607)
+ 104 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

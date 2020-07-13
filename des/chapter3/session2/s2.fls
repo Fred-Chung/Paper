@@ -1,6 +1,8 @@
-PWD /home/xpeng/UNSW/paper/des/chapter2/session2
+PWD /home/xpeng/UNSW/paper/des/chapter3/session2
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT s2.tex
 OUTPUT s2.log
+OUTPUT s2.pdf
+INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map

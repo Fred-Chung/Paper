@@ -17,6 +17,20 @@ P(A|B) &=& \frac{P(A,B)}{P(B)} \\
 \end{itemize}
 \subsection{Prior Probability}
 
-\subsection{Likelihood Probability}
+A priori probability refers to an event that has not yet occurred, and an estimate of the probability of the event occurring, describing a variable in the absence of something.Prior information comes from experience and historical data
 
+\subsection{Likelihood Probability}
+\begin{itemize}
+  \item If the "probability function" P(B|A)/P(B)>1, it means that the "prior probability" is enhanced and the probability of the occurrence of event A becomes greater;
+  \item If "probability function" = 1, it means that event B does not help to determine the possibility of event A;
+  \item If the "probability function" <1, it means that the "prior probability" is weakened, and the probability of event A becomes smaller.
+\end{itemize}
 \subsection{Posterior probability}
+The posterior probability refers to the probability that the cause of the event is caused by a factor under the condition that the event has occurred. It is the conditional probability after considering an event.
+
+\subsection{conjugate prior}
+The posterior probability distribution function has the same form as the prior probability distribution function
+If the prior distribution and the likelihood function can make the prior distribution and the posterior distribution (posterior distributions) have the same form, then the prior distribution and the likelihood function are said to be conjugate. Therefore, conjugate refers to the prior probability distribution and likelihood function. If the posterior probability p(θ|x) and the gas prior probability p(θ) of a random variable Θ belong to the same distribution cluster, then p(θ|x) and p(θ) are called conjugate distributions, and , Also called p(θ) is the conjugate prior of the likelihood function p(x|θ).
+
+
+The conjugate prior and posterior have the same form. This can easily form an iteration in the calculation process. According to the new observation data, the original posterior probability becomes a new prior probability, and then a new posterior probability is updated. The parameters of this posterior probability are more accurate. . This process greatly simplifies Bayesian analysis
