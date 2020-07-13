@@ -1,7 +1,51 @@
-\chapter{Conclusion}\label{ccl}
+\chapter{Bound Dirichlet Belief Model}\label{ccl}
 
-In mathematics, certain kinds of mistaken proof are often exhibited, and sometimes collected, as illustrations of a concept of mathematical fallacy. There is a distinction between a simple mistake and a mathematical fallacy in a proof: a mistake in a proof leads to an invalid proof just in the same way, but in the best-known examples of mathematical fallacies, there is some concealment in the presentation of the proof. For example, the reason validity fails may be a division by zero that is hidden by algebraic notation. There is a striking quality of the mathematical fallacy: as typically presented, it leads not only to an absurd result, but does so in a crafty or clever way. Therefore these fallacies, for pedagogic reasons, usually take the form of spurious proofs of obvious contradictions. Although the proofs are flawed, the errors, usually by design, are comparatively subtle, or designed to show that certain steps are conditional, and should not be applied in the cases that are the exceptions to the rules. \\
+\section{Introduction}
+Unlike DirBN model which inference latent vairiables by propagating count matrix with Chinese Restaurant Table (CRT)
+distribution.In DBN model,we can forward variable sampling stratrgy for model inference.
+$$C_{i'..}^{l} \sim Multi(M^l;\pi_{i'.}^l \otimes w_{i'.}^l) \tag{1}$$
+$$\pi_i^{l+1} \sim Dirihlet(\alpha_d +\sum_{i'}{C_{i'.i}})\tag{2}$$
+\begin{itemize}
+  \item Information pass from Topic i' to Topic i
+  \item $\pi_{i'.}^l$ is the Topic-Word matrix in layer $l$
+  \item All layer has same Topic number
+  \item $w_{i'i}^l$ is the probability of Information distribution from topic i' to i
+  \item This is the reconstruction process.
+  \item  $\sum_{i'}{C_{i'.i}}$  is a (V*k) by 1 Vector.
+\end{itemize}
 
-\noindent The traditional way of presenting a mathematical fallacy is to give an invalid step of deduction mixed in with valid steps, so that the meaning of fallacy is here slightly different from the logical fallacy. The latter applies normally to a form of argument that is not a genuine rule of logic, where the problematic mathematical step is typically a correct rule applied with a tacit wrong assumption. Beyond pedagogy, the resolution of a fallacy can lead to deeper insights into a subject (such as the introduction of Pasch's axiom of Euclidean geometry and the five color theorem of graph theory). Pseudaria, an ancient lost book of false proofs, is attributed to Euclid. \\
+ Poisson-Multinomial Equivalence:
+ $$C_{i'ki}^{l} \sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag{3}$$
 
-\noindent Mathematical fallacies exist in many branches of mathematics. In elementary algebra, typical examples may involve a step where division by zero is performed, where a root is incorrectly extracted or, more generally, where different values of a multiple valued function are equated. Well-known fallacies also exist in elementary Euclidean geometry and calculus.
+\section{Inferene}
+\begin{enumerate}
+  \item Input matrix is topic-word matrix (K*N).Sampling $$\pi^{l}$$: Dirichlet posterior distribution(later)
+
+  \item Sampling $C_{i'ki}^l$.
+  $$P(C_{i'ki}^{l}|.) \sim \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}!}$$
+
+  $$P(\pi_i^{l+1}|C_{i'ki}^{l},..) = \frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1}$$
+
+  The posterior distribution of $C_{i'ki}^{l}$ is:
+
+  $$P(C_{i'ki}^{l}|.) \propto \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}!} .\frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1} $$
+
+  and
+
+  $\sum_{i'}{C_{i'ki}} = M^l$  (normalize)
+
+  \item Sampling $\pi_{i'}^l$,its posterior distribution is Dirichlet distribution.
+  $$\sum_i{C_{i'ki}} \sim Multi(M^l;\pi_{i'.}^l)$$
+
+  \item  Sampling $w$
+  * Likelihood
+  $$\sum_k{C_{i'ki}} \sim Multi(M^l;w_{i'.}^l)$$
+
+  * Prior distribution
+
+  $$W_{i'i} \sim Dirichlet(\alpha_w)$$
+
+  * Posterior distribution
+
+  $$p(w_{i'}|..) \sim Dirichlet(\alpha_w+w_{i'.})$$
+\end{enumerate}

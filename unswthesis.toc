@@ -32,5 +32,7 @@
 \contentsline {subsection}{\numberline {3.3.1}Research on Topic Distribution}{17}%
 \contentsline {subsection}{\numberline {3.3.2}Introduction of DIRBN}{18}%
 \contentsline {subsection}{\numberline {3.3.3}Inference of DirBN}{19}%
-\contentsline {chapter}{\numberline {Chapter 4}Conclusion}{20}%
-\contentsline {chapter}{References}{21}%
+\contentsline {chapter}{\numberline {Chapter 4}Bound Dirichlet Belief Model}{20}%
+\contentsline {section}{\numberline {4.1}Introduction}{20}%
+\contentsline {section}{\numberline {4.2}Inferene}{20}%
+\contentsline {chapter}{References}{22}%
