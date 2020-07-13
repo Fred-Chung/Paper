@@ -124,6 +124,9 @@ INPUT ./lda.png
 INPUT ./lda.png
 INPUT des/chapter3/session3/s3.tex
 INPUT des/chapter3/session3/s3.tex
+INPUT dirbn.png
+INPUT ./dirbn.png
+INPUT ./dirbn.png
 INPUT des/chapter4/heading/h.tex
 INPUT des/chapter4/heading/h.tex
 INPUT des/bib/b.tex

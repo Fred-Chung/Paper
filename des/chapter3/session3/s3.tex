@@ -36,6 +36,13 @@ butions in each layer of DBN are generated as Dirichlet
 random variables and can thus be interpreted as categorical
 distributions.Then  the hidden units are connected with gamma-distributed weights.
 
+\begin{figure}[htbp]
+% \centering % 图片居中
+\includegraphics[width = 13cm]{dirbn.png}
+\caption{The caption of this figure.}
+\label{fig:figure1label}
+\end{figure}
+
 In comparison to existing deep generative models,DirBN have better Interpretability on topics annd higher modelling accuracy.However,the current formulation of DBN odel suffers from decay during information passing.
 
 DBN’s deep architecture is currently limited to
@@ -46,3 +53,13 @@ formation back-propagation is that the information would
 decay in a O(log) rate on passing through one layer to its
 upper layer \cite{Zhou}. Therefore, little informa-
 tion might be available after a few layer back-propagations
+\subsection{Inference of DirBN}
+The training of DirBN model introduce several data augmentation techniques in the inference of latent variables.
+Given topic-doc matrix $\theta$ and topic-word matrix $\phi$we can sample the topic of each word ini each document.Then we get the topic-word count matrix $x_{k_1}^{(1)} = [x_{1k_1}^{(1)},\dots,x_{Vk_1}^{(1)}]$ which is also the input count vector of DirBN inference process.
+The process of Inference involve two key parts:
+\begin{enumerate}
+  \item Propagating the input count vector from
+Bottom to top.Due to the inconjugate property between these latent distri-butions, direct efficient Gibbs sampling over these random variables is difficult. Insteadchoose to first back propagates the observed counting information into each layer and then proceed forward variable Gibbs sampling.
+\item updating latent parameters from top to bottom.After back propagatation of latent count,update the variables by conjugate posterior distribution.
+
+\end{enumerate}

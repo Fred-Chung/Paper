@@ -1,0 +1,6 @@
+PWD /home/xpeng/UNSW/paper/des/chapter3/session4
+INPUT /usr/local/texlive/2020/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
+INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT s4.tex
+OUTPUT s4.log

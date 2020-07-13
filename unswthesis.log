@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  12 JUL 2020 20:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  13 JUL 2020 22:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -140,7 +140,11 @@ Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count188
 \l__pdf_internal_box=\box49
-) (./unswthesis.aux)
+) (./unswthesis.aux
+
+LaTeX Warning: Label `fig:figure1label' multiply defined.
+
+)
 \openout1 = `unswthesis.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
@@ -762,7 +766,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...er}{\numberline {Chapter 4}Conclusion}{19}
+l.34 ...\numberline {3.3.3}Inference of DirBN}{19}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -774,12 +778,26 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \contentsline {chapter}{References}{20}
+l.35 ...er}{\numberline {Chapter 4}Conclusion}{20}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:36: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 \contentsline {chapter}{References}{21}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-)
+[3
+
+])
 \tf@toc=\write3
 \openout3 = `unswthesis.toc'.
 
@@ -796,9 +814,7 @@ l.21 \afterpreface
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[3
-
-]) (./des/introduction/intro.tex
+[4]) (./des/introduction/intro.tex
 
 ./des/introduction/intro.tex:2: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1662,7 +1678,7 @@ You may provide a definition with
 LaTeX Warning: Citation `Probabilistic Latent Semantic Analysis' on page 13 undefined on input line 25.
 
 ) (./des/chapter3/session2/s2.tex
-<lda.png, id=81, 1084.05pt x 548.0475pt>
+<lda.png, id=84, 1084.05pt x 548.0475pt>
 File: lda.png Graphic file (type png)
 <use lda.png>
 Package pdftex.def Info: lda.png  used on input line 8.
@@ -1784,7 +1800,12 @@ Overfull \hbox (0.79845pt too wide) in paragraph at lines 34--38
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
-) (./des/chapter4/heading/h.tex [18]
+<dirbn.png, id=101, 679.53876pt x 301.125pt>
+File: dirbn.png Graphic file (type png)
+<use dirbn.png>
+Package pdftex.def Info: dirbn.png  used on input line 41.
+(pdftex.def)             Requested size: 369.88582pt x 163.9054pt.
+[18 <./dirbn.png>]) (./des/chapter4/heading/h.tex [19]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1806,7 +1827,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 5--6
 
  []
 
-) (./des/bib/b.tex [19
+) (./des/bib/b.tex [20
 
 ]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
@@ -1832,12 +1853,15 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20
+[21
 
 
 ] (./unswthesis.aux)
 
 LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
 
  )
 (\end occurred inside a group at level 1)
@@ -1845,19 +1869,19 @@ LaTeX Warning: There were undefined references.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2604 strings out of 480471
- 34235 string characters out of 5899396
- 273002 words of memory out of 5000000
- 18561 multiletter control sequences out of 15000+600000
+ 2610 strings out of 480471
+ 34308 string characters out of 5899396
+ 273041 words of memory out of 5000000
+ 18566 multiletter control sequences out of 15000+600000
  539791 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  31i,8n,27p,1079b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (24 pages, 609766 bytes).
+Output written on unswthesis.pdf (26 pages, 657731 bytes).
 PDF statistics:
- 157 PDF objects out of 1000 (max. 8388607)
- 104 compressed objects within 2 object streams
+ 165 PDF objects out of 1000 (max. 8388607)
+ 109 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

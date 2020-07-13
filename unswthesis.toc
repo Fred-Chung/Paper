@@ -31,5 +31,6 @@
 \contentsline {section}{\numberline {3.3}Dirichlet belief networks}{17}%
 \contentsline {subsection}{\numberline {3.3.1}Research on Topic Distribution}{17}%
 \contentsline {subsection}{\numberline {3.3.2}Introduction of DIRBN}{18}%
-\contentsline {chapter}{\numberline {Chapter 4}Conclusion}{19}%
-\contentsline {chapter}{References}{20}%
+\contentsline {subsection}{\numberline {3.3.3}Inference of DirBN}{19}%
+\contentsline {chapter}{\numberline {Chapter 4}Conclusion}{20}%
+\contentsline {chapter}{References}{21}%
