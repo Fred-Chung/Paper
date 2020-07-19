@@ -1,7 +1,7 @@
 \section{Basic distribution}
 
 \subsection{Beta distribution}
-The beta distribution can represent the probability distribution of a probability. When you don't know the specific probability of a thing, it can be called the probability of the occurrence of all probabilities
+The beta distribution can represent the probability distribution of a probability. When you don't know the specific probability of a thing, it can be called the probability of the occurrence of all probabilities.
 
 Definition The Beta Function,For each positive $\alpha$ and $\beta$.define:
 $$P(x|\alpha,\beta) = \frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1} $$
@@ -9,7 +9,7 @@ $$P(x|\alpha,\beta) = \frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1} $$
 % The function B is called beta function.
 $$B(\alpha,\beta) = \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\alpha+\beta}}$$
 
-For example,carry out $N$ times of Bernoulli test, the probability of success of the test p is subject to an a priori probability density distribution $Beta(\alpha,\beta)$ , the test result appears $K$ times of success of the test, the posterior probability density distribution of the probability p of the test success is $Beta(\alpha + K,\beta+N-K)$.Prove:
+For example,carry out $N$ times of Bernoulli test, the probability of success of the test p is subject to a priori probability density distribution $Beta(\alpha,\beta)$ , the test result appears $K$ times of success of the test, the posterior probability density distribution of the probability p of the test success is $Beta(\alpha + K,\beta+N-K)$.Prove:
 
 Prior distribution:
 \[
@@ -45,7 +45,100 @@ So that:
 
 
 \subsection{Dirichlet distribution}
-Dirichlet distribution is a generalization of the beta distribution in high dimensions
-\subsection{Poisson and Multinomal distribution}
-\subsection{conclusion}
-Taking a coin toss as an example, after you get a coin, normally the probability of a uniform coin appearing on both sides should be the same, both 0.5, but you are not sure about the material and weight distribution, you need to judge its Is it really evenly distributed
+Dirichlet distribution is a generalization of the beta distribution in high dimensions.So we can define the probility density function:
+\[
+  f(x_1,x_2,\ndots,x_n|\alpha_1,\ndots,\alpha_n) = \frac{1}{B(\alpha)} \prod_{i=1}^n x_i^{\alpha_i-1}
+\]
+where the parameter $\alpha_1,\dots,\alpha_n > 0$ and $\sum_{i=1}^n =1$
+
+Besides,the normalizing constant $B(\alpha)$ is the multivariate beta function:
+\[
+  B(\alpha) = \frac{\prod_{i=1}^n \Gamma(\alpha_i) }{\Gamma(\sum_{i=1}^k \alpha_i)}
+\]
+
+For example,carry out $K$ times of test, but
+This experiment will have $n$ results and the  probability of result is subject to a priori probability density distribution $Dirichlet(\alpha_1,\ndots,\alpha_N)$ ,
+The results of the experiment record the number of occurrences of each situation $[x_1,x_2,\ndots,x_n]$, the posterior probability density distribution of the probability of the test is subject to $Dirichlet(\alpha_1 + x_1,\ndots,\alpha_n+x_n)$.Prove:
+
+Prior distribution:
+\[
+  f(p_1,p_2,\ndots,p_n|\alpha_1,\dots,\alpha_n) = \frac{1}{B(\alpha)} \prod_{i=1}^n x_i^{\alpha_i-1}
+\]
+
+likelihood Function:
+\[
+  f(x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x_n} \prod_{i=1}^n p_i^{x_i}
+\]
+Posterior distribution:
+\begin{eqnarray*}
+  f(p_1,p_2,\dots,p_n|k,x_1 \dots x_n,\alpha_1 \dots \alpha_n) &=& \frac{f(x_1\ndot,x_n|k,p_1\dots p_n)*f(p_1 \ndots p_n|\alpha_1 \dots \alpha_n)}{\int_x f(k,x_1 \dots x_n,\alpha_1,\dots,\alpha_n)}
+\end{eqnarray*}
+
+Given that:
+\begin{eqnarray*}
+  \int_x f(k,x_1 \dots x_n,\alpha_1,\dots,\alpha_n) &=& \int_p f(x_1\ndot,x_n|k,p_1\dots p_n)*f(p_1 \ndots p_n|\alpha_1 \dots \alpha_n) \\
+  & = &\frac{k!}{x_1!,\ndots,x_n}  \frac{1}{B(\alpha)}  \int_p \prod_{i=1}^n p_1^{\alpha_1+x_1} \\
+  &=&  \frac{k!}{x_1!,\ndots,x_n!}  \frac{B(\alpha + x)}{B(\alpha)}
+\end{eqnarray*}
+
+\begin{eqnarray*}
+  f(x_1\ndot,x_n|k,p_1\dots p_n)*f(p_1 \ndots p_n|\alpha_1 \dots \alpha_n) &=& \frac{k!}{x_1!,\ndots,x_n} \prod_{i=1}^n p_i^{x_i} \frac{1}{B(\alpha)} \prod_{i=1}^n p_i^{\alpha_i-1} \\
+  &=& \frac{k!}{x_1!,\ndots,x_n!}  \frac{1}{B(\alpha)} \prod_{i=1}^n p_i^{x_i + \alpha_i-1} \\
+\end{eqnarray*}
+
+So that:
+\begin{eqnarray*}
+f(p_1,p_2,\dots,p_n|k,x_1 \dots x_n,\alpha_1 \dots \alpha_n) &=& \frac{1}{B(\alpha + x)} \prod_{i=1}^n p_i^{x_i + \alpha_i-1}\\
+  &=& Dirichlet(x + \alpha)
+\end{eqnarray*}
+
+
+
+
+
+
+
+\subsection{Poisson and Multinomial distribution}
+
+The Poisson process is a continuous time random process with discrete values. Poisson process is used to describe the number of occurrences of events in a period of time, so it is also a counting process. Given the time-dependent random variable as $N_t$, which is used to describe the number of occurrences of an event from time 0 to time $t$.
+
+
+In short: According to the average number of occurrences of a random event in a certain period of time or in a certain space in the past, poisson distribution can predict the probability that the random event will occur $k$ times in the same long time or the same large space in the future. Its probability mass function is:
+\[
+  P(X=K|\lambda) = \frac{e^{-\lambda} \lambda^k}{k!}
+\]
+st.
+\begin{itemize}
+  \item
+$\lambda$ is the average number of random events in a certain period of time or in a certain space in the past.
+\item$ k>0$.
+\end{itemize}
+
+
+Multinomial Distribution is a generalization of Binomial Distribution. Binomial does $n$ Bernoulli experiments, which stipulates that there are only two results for each experiment. If you still do $n$ experiments now, there can be as many as $m$ results for each experiment, and the probability of occurrence of m results Mutually exclusive and the sum is 1, then the probability of one of the results $X$ times is a multinomial distribution.
+
+\[
+  f(x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x_n} \prod_{i=1}^n p_i^{x_i}
+\]
+
+where $\sum_{i=1}^n = k$.
+
+There is some trandofrmation betweem poisson distribution and multinomial distribution.\cite{Betaa-negative binomial}.we assume that:
+\[
+  x_{pi} = \sum_{k=1}^K x_{pik}
+\]
+\[
+  x_{pik} \sim  Pois(\alpha_{pk}\theta_{ki})
+\]
+
+
+We introduce another equivalent augmentation as :
+\[
+  x_{pi} \sim Pois(\sum_{k=1}^K \alpha_{pk}\theta_{ki})
+\]
+\[
+  \eta_{pik} = \frac{\alpha_{pk}\theta{ki}}{\sum_{k=1}^K \alpha_{pk}\theta_{ki}}
+\]
+\[
+  f(x_{pi1} \dots x_{piK}) \sim Mult(x_{pi}|\eta_{pi1} \dots \eta_{piK})
+\]

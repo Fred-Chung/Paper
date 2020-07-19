@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  13 JUL 2020 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  19 JUL 2020 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -147,20 +147,20 @@ LaTeX Warning: Label `fig:figure1label' multiply defined.
 )
 \openout1 = `unswthesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
  (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count189
@@ -185,7 +185,7 @@ pdfTeX warning: pdflatex (file ./unsw-crest.pdf): PDF inclusion: found PDF versi
 <unsw-crest.pdf, id=1, 164.2938pt x 192.2382pt>
 File: unsw-crest.pdf Graphic file (type pdf)
 <use unsw-crest.pdf>
-Package pdftex.def Info: unsw-crest.pdf  used on input line 114.
+Package pdftex.def Info: unsw-crest.pdf  used on input line 115.
 (pdftex.def)             Requested size: 142.26378pt x 166.47147pt.
 [1
 
@@ -394,7 +394,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...numberline {1.2}topic of research paper}{2}
+l.3 ...numberline {1.2}topic of research paper}{3}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -406,7 +406,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ight the approach and principal finding}{2}
+l.4 ...ight the approach and principal finding}{3}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -418,7 +418,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...berline {1.4}Organization of this paper}{2}
+l.5 ...berline {1.4}Organization of this paper}{4}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -430,7 +430,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...}{\numberline {Chapter 2}Basic language}{3}
+l.6 ...}{\numberline {Chapter 2}Basic language}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -442,7 +442,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...tion}{\numberline {2.1}Bayesian Theorem}{3}
+l.7 ...tion}{\numberline {2.1}Bayesian Theorem}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -454,7 +454,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...n}{\numberline {2.1.1}Prior Probability}{3}
+l.8 ...n}{\numberline {2.1.1}Prior Probability}{8}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -466,7 +466,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 ...umberline {2.1.2}Likelihood Probability}{4}
+l.9 ...umberline {2.1.2}Likelihood Probability}{8}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -478,7 +478,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...umberline {2.1.3}Posterior probability}{4}
+l.10 ...umberline {2.1.3}Posterior probability}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -490,7 +490,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...on}{\numberline {2.1.4}conjugate prior}{4}
+l.11 ...on}{\numberline {2.1.4}conjugate prior}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -502,7 +502,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...n}{\numberline {2.2}Basic distribution}{4}
+l.12 ...}{\numberline {2.2}Basic distribution}{10}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -514,7 +514,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...}{\numberline {2.2.1}Beta distribution}{4}
+l.13 ...{\numberline {2.2.1}Beta distribution}{10}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -526,7 +526,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 ...mberline {2.2.2}Dirichlet distribution}{5}
+l.14 ...berline {2.2.2}Dirichlet distribution}{11}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -538,7 +538,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ....3}Poisson and Multinomal distribution}{5}
+l.15 ...}Poisson and Multinomial distribution}{13}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -550,7 +550,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...section}{\numberline {2.2.4}conclusion}{5}
+l.16 ... Chain Monte Carlo and Gibbs Sampling}{14}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -562,7 +562,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...v Chain Monte Carlo and Gibbs Sampling}{6}
+l.17 ...\numberline {2.3.1}Monte Carlo Method}{14}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -574,7 +574,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...{\numberline {2.3.1}Monte Carlo Method}{6}
+l.18 ...n}{\numberline {2.3.2}Sampling Method}{15}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -586,7 +586,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...on}{\numberline {2.3.2}Sampling Method}{7}
+l.19 ...tion}{\numberline {2.3.3}Markov Chain}{17}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -598,7 +598,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ...ction}{\numberline {2.3.3}Markov Chain}{8}
+l.20 ...{2.3.4}MCMC Sampling and M-H Sampling}{18}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -610,7 +610,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ... {2.3.4}MCMC Sampling and M-H Sampling}{9}
+l.21 ...on}{\numberline {2.3.5}Gibbs Sampling}{20}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -622,7 +622,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...on}{\numberline {2.3.5}Gibbs Sampling}{10}
+l.22 ...Chapter 3}Latent Dirichlet Allocation}{22}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -634,7 +634,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...Chapter 3}Latent Dirichlet Allocation}{12}
+l.23 ...}{\numberline {3.1}Model construction}{22}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -646,11 +646,14 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 ...}{\numberline {3.1}Model construction}{12}
+l.24 ...}Unigram and mixture of unigram model}{22}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[3
+
+]
 
 ./unswthesis.toc:25: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -658,7 +661,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ...}Unigram and mixture of unigram model}{12}
+l.25 ...robabilistic Latent Semantic Analysis}{23}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -670,7 +673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...robabilistic Latent Semantic Analysis}{13}
+l.26 ...line {3.2}Latent Dirichlet Allocation}{24}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -682,7 +685,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 ...line {3.2}Latent Dirichlet Allocation}{13}
+l.27 ...{3.2.1}Generative process of document}{24}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -694,7 +697,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 ...{3.2.1}Generative process of document}{14}
+l.28 ...berline {3.2.2}Gibbs Sampling for LDA}{27}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -706,7 +709,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...berline {3.2.2}Gibbs Sampling for LDA}{16}
+l.29 ...rline {3.2.3}Perplexity and Inference}{29}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -718,7 +721,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ...rline {3.2.3}Perplexity and Inference}{17}
+l.30 ...erline {3.3}Dirichlet belief networks}{29}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -730,7 +733,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...erline {3.3}Dirichlet belief networks}{17}
+l.31 ...{3.3.1}Research on Topic Distribution}{30}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -742,7 +745,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...{3.3.1}Research on Topic Distribution}{17}
+l.32 ...mberline {3.3.2}Introduction of DIRBN}{30}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -754,7 +757,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...mberline {3.3.2}Introduction of DIRBN}{18}
+l.33 ...\numberline {3.3.3}Inference of DirBN}{31}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -766,7 +769,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...\numberline {3.3.3}Inference of DirBN}{19}
+l.34 ...hapter 4}Bound Dirichlet Belief Model}{33}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -778,7 +781,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 ...hapter 4}Bound Dirichlet Belief Model}{20}
+l.35 ...ection}{\numberline {4.1}Introduction}{33}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -790,7 +793,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 ...ection}{\numberline {4.1}Introduction}{20}
+l.36 ...e {section}{\numberline {4.2}Inferene}{33}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -802,22 +805,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.37 ...e {section}{\numberline {4.2}Inferene}{20}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[3
-
-]
-
-./unswthesis.toc:38: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.38 \contentsline {chapter}{References}{22}
+l.37 \contentsline {chapter}{References}{35}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1030,6 +1018,9 @@ l.13
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+[1
+
+]
 
 ./des/introduction/intro.tex:14: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -1066,14 +1057,24 @@ l.16 \begin{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[1
 
-]
 Overfull \hbox (36.87157pt too wide) in paragraph at lines 24--25
 \OT1/cmr/m/n/12 im-posed on topic dis-trib-tion.For ex-am-ple,The cor-re-la-tion topic model(CTM)[[]],which
  []
 
-) (./des/chapter2/heading/h.tex [2]
+[2]
+
+LaTeX Warning: Citation `Poisson facotr analysis' on page 3 undefined on input line 26.
+
+
+LaTeX Warning: Citation `dirbn' on page 3 undefined on input line 28.
+
+
+Overfull \hbox (26.52724pt too wide) in paragraph at lines 32--34
+\OT1/cmr/m/n/12 edge of Bayesian The-o-rem,common dis-tri-bu-tion used in this pa-per.Besides,inference
+ []
+
+[3]) (./des/chapter2/heading/h.tex [4]
 Chapter 2.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1085,101 +1086,36 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
  [] 
  []
 
-) (./des/chapter2/session1/s1.tex [3
+) (./des/chapter2/session1/s1.tex [5
 
 ]
 
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+./des/chapter2/session1/s1.tex:22: Package inputenc Error: Unicode character ． (U+FF0E)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...unction. If the posterior probability p(θ
-                                                  |x) and the gas prior prob...
+l.22 ...green , but the witness sees it as blue．
+                                                  
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
+./des/chapter2/session1/s1.tex:36: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...p(θ|x) and the gas prior probability p(θ
-                                                  ) of a random variable Θ ...
+l.36 P(B|E) &=& 　
+                   \frac{P(B,E)}{P(E)} \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character Θ (U+0398)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ... probability p(θ) of a random variable Θ
-                                                   belong to the same distri...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...o the same distribution cluster, then p(θ
-                                                  |x) and p(θ) are called c...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...istribution cluster, then p(θ|x) and p(θ
-                                                  ) are called conjugate dis...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...gate distributions, and , Also called p(θ
-                                                  ) is the conjugate prior o...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter2/session1/s1.tex:33: Package inputenc Error: Unicode character θ (U+03B8)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.33 ...te prior of the likelihood function p(x|θ
-                                                  ).
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-) (./des/chapter2/session2/s2.tex [4]
+[6] [7] [8]) (./des/chapter2/session2/s2.tex [9]
 ./des/chapter2/session2/s2.tex:16: Misplaced alignment tab character &.
 l.16   f(p|\alpha,\beta) &
                           =& \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\al...
@@ -1229,6 +1165,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[10]
 ./des/chapter2/session2/s2.tex:35: Undefined control sequence.
 l.35   f(n_1,n_2,\ndot
                       ,N|p)f(p|\alpha,\beta) &=& \frac{1}{B(\alpha,\beta)}x^...
@@ -1254,7 +1191,253 @@ Overfull \hbox (7.83727pt too wide) in alignment at lines 34--38
  [][][] []
  []
 
-) (./des/chapter2/session3/s3.tex [5]
+./des/chapter2/session2/s2.tex:50: Undefined control sequence.
+l.50   f(x_1,x_2,\ndots
+                       ,x_n|\alpha_1,\ndots,\alpha_n) = \frac{1}{B(\alpha)} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:50: Undefined control sequence.
+l.50   f(x_1,x_2,\ndots,x_n|\alpha_1,\ndots
+                                           ,\alpha_n) = \frac{1}{B(\alpha)} ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:60: Undefined control sequence.
+l.60 ...ty distribution $Dirichlet(\alpha_1,\ndots
+                                                  ,\alpha_N)$ ,
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:61: Undefined control sequence.
+l.61 ...rrences of each situation $[x_1,x_2,\ndots
+                                                  ,x_n]$, the posterior prob...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:61: Undefined control sequence.
+l.61 ...ubject to $Dirichlet(\alpha_1 + x_1,\ndots
+                                                  ,\alpha_n+x_n)$.Prove:
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[11]
+./des/chapter2/session2/s2.tex:65: Undefined control sequence.
+l.65   f(p_1,p_2,\ndots
+                       ,p_n|\alpha_1,\dots,\alpha_n) = \frac{1}{B(\alpha)} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:70: Undefined control sequence.
+l.70   f(x_1,x_2,\ndot
+                      ,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:70: Misplaced alignment tab character &.
+l.70   f(x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &
+                                                 =&  \frac{k!}{x_1!,\ndots,x...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:70: Misplaced alignment tab character &.
+l.70 ...x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &=&
+                                                    \frac{k!}{x_1!,\ndots,x_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:70: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n
+l.70 ...\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x_n}
+                                                   \prod_{i=1}^n p_i^{x_i}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:74: Undefined control sequence.
+<argument> f(x_1\ndot 
+                      ,x_n|k,p_1\dots p_n)*f(p_1 \ndots p_n|\alpha _1 \dots ...
+l.74 ...(k,x_1 \dots x_n,\alpha_1,\dots,\alpha_n)}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:74: Undefined control sequence.
+<argument> ...t ,x_n|k,p_1\dots p_n)*f(p_1 \ndots 
+                                                  p_n|\alpha _1 \dots \alpha...
+l.74 ...(k,x_1 \dots x_n,\alpha_1,\dots,\alpha_n)}
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.25278pt too wide) in alignment at lines 73--75
+ [][][] []
+ []
+
+./des/chapter2/session2/s2.tex:79: Undefined control sequence.
+l.79 ...ha_1,\dots,\alpha_n) &=& \int_p f(x_1\ndot
+                                                  ,x_n|k,p_1\dots p_n)*f(p_1...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:79: Undefined control sequence.
+l.79 ...(x_1\ndot,x_n|k,p_1\dots p_n)*f(p_1 \ndots
+                                                   p_n|\alpha_1 \dots \alpha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:80: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n
+l.80   & = &\frac{k!}{x_1!,\ndots,x_n}
+                                        \frac{1}{B(\alpha)}  \int_p \prod_{i...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:81: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n!
+l.81   &=&  \frac{k!}{x_1!,\ndots,x_n!}
+                                         \frac{B(\alpha + x)}{B(\alpha)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:85: Undefined control sequence.
+l.85   f(x_1\ndot
+                 ,x_n|k,p_1\dots p_n)*f(p_1 \ndots p_n|\alpha_1 \dots \alpha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:85: Undefined control sequence.
+l.85   f(x_1\ndot,x_n|k,p_1\dots p_n)*f(p_1 \ndots
+                                                   p_n|\alpha_1 \dots \alpha...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:85: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n
+l.85 ...s \alpha_n) &=& \frac{k!}{x_1!,\ndots,x_n}
+                                                   \prod_{i=1}^n p_i^{x_i} \...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:86: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n!
+l.86   &=& \frac{k!}{x_1!,\ndots,x_n!}
+                                        \frac{1}{B(\alpha)} \prod_{i=1}^n p_...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[12]
+./des/chapter2/session2/s2.tex:121: Undefined control sequence.
+l.121   f(x_1,x_2,\ndot
+                       ,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./des/chapter2/session2/s2.tex:121: Misplaced alignment tab character &.
+l.121   f(x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &
+                                                  =&  \frac{k!}{x_1!,\ndots,...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:121: Misplaced alignment tab character &.
+l.121 ..._1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &=&
+                                                    \frac{k!}{x_1!,\ndots,x_...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter2/session2/s2.tex:121: Undefined control sequence.
+<argument> x_1!,\ndots 
+                       ,x_n
+l.121 ...dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x_n}
+                                                   \prod_{i=1}^n p_i^{x_i}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Warning: Citation `Betaa-negative binomial' on page 13 undefined on input line 126.
+
+[13]) (./des/chapter2/session3/s3.tex
 ./des/chapter2/session3/s3.tex:12: Missing $ inserted.
 <inserted text> 
                 $
@@ -1412,12 +1595,12 @@ l.18 ...��​to represent all $f(x)$ values ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[6]
+[14]
 Overfull \hbox (45.25694pt too wide) in paragraph at lines 36--38
 []\OT1/cmr/m/n/12 Assuming that $\OML/cmm/m/it/12 x$ \OT1/cmr/m/n/12 is a con-tin-u-ous ran-dom vari-able, sub-ject to a ran-dom distribution$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$,
  []
 
-[7]
+[15] [16]
 ./des/chapter2/session3/s3.tex:81: Missing $ inserted.
 <inserted text> 
                 $
@@ -1507,6 +1690,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
+[17]
 
 ./des/chapter2/session3/s3.tex:87: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1533,7 +1717,6 @@ l.87 ...irst column of the result matrix is ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[8]
 ./des/chapter2/session3/s3.tex:108: Undefined control sequence.
 l.108   \pi(i)Q(i,j)\alpha(i,j) \eq
                                     \pi(j)Q(j,i)\alpha(j,i)
@@ -1543,6 +1726,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[18]
 
 ./des/chapter2/session3/s3.tex:128: Package inputenc Error: Unicode character ， (U+FF0C)
 (inputenc)                not set up for use with LaTeX.
@@ -1646,7 +1830,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[9] [10]) (./des/chapter3/heading/h.tex [11]
+[19] [20]) (./des/chapter3/heading/h.tex [21]
 Chapter 3.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
@@ -1658,7 +1842,9 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
  [] 
  []
 
-) (./des/chapter3/session1/s1.tex
+) (./des/chapter3/session1/s1.tex [22
+
+]
 ./des/chapter3/session1/s1.tex:18: Missing \endcsname inserted.
 <to be read again> 
                    \@@par 
@@ -1668,11 +1854,8 @@ The control sequence marked <to be read again> should
 not appear between \csname and \endcsname.
 
 
-LaTeX Warning: Citation `Text Classi{\@@par }cation from Labeled and Unlabeled Documents using EM' on page 12 undefined on input line 18.
+LaTeX Warning: Citation `Text Classi{\@@par }cation from Labeled and Unlabeled Documents using EM' on page 23 undefined on input line 18.
 
-[12
-
-]
 
 ./des/chapter3/session1/s1.tex:25: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1700,10 +1883,10 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-LaTeX Warning: Citation `Probabilistic Latent Semantic Analysis' on page 13 undefined on input line 25.
+LaTeX Warning: Citation `Probabilistic Latent Semantic Analysis' on page 23 undefined on input line 25.
 
-) (./des/chapter3/session2/s2.tex
-<lda.png, id=84, 1084.05pt x 548.0475pt>
+[23]) (./des/chapter3/session2/s2.tex
+<lda.png, id=119, 1084.05pt x 548.0475pt>
 File: lda.png Graphic file (type png)
 <use lda.png>
 Package pdftex.def Info: lda.png  used on input line 8.
@@ -1713,12 +1896,12 @@ Overfull \hbox (2.84546pt too wide) in paragraph at lines 8--9
 [][] 
  []
 
-[13]
+[24]
 Overfull \hbox (2.90704pt too wide) in paragraph at lines 20--21
 []\OT1/cmr/m/n/12 Sampling from Dirich-let dis-tri-bu-tion $\OML/cmm/m/it/12 eta$ \OT1/cmr/m/n/12 to gen-er-ate word distribution$\OML/cmm/m/it/12 ^^L[]$
  []
 
-[14 <./lda.png (PNG copy)>]
+[25 <./lda.png (PNG copy)>]
 ./des/chapter3/session2/s2.tex:39: Undefined control sequence.
 l.39 ...\int \prod_{k=1}^K p_k^{n_k} Dir(p|\alphha
                                                   ) d_p \\
@@ -1728,6 +1911,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[26]
 ./des/chapter3/session2/s2.tex:55: Undefined control sequence.
 l.55 ...        &=& \frac{1}{B(\alpha)}\int \prowd
                                                   _{k=1}{V}p_k^{n_k+\alpha_k...
@@ -1737,7 +1921,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[15]
 ./des/chapter3/session2/s2.tex:70: Undefined control sequence.
 l.70 ...beta) & = & p(\vec{w}|\vec{z},\beta)p(\vev
                                                   {z}|\alpha) \\
@@ -1747,6 +1930,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[27]
 
 ./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝐾 (U+1D43E)
 (inputenc)                not set up for use with LaTeX.
@@ -1812,25 +1996,26 @@ l.100 　
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[16]) (./des/chapter3/session3/s3.tex
+[28]) (./des/chapter3/session3/s3.tex
 
-LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 17 undefined on input line 8.
+LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 29 undefined on input line 8.
 
-[17]
+[29]
 
-LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 18 undefined on input line 19.
+LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 30 undefined on input line 19.
 
 
 Overfull \hbox (0.79845pt too wide) in paragraph at lines 34--38
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
-<dirbn.png, id=101, 679.53876pt x 301.125pt>
+[30]
+<dirbn.png, id=142, 679.53876pt x 301.125pt>
 File: dirbn.png Graphic file (type png)
 <use dirbn.png>
 Package pdftex.def Info: dirbn.png  used on input line 41.
 (pdftex.def)             Requested size: 369.88582pt x 163.9054pt.
-[18 <./dirbn.png>]) (./des/chapter4/heading/h.tex [19]
+ [31 <./dirbn.png>]) (./des/chapter4/heading/h.tex [32]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1881,9 +2066,9 @@ l.18 ...sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag
 you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
-[20
+[33
 
-]) (./des/bib/b.tex [21]
+]) (./des/bib/b.tex [34]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 [] 
  []
@@ -1895,19 +2080,19 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 
 )
 
-./unswthesis.tex:144: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{document}.
+./unswthesis.tex:145: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.144 \end{document}
+l.145 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22
+[35
 
 
 ] (./unswthesis.aux)
@@ -1924,18 +2109,18 @@ LaTeX Warning: There were multiply-defined labels.
 ### bottom level 
 Here is how much of TeX's memory you used:
  2610 strings out of 480471
- 34308 string characters out of 5899396
- 274041 words of memory out of 5000000
+ 34296 string characters out of 5899396
+ 273044 words of memory out of 5000000
  18566 multiletter control sequences out of 15000+600000
  539791 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,819b,351s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,989b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (27 pages, 661228 bytes).
+Output written on unswthesis.pdf (40 pages, 678650 bytes).
 PDF statistics:
- 168 PDF objects out of 1000 (max. 8388607)
- 111 compressed objects within 2 object streams
+ 211 PDF objects out of 1000 (max. 8388607)
+ 141 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
