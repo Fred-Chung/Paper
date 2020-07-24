@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  19 JUL 2020 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  20 JUL 2020 23:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1534,15 +1534,6 @@ l.18 Then we can sample$n$ values ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:18: Undefined control sequence.
-l.18 ...n the $[a,b]$, interval: $x_0,x_1,\dots,\x
-                                                  _n$, and use their average...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 
 ./des/chapter2/session3/s3.tex:18: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
@@ -1551,7 +1542,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...ts,\x_n$, and use their average values ​
+l.18 ...ots,x_n$, and use their average values ​
                                                   ​to represent all $f(x)$...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1564,7 +1555,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...\x_n$, and use their average values ​​
+l.18 ...,x_n$, and use their average values ​​
                                                   to represent all $f(x)$ va...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1601,124 +1592,35 @@ Overfull \hbox (45.25694pt too wide) in paragraph at lines 36--38
  []
 
 [15] [16]
-./des/chapter2/session3/s3.tex:81: Missing $ inserted.
-<inserted text> 
-                $
-l.81 
-     
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-./des/chapter2/session3/s3.tex:81: Missing } inserted.
-<inserted text> 
-                }
-l.81 
-     
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./des/chapter2/session3/s3.tex:81: Display math should end with $$.
-<to be read again> 
-                   \@@par 
-l.81 
-     
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./des/chapter2/session3/s3.tex:81: Extra }, or forgotten \endgroup.
-\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
-                                                  \fi 
-l.81 
-     
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./des/chapter2/session3/s3.tex:82: LaTeX Error: Bad math environment delimiter.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.82 \end{equation}
-                   }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./des/chapter2/session3/s3.tex:82: You can't use `\eqno' in vertical mode.
-\endmathdisplay@a ...\df@tag \@empty \else \veqno 
-                                                  \alt@tag \df@tag \fi \ifx ...
-l.82 \end{equation}
-                   }
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-./des/chapter2/session3/s3.tex:82: Missing $ inserted.
-<inserted text> 
-                $
-l.82 \end{equation}
-                   }
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-./des/chapter2/session3/s3.tex:82: Display math should end with $$.
-<to be read again> 
-                   \endgroup 
-l.82 \end{equation}
-                   }
-The `$' that I just saw supposedly matches a previous `$$'.
-So I shall assume that you typed `$$' both times.
-
-./des/chapter2/session3/s3.tex:82: Extra }, or forgotten \endgroup.
-l.82 \end{equation}}
-                    
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[17]
-
-./des/chapter2/session3/s3.tex:87: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:86: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 ...d first column of the result matrix is ​
+l.86 ...d first column of the result matrix is ​
                                                   ​performing the operatio...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:87: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:86: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87 ...irst column of the result matrix is ​​
+l.86 ...irst column of the result matrix is ​​
                                                   performing the operation t...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:108: Undefined control sequence.
-l.108   \pi(i)Q(i,j)\alpha(i,j) \eq
+[17]
+./des/chapter2/session3/s3.tex:107: Undefined control sequence.
+l.107   \pi(i)Q(i,j)\alpha(i,j) \eq
                                     \pi(j)Q(j,i)\alpha(j,i)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1728,66 +1630,66 @@ and I'll forget about whatever was undefined.
 
 [18]
 
-./des/chapter2/session3/s3.tex:128: Package inputenc Error: Unicode character ， (U+FF0C)
+./des/chapter2/session3/s3.tex:127: Package inputenc Error: Unicode character ， (U+FF0C)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.128       \item if $u<\pi(x_*)Q(x_*|x_0)$，
+l.127       \item if $u<\pi(x_*)Q(x_*|x_0)$，
                                               then accept x_*.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:128: Missing $ inserted.
+./des/chapter2/session3/s3.tex:127: Missing $ inserted.
 <inserted text> 
                 $
-l.128 ...f $u<\pi(x_*)Q(x_*|x_0)$，then accept x_
+l.127 ...f $u<\pi(x_*)Q(x_*|x_0)$，then accept x_
                                                   *.
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 
-./des/chapter2/session3/s3.tex:129: LaTeX Error: Command \end{itemize} invalid in math mode.
+./des/chapter2/session3/s3.tex:128: LaTeX Error: Command \end{itemize} invalid in math mode.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{itemize}
+l.128     \end{itemize}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./des/chapter2/session3/s3.tex:129: LaTeX Error: Something's wrong--perhaps a missing \item.
+./des/chapter2/session3/s3.tex:128: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{itemize}
+l.128     \end{itemize}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-./des/chapter2/session3/s3.tex:129: LaTeX Error: Something's wrong--perhaps a missing \item.
+./des/chapter2/session3/s3.tex:128: LaTeX Error: Something's wrong--perhaps a missing \item.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129     \end{itemize}
+l.128     \end{itemize}
                        
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./des/chapter2/session3/s3.tex:129: Missing $ inserted.
+./des/chapter2/session3/s3.tex:128: Missing $ inserted.
 <inserted text> 
                 $
-l.129     \end{itemize}
+l.128     \end{itemize}
                        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -1796,33 +1698,33 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-./des/chapter2/session3/s3.tex:133: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:132: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...ch as 0.1, most of our sampled values ​
+l.132 ...ch as 0.1, most of our sampled values ​
                                                   ​are rejected and the sa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:133: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:132: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 ...as 0.1, most of our sampled values ​​
+l.132 ...as 0.1, most of our sampled values ​​
                                                   are rejected and the sampl...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:138: Undefined control sequence.
-l.138   \pi(i)Q(i,j)\alpha(i,j) \eq
+./des/chapter2/session3/s3.tex:137: Undefined control sequence.
+l.137   \pi(i)Q(i,j)\alpha(i,j) \eq
                                     \pi(j)Q(j,i)\alpha(j,i)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2117,7 +2019,7 @@ Here is how much of TeX's memory you used:
  31i,8n,27p,989b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (40 pages, 678650 bytes).
+Output written on unswthesis.pdf (40 pages, 678563 bytes).
 PDF statistics:
  211 PDF objects out of 1000 (max. 8388607)
  141 compressed objects within 2 object streams

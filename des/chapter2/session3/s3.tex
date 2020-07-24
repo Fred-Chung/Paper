@@ -3,10 +3,10 @@
 \subsection{Monte Carlo Method}
 The Monte Carlo method is a calculation method. The principle is to understand a system through a large number of random samples, and then get the value to be calculated.
 
-It is very powerful and flexible, yet quite easy to understand and easy to implement. For many problems, it is often the simplest calculation method, and sometimes even the only feasible method.
-As a random sampling method, Markov Chain Monte Carlo (hereinafter referred to as MCMC) has a wide range of applications in the fields of machine learning, deep learning, and natural language processing, and is the basis of many complex algorithms.
+It is very powerful and flexible and  quite easy to understand and  implement. For many problems, it is often the simplest calculation method, and sometimes even the only feasible method.
+As a random sampling method, Markov Chain Monte Carlo has a wide range of applications in the fields of machine learning, deep learning, and natural language processing, and is the basis of many complex algorithms.
 
-The early Monte Carlo methods were designed to solve some summation or integration problems that are not very easy to solve. Such as points:
+The early Monte Carlo methods were designed to solve some summation or integration problems that are not very easy to solve. Such as :
 \[
 Y = \int_a^b f(x)
 
@@ -15,7 +15,7 @@ Y = \int_a^b f(x)
 We can get the answer by Newton-Leibniz formula if the function is simple enough.However,
 In most cases, it is difficult to find the original function of $f(x)$. Of course, we can use the Monte Carlo method to simulate the conversion approximation
 
-Then we can sample$n$ values ​​in the $[a,b]$, interval: $x_0,x_1,\dots,\x_n$, and use their average values ​​to represent all $f(x)$ values ​​in the $[a,b]$ interval. So our approximate solution to the definite integral above is:
+Then we can sample$n$ values ​​in the $[a,b]$, interval: $x_0,x_1,\dots,x_n$, and use their average values ​​to represent all $f(x)$ values ​​in the $[a,b]$ interval. So our approximate solution to the definite integral above is:
 \[
   Y = \frac{b-a}{n}\sum^n f(x_i)
 \]
@@ -31,7 +31,7 @@ Our question now turns to how to find the distribution of $x$
 \subsection{Sampling Method}
 The key to the Monte Carlo method is to get the probability distribution of $x$. If the probability distribution of $x$ is found, we can sample n sample sets based on this probability distribution based on the probability distribution and bring it into the Monte Carlo summation formula to solve.
 
-For the common uniform distribution, $uniform (0,1)$,It  is very easy to sample samples, generally through the linear congruential generator can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
+For the common uniform distribution-$uniform (0,1)$,It  is very easy to get samples, generally through the linear congruential generator that can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
 
 Assuming that $x$ is a continuous random variable, subject to a random distribution$f(x)$, its cumulative distribution function is $F(X)$.We assume that $Y = F(X)$ is subject to 0-1 uniform distribution and $F^{-1}(Y)$ have same distribution with $X$.For example:
 PDF of Expoential distribution:
@@ -45,14 +45,14 @@ CDF of Expoential distribution:
 Inverse sampling inference:
 
 \begin{eqnarray*}
-u &~& Uniform(0,1) \\
+u & \sim & Uniform(0,1) \\
 F(F^{-1}(Y)) &=& 1- exp^{\lambda*F^{-1}(Y)} = u \\
 F^{-1}(Y) &=&-\frac{\log(1-u)}{\lambda}
 \end{eqnarray*}
 
 But many times, our probability distribution is not a common distribution, which means that we can't easily get a sample set of these unusual probability distributions. We need to Reject-Sampling method.
 
-The basic idea of Reject-Sampling is to cover the "smaller probability distribution" with a "larger probability distribution". This "larger probability distribution" is more easier to sample (standard distribution), and at the same time accept this  sample with a certain probability. The sample can be seen as a sample from the "smaller probability distribution"
+The basic idea of Reject-Sampling is to cover the smaller probability distribution with a larger probability distribution. This larger probability distribution is more easier to sample (standard distribution), and at the same time accept this  sample with a certain probability. The sample can be seen as a sample from the "smaller probability distribution"
 
 
 We can solve some cases  by Reject-Sampling when the probability distribution is not common.However,in the case of high dimensions, Rejection Sampling will have two problems. The first is that the proposal  distribution $q$ is difficult to find, and the second is that it is difficult to determine a reasonable value of $k$. These two problems will lead to a high rejection rate and an increase in useless calculations.
@@ -70,16 +70,15 @@ From the probability density function $p(X)$ of a known distribution, we want to
 This is a random process from state to state in the state space. This process requires the "no memory" attribute: the probability distribution of the next state can only be determined by the current state, and the events before it in the time series have nothing to do with it. This special type of "no memory" is called the Markov attribute. Markov chains have many applications as statistical models of actual processes
 
 
-In order to obtain a theoretical result, let's look at a smaller example (this will facilitate our subsequent calculation demonstration), assuming that in a region, people either live in the city or live in the countryside. The matrix below tells us some laws (or tendencies) of population migration. For example, the first column of row 1 indicates that 90 percent of the population currently living in cities will choose to continue to live in cities next year.
-\begin{equation}
+In order to obtain a theoretical result, let's look at a smaller example (this will facilitate our subsequent calculation demonstration), assuming that in a region, people either live in the city or live in the countryside. The matrix below tells us some laws  of population migration. For example, the first column of row 1 indicates that 90 percent of the population currently living in cities will choose to continue to live in cities next year and 80 \% of people who live in country will continue to stay in country.
+$$
 H_x={
 \left[ \begin{array}{ccc}
 0.9 & 0.1 \\
 0.2 & 0.8\\
 \end{array}
 \right ]}
-
-\end{equation}}
+$$
 
 As a simple start, try to calculate the odds of people living in cities today who will live in the countryside after 2 years. Analysis shows that 90 of people currently living in the city will continue to choose to live in the city after 1 year, and 10 will move to the country. Then another year passed, and 10 of those who chose to stay in the city last year moved to the countryside. And 98 of those who moved to the village last year will choose to stay in the village. This analysis process is shown in the figure below, and finally the probability that people who live in the city will live in the countryside after 2 years = 0.90×0.10+0.10×0.98
 
