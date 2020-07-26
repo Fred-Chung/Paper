@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1595257912 "unswthesis.tex" "unswthesis.pdf" "unswthesis" 1595257912
+["pdflatex"] 1595568379 "unswthesis.tex" "unswthesis.pdf" "unswthesis" 1595568379
   "/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1136768653 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -73,10 +73,10 @@
   "/usr/local/texlive/2020/texmf.cnf" 1593824823 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "des/abstract/abs.tex" 1595136570 1262 0537221a0deb44bf44dd72a6395ec5c5 ""
   "des/bib/b.tex" 1594558213 1695 3a355f90b64c58f9fa3d7211bc2f5d7e ""
-  "des/chapter2/heading/h.tex" 1594440916 497 fe346af2ce89afc3ea8aec06a86569f5 ""
+  "des/chapter2/heading/h.tex" 1595568225 517 c5bd568645d3d0c7a42e4e6816655cc5 ""
   "des/chapter2/session1/s1.tex" 1595159754 7628 58e6eea661c72b37c2d94dcd196dbfc5 ""
   "des/chapter2/session2/s2.tex" 1595165732 6418 cd9d4a79d6c25e857a357538d78e0f38 ""
-  "des/chapter2/session3/s3.tex" 1595257909 12953 a17cfbb06d25795e279127e3aef0648f ""
+  "des/chapter2/session3/s3.tex" 1595568376 12914 c0e91d3740437bd1505685cd4d9ee519 ""
   "des/chapter3/heading/h.tex" 1594442058 1009 9f925780ee67a01f89687d806fd1ad4b ""
   "des/chapter3/session1/s1.tex" 1594456231 3134 86314459e5b4abd10e5f8ac7dd642d69 ""
   "des/chapter3/session2/s2.tex" 1594526381 8490 8ac651c79057ce63ba0ddb3609ea82e4 ""
@@ -88,12 +88,12 @@
   "dirbn.png" 1594558440 60891 c7ec4a1c60098378d18406d2ccea4170 ""
   "lda.png" 1594457750 60828 b635436059794155ffcb1aa00158c118 ""
   "unsw-crest.pdf" 1593822593 331013 5c9b7a65f4fb3a96f83a9f2e4d25cf82 ""
-  "unswthesis.aux" 1595257912 5710 4890a5d41a5568dfb94bda8dfb5bac84 "pdflatex"
+  "unswthesis.aux" 1595568379 5710 4890a5d41a5568dfb94bda8dfb5bac84 "pdflatex"
   "unswthesis.cls" 1593822516 34501 3924344de9d2a2682eb58dd6301ee14f ""
   "unswthesis.tex" 1595145474 4833 ce6a0dbaad0767e8866ed62e6fcb5b41 ""
-  "unswthesis.toc" 1595257912 2706 c13450bcf75d6956fe92651890b86f1f "pdflatex"
+  "unswthesis.toc" 1595568379 2706 c13450bcf75d6956fe92651890b86f1f "pdflatex"
   (generated)
-  "unswthesis.log"
-  "unswthesis.aux"
-  "unswthesis.toc"
   "unswthesis.pdf"
+  "unswthesis.aux"
+  "unswthesis.log"
+  "unswthesis.toc"

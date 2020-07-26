@@ -84,10 +84,8 @@ As a simple start, try to calculate the odds of people living in cities today wh
 
 
 In fact, you will find that our calculation process is to do the square of the matrix. As shown in the following figure, you will find that the calculation in the second row and first column of the result matrix is ​​performing the operation that is processed above. On this basis, we can also continue to calculate the situation after n years, that is, the result of calculating the self-multiplication of matrix A n time
-https://zhuanlan.zhihu.com/p/37121528
-The algorithm is as follows:
 
-Enter the Markov chain state transition matrix , set the state transition times threshold , the required number of samples ;Sampling from any simple probability distribution to get the initial state value ;sample  from the conditional probability distribution ;The sample set is the corresponding sample set that meets our stationary distribution.
+The algorithm is as follows:Enter the Markov chain state transition matrix , set the state transition times threshold , the required number of samples ;Sampling from any simple probability distribution to get the initial state value ;sample  from the conditional probability distribution ;The sample set is the corresponding sample set that meets our stationary distribution.
 
 
 If it is assumed that we can obtain the Markov chain state transition matrix corresponding to the stationary distribution of the samples we need to sample, then we can use the Markov chain sampling to obtain the sample set we need, and then perform Monte Carlo simulation.
@@ -114,7 +112,7 @@ But how can we get the $\alpha$,by symmetry:
 \end{eqnarray*}
 
 
-$\alpha$ is generally called acceptance rate, and the value is between $[0-1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.
+$\alpha$ is generally called acceptance rate, and the value is between $[0～1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.
 
 MCMC sampling algorithm is as follows:
 \begin{enumerate}
@@ -129,12 +127,12 @@ MCMC sampling algorithm is as follows:
 \end{enumerate}
 
 
-But this sampling algorithm is still more difficult to apply in practice, because in the third step, because accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable. At this time, it is our Metropolis-Hastings sampling Method.
+But this sampling algorithm is still more difficult to apply in practice, because in the third step, because accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable.
 
-M-H sampling solves the problem of low MCMC sampling acceptance rate in the previous section.
+At this time, it is our Metropolis-Hastings sampling Method.M-H sampling solves the problem of low MCMC sampling acceptance rate in the previous section.
 
 We can expand both sides of \[
-  \pi(i)Q(i,j)\alpha(i,j) \eq \pi(j)Q(j,i)\alpha(j,i)
+  \pi(i)Q(i,j)\alpha(i,j) ＝ \pi(j)Q(j,i)\alpha(j,i)
 \], and at this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c\alpha(ij)$ (accurately, the maximum expansion of both sides is 1), so that we can Improves the acceptance rate of jumps in sampling, so we can take:
 \[
   \alpha = min{\frac{Q(j,i)\alpha(j,i)}{Q(i,j)\alpha(i,j)},1}
@@ -142,7 +140,7 @@ We can expand both sides of \[
 
 In the era of big data, M-H sampling faces two major challenges:
 \begin{enumerate}
-  \item Our data features are very many, M-H sampling due to the existence of the acceptance rate calculation formula [formula], the calculation time required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, [Formula] is generally less than 1. Sometimes it is hard to calculate but it is rejected. Can it be done without refusing to transfer?
+  \item Our data features are very many, M-H sampling due to the existence of the acceptance rate calculation , the calculation time required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, $\alpha$　is generally less than 1. Sometimes it is hard to calculate but it is rejected. Can it be done without refusing to transfer?
   \item Due to the large feature dimension, it is often difficult to find the joint distribution of each feature dimension of the target, but it is convenient to find the conditional probability distribution between each feature. At this time, can we only have convenient sampling in the case of conditional probability distribution between various dimensions?
 \end{enumerate}
 
@@ -151,7 +149,7 @@ Gibbs Sampling Method is a one special MCMC technique used for sampling variales
 
 Starting from a two-dimensional data distribution, assuming that $\pi(x_1,x_2)$ is a two-dimensional joint data distribution, observe the first two points with the same feature size$A(x_1^{(1)},x_2^{(1)}$ and $B(x_1^{(1)},x_2^{(2))}$.For example:
 \[
-  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(2)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}
+  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(2)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}）
 \]
 
 \[
@@ -163,7 +161,7 @@ Since the right sides of the two formulas are equal, we have:
   \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(2)}|x_1^{(1)}) =   \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(1)}|x_1^{(1)})
 \]
 
-Observing the above detail balance formula , we find that on the straight line of $x_1 = x_1^{(1)}$, if the conditional probability distribution $\pi(x_2|x_1^{(1)})$ is used as the state transition probability of the Markov chain, the transition between any two points meets Detail balanceconditions! In the same way, on the straight line of $x_2 = x_2^{(1)}$, if the conditional probability distribution $\pi(x_1|x_2^{(1)})$  is used as the state transition probability of the Markov chain, the transition between any two points also meets the detail balance condition.
+Observing the above detail balance formula , we find that on the straight line of $x_1 = x_1^{(1)}$, if the conditional probability distribution $\pi(x_2|x_1^{(1)})$ is used as the state transition probability of the Markov chain, the transition between any two points meets Detail balance　conditions! In the same way, on the straight line of $x_2 = x_2^{(1)}$, if the conditional probability distribution $\pi(x_1|x_2^{(1)})$  is used as the state transition probability of the Markov chain, the transition between any two points also meets the detail balance condition.
 
 
 With the  transition matrix, we can infer a two-dimensional Gibbs sample, which requires a conditional probability between two dimensions. The algorithm is as follows:
