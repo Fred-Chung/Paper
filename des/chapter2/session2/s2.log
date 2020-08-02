@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  19 JUL 2020 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  2 AUG 2020 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -3207,11 +3207,11 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{Betaa-negative binomial}
+\citation{han}
 ./s2.tex:126: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.126 ...stribution.\cite{Betaa-negative binomial}
+l.126 ...n and multinomial distribution.\cite{han}
                                                   .we assume that:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3220,7 +3220,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `Betaa-negative binomial' on page  undefined on input line 126.
+LaTeX Warning: Citation `han' on page  undefined on input line 126.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!

@@ -31,7 +31,7 @@ Our question now turns to how to find the distribution of $x$
 \subsection{Sampling Method}
 The key to the Monte Carlo method is to get the probability distribution of $x$. If the probability distribution of $x$ is found, we can sample n sample sets based on this probability distribution based on the probability distribution and bring it into the Monte Carlo summation formula to solve.
 
-For the common uniform distribution-$uniform (0,1)$,It  is very easy to get samples, generally through the linear congruential generator that can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
+For the common uniform distribution $uniform (0,1)$,It  is very easy to get samples, generally through the linear congruential generator that can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
 
 Assuming that $x$ is a continuous random variable, subject to a random distribution$f(x)$, its cumulative distribution function is $F(X)$.We assume that $Y = F(X)$ is subject to 0-1 uniform distribution and $F^{-1}(Y)$ have same distribution with $X$.For example:
 PDF of Expoential distribution:
@@ -52,8 +52,21 @@ F^{-1}(Y) &=&-\frac{\log(1-u)}{\lambda}
 
 But many times, our probability distribution is not a common distribution, which means that we can't easily get a sample set of these unusual probability distributions. We need to Reject-Sampling method.
 
-The basic idea of Reject-Sampling is to cover the smaller probability distribution with a larger probability distribution. This larger probability distribution is more easier to sample (standard distribution), and at the same time accept this  sample with a certain probability. The sample can be seen as a sample from the "smaller probability distribution"
+\begin{figure}
+  \includegraphics[width=\linewidth]{reject.png}
+  \caption{Reject-Sampling Method}
+  \label{fig:boat1}
+\end{figure}
 
+The basic idea of Reject-Sampling \cite{samp} is to cover the smaller probability distribution with a larger probability distribution. This larger probability distribution $q(x)$ called proposal distribution  is usually a standard distribution Such as uniform distribution, Gaussian distribution, which makes it easier to sample. Then we introduce a constant $k$ which make $k*q(x) \leq p(x)$.
+
+ In each sample:
+
+\begin{itemize}
+  \item Sampling a value $x$ from proposal distribution $q(x)$
+  \item Get a sample $\mu_0$ from uniform distribution $[0,k*q(\mu_0)]$.
+  \item If $\mu_0 < p(x)$ ,we retain the value otherwise we discard this value. The resulting data is an approximate sample of th distribution.
+\end{itemize}
 
 We can solve some cases  by Reject-Sampling when the probability distribution is not common.However,in the case of high dimensions, Rejection Sampling will have two problems. The first is that the proposal  distribution $q$ is difficult to find, and the second is that it is difficult to determine a reasonable value of $k$. These two problems will lead to a high rejection rate and an increase in useless calculations.
 
@@ -67,10 +80,11 @@ From the probability density function $p(X)$ of a known distribution, we want to
 
 
 \subsection{Markov Chain}
-This is a random process from state to state in the state space. This process requires the "no memory" attribute: the probability distribution of the next state can only be determined by the current state, and the events before it in the time series have nothing to do with it. This special type of "no memory" is called the Markov attribute. Markov chains have many applications as statistical models of actual processes
+This is a random process from state to state in the state space. This process requires the no memory attribute: the probability distribution of the next state can only be determined by the current state, and the events before it in the time series have nothing to do with it. This special type of no memory is called the Markov attribute. Markov chains have many applications as a powerful statistical models.
 
+At each step of the Markov chain, the system can change from one state to another according to the probability distribution, or it can maintain the current state. The change of state is called transition, and the probability associated with different state changes is called transition probability.
 
-In order to obtain a theoretical result, let's look at a smaller example (this will facilitate our subsequent calculation demonstration), assuming that in a region, people either live in the city or live in the countryside. The matrix below tells us some laws  of population migration. For example, the first column of row 1 indicates that 90 percent of the population currently living in cities will choose to continue to live in cities next year and 80 \% of people who live in country will continue to stay in country.
+In order to obtain a theoretical result, let's look at a smaller example which will facilitate our  calculation demonstration later. Assuming that in a region, people either live in the city or live in the countryside. The matrix below tells us the transition matrix of population migration. For example, the number of the first column  and first row indicates that 90 \% of the population currently living in cities will choose to  live in cities next year and 80 \% of people who live in country will continue to stay in country.
 $$
 H_x={
 \left[ \begin{array}{ccc}
@@ -80,21 +94,66 @@ H_x={
 \right ]}
 $$
 
-As a simple start, try to calculate the odds of people living in cities today who will live in the countryside after 2 years. Analysis shows that 90 of people currently living in the city will continue to choose to live in the city after 1 year, and 10 will move to the country. Then another year passed, and 10 of those who chose to stay in the city last year moved to the countryside. And 98 of those who moved to the village last year will choose to stay in the village. This analysis process is shown in the figure below, and finally the probability that people who live in the city will live in the countryside after 2 years = 0.90×0.10+0.10×0.98
+We assume that half of the people live in the city and the other half are in the countryside. As a simple start, We try to estimate the probability that people who live in the city will still live in the city after two years. Analysis shows that 90 \% of people currently living in the city will continue to choose to live in the city after 1 year, and 10\% of people will move to the country. Then another year passed, and 10 \% of those who chose to stay in the city last year moved to the countryside. And 80 \% of those who moved to the village last year will choose to stay in the village. This analysis process is shown  below.
+One year later:
 
+$$
+H_x=  {
+\left[ \begin{array}{ccc}
+0.5  & 0.5 \\
+\end{array}
+\right ]}
+\times{
+\left[ \begin{array}{ccc}
+0.9 & 0.1 \\
+0.2 & 0.8\\
+\end{array}
+\right ]}
+=
+{
+\left[ \begin{array}{ccc}
+0.55 & 0.45 \\
+\end{array}
+\right ]}
+$$
 
-In fact, you will find that our calculation process is to do the square of the matrix. As shown in the following figure, you will find that the calculation in the second row and first column of the result matrix is ​​performing the operation that is processed above. On this basis, we can also continue to calculate the situation after n years, that is, the result of calculating the self-multiplication of matrix A n time
+One year later:
 
-The algorithm is as follows:Enter the Markov chain state transition matrix , set the state transition times threshold , the required number of samples ;Sampling from any simple probability distribution to get the initial state value ;sample  from the conditional probability distribution ;The sample set is the corresponding sample set that meets our stationary distribution.
+$$
+H_x=  {
+\left[ \begin{array}{ccc}
+0.55 & 0.45 \\
+\end{array}
+\right ]}
+\times{
+\left[ \begin{array}{ccc}
+0.9 & 0.1 \\
+0.2 & 0.8\\
+\end{array}
+\right ]}
+=
+{
+\left[ \begin{array}{ccc}
+0.585 & 0.415 \\
+\end{array}
+\right ]}
+$$
 
+In fact, you will find that our calculation process is to do the square of the matrix. As shown in the formula above,on this basis, we can also continue to calculate the situation after $n$ years, that is, the result of calculating the self-multiplication of matrix $A$ n time
 
-If it is assumed that we can obtain the Markov chain state transition matrix corresponding to the stationary distribution of the samples we need to sample, then we can use the Markov chain sampling to obtain the sample set we need, and then perform Monte Carlo simulation.
+The algorithm is as follows:
+\begin{itemize}
+  \item Enter the Markov chain state transition matrix, set the state transition times threshold,the required number of samples.
+  \item Sampling from any simple probability distribution to get the initial state value.
+  \item sample  from the conditional probability distribution and The sample set is the corresponding sample set that meets our stationary distribution.
+\end{itemize}
+
+If we can obtain the Markov chain state transition matrix corresponding to the stationary distribution of the samples we need to sample, then we can use the Markov chain sampling to obtain the sample set we need, and then perform Monte Carlo simulation.
 
 But an important question is, given a random distribution at will, how to get the Markov chain state transition matrix $P$ corresponding to it?
 
 \subsection{MCMC Sampling and M-H Sampling}
-Mostly,
-Target stationary distribution $\pi(x)$and a certain Markov chain state transition matrix $Q$ does not satisfy the detailed stationary condition:
+Mostly,target stationary distribution $\pi(x)$and a certain Markov chain state transition matrix $Q$ does not satisfy the detailed balance condition:
 \[
   \pi(i)Q(i,j) \neq \pi(j)Q(j,i)
 \]
@@ -105,55 +164,59 @@ We introduce a $\alpha(i,j)$ so that the above formula can take the equal sign.
   \pi(i)Q(i,j)\alpha(i,j) \eq \pi(j)Q(j,i)\alpha(j,i)
 \]
 
-But how can we get the $\alpha$,by symmetry:
+But how can we get the $\alpha$ by symmetry:
 \begin{eqnarray*}
 \alpha(i,j) &=& \pi(j)Q(j,i)\\
 \alpha(j,i) &=& \pi(i)Q(i,j)
 \end{eqnarray*}
 
 
-$\alpha$ is generally called acceptance rate, and the value is between $[0～1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.
+$\alpha$ is generally called acceptance rate, and the value is between $[0  \sim 1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.\cite{mh}
 
 MCMC sampling algorithm is as follows:
 \begin{enumerate}
-  \item Enter any given Markov chain state transition matrix $Q$, target stable distribution $\pi(x)$, set the threshold of state transition times $n1$, the number of required samples $n2$;
+  \item Enter any given Markov chain state transition matrix $Q$, target stable distribution $\pi(x)$, set the threshold of state transition times $n_1$, the number of required samples $n_2$;
   \item Get the initial state value $x_0$ from any simple probability distribution;
   \item For $t$ =0 in $n_1+n_2-1$
     \begin{itemize}
       \item Get the sample value $x_*$ from the conditional probability distribution $Q(x_*|x_0)$.
-      \item Sample $U$ from uniform distribution.
-      \item if $u<\pi(x_*)Q(x_*|x_0)$，then accept x_*.
+      \item Sample $U$ from Uniform distribution.
+      \item if $u<\pi(x_*)*Q(x_*|x_0)$，then accept $x_*$.
     \end{itemize}
 \end{enumerate}
 
 
-But this sampling algorithm is still more difficult to apply in practice, because in the third step, because accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable.
+But this sampling algorithm is still more difficult to apply in practice, because in the third step, the accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable.
 
 At this time, it is our Metropolis-Hastings sampling Method.M-H sampling solves the problem of low MCMC sampling acceptance rate in the previous section.
 
-We can expand both sides of \[
-  \pi(i)Q(i,j)\alpha(i,j) ＝ \pi(j)Q(j,i)\alpha(j,i)
-\], and at this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c\alpha(ij)$ (accurately, the maximum expansion of both sides is 1), so that we can Improves the acceptance rate of jumps in sampling, so we can take:
+We can expand both sides of
+\[
+  \pi(i)Q(i,j)\alpha(i,j) =  \pi(j)Q(j,i)\alpha(j,i)
+\]
+At this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c\alpha(ij)$ (accurately, the maximum expansion of both sides is 1), so that we can Improves the acceptance rate of jumps in sampling, so we can take:
 \[
   \alpha = min{\frac{Q(j,i)\alpha(j,i)}{Q(i,j)\alpha(i,j)},1}
 \]
 
-In the era of big data, M-H sampling faces two major challenges:
+However, in the era of big data, M-H sampling still faces two major challenges:
 \begin{enumerate}
-  \item Our data features are very many, M-H sampling due to the existence of the acceptance rate calculation , the calculation time required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, $\alpha$　is generally less than 1. Sometimes it is hard to calculate but it is rejected. Can it be done without refusing to transfer?
+
+  \item Our data features are very many, due to the existence of the acceptance rate, the calculation time of M-H sampling required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, $\alpha$　is generally less than 1.  Can it be done without refusing to transfer?
+
   \item Due to the large feature dimension, it is often difficult to find the joint distribution of each feature dimension of the target, but it is convenient to find the conditional probability distribution between each feature. At this time, can we only have convenient sampling in the case of conditional probability distribution between various dimensions?
 \end{enumerate}
 
 \subsection{Gibbs Sampling}
-Gibbs Sampling Method is a one special MCMC technique used for sampling variales in large dimensions by sampling each variable from its conditional distribution iterative.
+Gibbs Sampling Method \cite{bda} is a one special MCMC technique used for sampling variales in large dimensions by sampling each variable from its conditional distribution iterative.
 
-Starting from a two-dimensional data distribution, assuming that $\pi(x_1,x_2)$ is a two-dimensional joint data distribution, observe the first two points with the same feature size$A(x_1^{(1)},x_2^{(1)}$ and $B(x_1^{(1)},x_2^{(2))}$.For example:
+Starting from a two-dimensional data distribution, assuming that $\pi(x_1,x_2)$ is a two-dimensional joint data distribution, observe the first two points with the same feature size$A(x_1^{(1)},x_2^{(1)})$ and $B(x_1^{(1)},x_2^{(2))})$.For example:
 \[
-  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(2)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}）
+  \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(2)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)})
 \]
 
 \[
-  \pi(x_1^{(1)},x_2^{(1)}\pi(x_2^{(1)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)}
+  \pi(x_1^{(1)},x_2^{(1)})\pi(x_2^{(1)}|x_1^{(1)}) = \pi(x_1^{(1)})\pi(x_2^{(2)}|x_1^{(1)})\pi(x_2^{(1)}|x_1^{(1)})
 \]
 
 Since the right sides of the two formulas are equal, we have:

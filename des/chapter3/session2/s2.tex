@@ -1,11 +1,11 @@
 \section{Latent Dirichlet Allocation}
 In PLSA, we will extract a topic with a fixed probability and then find the corresponding word distribution according to the extracted topic and then extract a vocabulary according to Word distribution.
-It can be seen that in PLSA, the topic distribution and word distribution are uniquely determined. However, in LDA, the topic distribution and word distribution are uncertain. The authors of LDA adopt the Bayesian idea that they should obey a distribution. The topic distribution and word distribution are both polynomial distributions, because the polynomial distribution And Dirichlet distribution is a conjugate structure. In LDA, the topic distribution and word distribution use Dirichlet distribution as their conjugate prior distribution.Thus,On the basis of PLSA, LDA adds two Dirichlet priors for topic distribution and word distribution.
+It can be seen that in PLSA, the topic distribution and word distribution are uniquely determined. However, in LDA, the topic distribution and word distribution are uncertain. The authors of LDA adopts the Bayesian idea that they should obey a prior distribution. The topic distribution and word distribution are both multinomial distributions, because the multinomial distribution and Dirichlet distribution is a conjugate structure. In LDA, the topic distribution and word distribution use Dirichlet distribution as their conjugate prior distribution.Thus,On the basis of PLSA, LDA adds two Dirichlet priors for topic distribution and word distribution.
 \subsection{Generative process of document}
 The LDA model can be represented by the following probability graph model:
 \begin{figure}[htbp]
 % \centering % 图片居中
-\includegraphics[width = 15cm]{lda.png}
+\includegraphics[width = \linewidth]{lda.png}
 \caption{The caption of this figure.}
 \label{fig:figure1label}
 \end{figure}

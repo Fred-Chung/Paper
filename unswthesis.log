@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  24 JUL 2020 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  2 AUG 2020 23:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -141,6 +141,9 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count188
 \l__pdf_internal_box=\box49
 ) (./unswthesis.aux
+
+LaTeX Warning: Label `fig:boat1' multiply defined.
+
 
 LaTeX Warning: Label `fig:figure1label' multiply defined.
 
@@ -363,18 +366,6 @@ l.1 ...er}{\numberline {Chapter 1}Introduction}{1}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 2.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 2.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 2.
- (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-)
 
 ./unswthesis.toc:2: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -382,11 +373,23 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.2 ...mberline {1.1}Background and Importance}{1}
+l.2 ...r}{\numberline {Chapter 2}Preliminaries}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+(/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 3.
+ (/usr/local/texlive/2020/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 
 ./unswthesis.toc:3: LaTeX Error: Something's wrong--perhaps a missing \item.
 
@@ -394,7 +397,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.3 ...numberline {1.2}topic of research paper}{3}
+l.3 ...tion}{\numberline {2.1}Bayesian Theorem}{5}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -406,7 +409,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.4 ...ight the approach and principal finding}{3}
+l.4 ...n}{\numberline {2.1.1}Prior Probability}{8}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -418,7 +421,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 ...berline {1.4}Organization of this paper}{4}
+l.5 ...umberline {2.1.2}Likelihood Probability}{8}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -430,7 +433,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...}{\numberline {Chapter 2}Basic language}{5}
+l.6 ...numberline {2.1.3}Posterior probability}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -442,7 +445,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...tion}{\numberline {2.1}Bayesian Theorem}{5}
+l.7 ...ion}{\numberline {2.1.4}conjugate prior}{9}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -454,7 +457,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.8 ...n}{\numberline {2.1.1}Prior Probability}{8}
+l.8 ...n}{\numberline {2.2}Basic distribution}{10}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -466,7 +469,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.9 ...umberline {2.1.2}Likelihood Probability}{8}
+l.9 ...}{\numberline {2.2.1}Beta distribution}{10}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -478,7 +481,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.10 ...umberline {2.1.3}Posterior probability}{9}
+l.10 ...berline {2.2.2}Dirichlet distribution}{11}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -490,7 +493,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.11 ...on}{\numberline {2.1.4}conjugate prior}{9}
+l.11 ...}Poisson and Multinomial distribution}{13}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -502,7 +505,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12 ...}{\numberline {2.2}Basic distribution}{10}
+l.12 ... Chain Monte Carlo and Gibbs Sampling}{14}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -514,7 +517,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.13 ...{\numberline {2.2.1}Beta distribution}{10}
+l.13 ...\numberline {2.3.1}Monte Carlo Method}{14}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -526,7 +529,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.14 ...berline {2.2.2}Dirichlet distribution}{11}
+l.14 ...n}{\numberline {2.3.2}Sampling Method}{15}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -538,7 +541,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.15 ...}Poisson and Multinomial distribution}{13}
+l.15 ...tion}{\numberline {2.3.3}Markov Chain}{17}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -550,7 +553,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ... Chain Monte Carlo and Gibbs Sampling}{14}
+l.16 ...{2.3.4}MCMC Sampling and M-H Sampling}{19}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -562,7 +565,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.17 ...\numberline {2.3.1}Monte Carlo Method}{14}
+l.17 ...on}{\numberline {2.3.5}Gibbs Sampling}{21}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -574,7 +577,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...n}{\numberline {2.3.2}Sampling Method}{15}
+l.18 ...Chapter 3}Latent Dirichlet Allocation}{23}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -586,7 +589,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.19 ...tion}{\numberline {2.3.3}Markov Chain}{17}
+l.19 ...}{\numberline {3.1}Model construction}{23}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -598,7 +601,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 ...{2.3.4}MCMC Sampling and M-H Sampling}{18}
+l.20 ...}Unigram and mixture of unigram model}{23}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -610,7 +613,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.21 ...on}{\numberline {2.3.5}Gibbs Sampling}{20}
+l.21 ...robabilistic Latent Semantic Analysis}{24}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -622,7 +625,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...Chapter 3}Latent Dirichlet Allocation}{22}
+l.22 ...line {3.2}Latent Dirichlet Allocation}{26}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -634,7 +637,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23 ...}{\numberline {3.1}Model construction}{22}
+l.23 ...{3.2.1}Generative process of document}{26}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -646,7 +649,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.24 ...}Unigram and mixture of unigram model}{22}
+l.24 ...berline {3.2.2}Gibbs Sampling for LDA}{29}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -661,7 +664,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.25 ...robabilistic Latent Semantic Analysis}{23}
+l.25 ...rline {3.2.3}Perplexity and Inference}{31}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -673,7 +676,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...line {3.2}Latent Dirichlet Allocation}{24}
+l.26 ...erline {3.3}Dirichlet belief networks}{31}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -685,7 +688,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.27 ...{3.2.1}Generative process of document}{24}
+l.27 ...{3.3.1}Research on Topic Distribution}{32}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -697,7 +700,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 ...berline {3.2.2}Gibbs Sampling for LDA}{27}
+l.28 ...mberline {3.3.2}Introduction of DIRBN}{32}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -709,7 +712,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...rline {3.2.3}Perplexity and Inference}{29}
+l.29 ...\numberline {3.3.3}Inference of DirBN}{33}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -721,7 +724,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30 ...erline {3.3}Dirichlet belief networks}{29}
+l.30 ...hapter 4}Bound Dirichlet Belief Model}{35}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -733,7 +736,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31 ...{3.3.1}Research on Topic Distribution}{30}
+l.31 ...ection}{\numberline {4.1}Introduction}{35}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -745,7 +748,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...mberline {3.3.2}Introduction of DIRBN}{30}
+l.32 ...e {section}{\numberline {4.2}Inferene}{35}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -757,55 +760,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 ...\numberline {3.3.3}Inference of DirBN}{31}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./unswthesis.toc:34: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34 ...hapter 4}Bound Dirichlet Belief Model}{33}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./unswthesis.toc:35: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35 ...ection}{\numberline {4.1}Introduction}{33}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./unswthesis.toc:36: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.36 ...e {section}{\numberline {4.2}Inferene}{33}
-                                                  %
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./unswthesis.toc:37: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37 \contentsline {chapter}{References}{35}
+l.33 \contentsline {chapter}{References}{37}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -953,20 +908,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.5 \section
-            {Background and Importance}
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/introduction/intro.tex:5: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.5 \section{Background and Importance}
-                                       
+l.5 
+    
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -1057,24 +1000,12 @@ l.16 \begin{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-Overfull \hbox (36.87157pt too wide) in paragraph at lines 24--25
-\OT1/cmr/m/n/12 im-posed on topic dis-trib-tion.For ex-am-ple,The cor-re-la-tion topic model(CTM)[[]],which
- []
-
 [2]
-
-LaTeX Warning: Citation `Poisson facotr analysis' on page 3 undefined on input line 26.
-
-
-LaTeX Warning: Citation `dirbn' on page 3 undefined on input line 28.
-
-
-Overfull \hbox (26.52724pt too wide) in paragraph at lines 32--34
-\OT1/cmr/m/n/12 edge of Bayesian The-o-rem,common dis-tri-bu-tion used in this pa-per.Besides,inference
+Overfull \hbox (25.38696pt too wide) in paragraph at lines 32--33
+\OT1/cmr/m/n/12 edge of Bayesian The-o-rem such as prior dis-tri-bu-tion ,pos-te-rior dis-tri-bu-tion,common
  []
 
-[3]) (./des/chapter2/heading/h.tex [4]
+) (./des/chapter2/heading/h.tex [3] [4]
 Chapter 2.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1434,9 +1365,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Citation `Betaa-negative binomial' on page 13 undefined on input line 126.
-
 [13]) (./des/chapter2/session3/s3.tex
 ./des/chapter2/session3/s3.tex:12: Missing $ inserted.
 <inserted text> 
@@ -1591,36 +1519,15 @@ Overfull \hbox (45.25694pt too wide) in paragraph at lines 36--38
 []\OT1/cmr/m/n/12 Assuming that $\OML/cmm/m/it/12 x$ \OT1/cmr/m/n/12 is a con-tin-u-ous ran-dom vari-able, sub-ject to a ran-dom distribution$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$,
  []
 
-[15] [16]
-
-./des/chapter2/session3/s3.tex:86: Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...d first column of the result matrix is ​
-                                                  ​performing the operatio...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter2/session3/s3.tex:86: Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...irst column of the result matrix is ​​
-                                                  performing the operation t...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-[17]
-./des/chapter2/session3/s3.tex:105: Undefined control sequence.
-l.105   \pi(i)Q(i,j)\alpha(i,j) \eq
+[15]
+<reject.png, id=92, 349.7868pt x 252.2223pt>
+File: reject.png Graphic file (type png)
+<use reject.png>
+Package pdftex.def Info: reject.png  used on input line 56.
+(pdftex.def)             Requested size: 423.94588pt x 305.69794pt.
+ [16] [17 <./reject.png>] [18]
+./des/chapter2/session3/s3.tex:164: Undefined control sequence.
+l.164   \pi(i)Q(i,j)\alpha(i,j) \eq
                                     \pi(j)Q(j,i)\alpha(j,i)
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1628,111 +1535,74 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[18]
+[19]
 
-./des/chapter2/session3/s3.tex:125: Package inputenc Error: Unicode character ， (U+FF0C)
+./des/chapter2/session3/s3.tex:184: Package inputenc Error: Unicode character ， (U+FF0C)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.125       \item if $u<\pi(x_*)Q(x_*|x_0)$，
-                                              then accept x_*.
+l.184       \item if $u<\pi(x_*)*Q(x_*|x_0)$，
+                                               then accept $x_*$.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:125: Missing $ inserted.
-<inserted text> 
-                $
-l.125 ...f $u<\pi(x_*)Q(x_*|x_0)$，then accept x_
-                                                  *.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
-
-./des/chapter2/session3/s3.tex:126: LaTeX Error: Command \end{itemize} invalid in math mode.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126     \end{itemize}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session3/s3.tex:126: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126     \end{itemize}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-./des/chapter2/session3/s3.tex:126: LaTeX Error: Something's wrong--perhaps a missing \item.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.126     \end{itemize}
-                       
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-./des/chapter2/session3/s3.tex:126: Missing $ inserted.
-<inserted text> 
-                $
-l.126     \end{itemize}
-                       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./des/chapter2/session3/s3.tex:130: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:189: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ...ch as 0.1, most of our sampled values ​
+l.189 ...ch as 0.1, most of our sampled values ​
                                                   ​are rejected and the sa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:130: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:189: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.130 ...as 0.1, most of our sampled values ​​
+l.189 ...as 0.1, most of our sampled values ​​
                                                   are rejected and the sampl...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-./des/chapter2/session3/s3.tex:135: Undefined control sequence.
-l.135   \pi(i)Q(i,j)\alpha(i,j) \eq
-                                    \pi(j)Q(j,i)\alpha(j,i)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+[20]
 
-[19] [20]) (./des/chapter3/heading/h.tex [21]
+./des/chapter2/session3/s3.tex:205: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 ...s very low. At the same time, $\alpha$　
+                                                  is generally less than 1. ...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter2/session3/s3.tex:227: Package inputenc Error: Unicode character 　 (U+3000)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 ...en any two points meets Detail balance　
+                                                  conditions! In the same wa...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[21]) (./des/chapter3/heading/h.tex [22]
 Chapter 3.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
@@ -1744,66 +1614,31 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
  [] 
  []
 
-) (./des/chapter3/session1/s1.tex [22
+) (./des/chapter3/session1/s1.tex [23
 
 ]
-./des/chapter3/session1/s1.tex:18: Missing \endcsname inserted.
-<to be read again> 
-                   \@@par 
-l.18 Documents using EM}
-                         method improves it. The model samples a topic from ...
-The control sequence marked <to be read again> should
-not appear between \csname and \endcsname.
+<plsa.png, id=121, 301.125pt x 129.48375pt>
+File: plsa.png Graphic file (type png)
+<use plsa.png>
+Package pdftex.def Info: plsa.png  used on input line 28.
+(pdftex.def)             Requested size: 423.94588pt x 182.31325pt.
+ [24]
+./des/chapter3/session1/s1.tex:42: Extra }, or forgotten \endgroup.
+l.42 \end{enumerate}}
+                     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-
-LaTeX Warning: Citation `Text Classi{\@@par }cation from Labeled and Unlabeled Documents using EM' on page 23 undefined on input line 18.
-
-
-./des/chapter3/session1/s1.tex:25: Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...bution, which is also the core idea of ​
-                                                  ​the generation model pr...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter3/session1/s1.tex:25: Package inputenc Error: Unicode character ​ (U+200B)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.25 ...ion, which is also the core idea of ​​
-                                                  the generation model propo...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-LaTeX Warning: Citation `Probabilistic Latent Semantic Analysis' on page 23 undefined on input line 25.
-
-[23]) (./des/chapter3/session2/s2.tex
-<lda.png, id=119, 1084.05pt x 548.0475pt>
+) (./des/chapter3/session2/s2.tex [25 <./plsa.png>]
+<lda.png, id=129, 1084.05pt x 548.0475pt>
 File: lda.png Graphic file (type png)
 <use lda.png>
 Package pdftex.def Info: lda.png  used on input line 8.
-(pdftex.def)             Requested size: 426.79134pt x 215.76974pt.
-
-Overfull \hbox (2.84546pt too wide) in paragraph at lines 8--9
-[][] 
- []
-
-[24]
-Overfull \hbox (2.90704pt too wide) in paragraph at lines 20--21
-[]\OT1/cmr/m/n/12 Sampling from Dirich-let dis-tri-bu-tion $\OML/cmm/m/it/12 eta$ \OT1/cmr/m/n/12 to gen-er-ate word distribution$\OML/cmm/m/it/12 ^^L[]$
- []
-
-[25 <./lda.png (PNG copy)>]
+(pdftex.def)             Requested size: 423.94588pt x 214.32303pt.
+ [26] [27 <./lda.png (PNG copy)>]
 ./des/chapter3/session2/s2.tex:39: Undefined control sequence.
 l.39 ...\int \prod_{k=1}^K p_k^{n_k} Dir(p|\alphha
                                                   ) d_p \\
@@ -1813,7 +1648,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[26]
 ./des/chapter3/session2/s2.tex:55: Undefined control sequence.
 l.55 ...        &=& \frac{1}{B(\alpha)}\int \prowd
                                                   _{k=1}{V}p_k^{n_k+\alpha_k...
@@ -1823,6 +1657,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[28]
 ./des/chapter3/session2/s2.tex:70: Undefined control sequence.
 l.70 ...beta) & = & p(\vec{w}|\vec{z},\beta)p(\vev
                                                   {z}|\alpha) \\
@@ -1832,7 +1667,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[27]
+[29]
 
 ./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝐾 (U+1D43E)
 (inputenc)                not set up for use with LaTeX.
@@ -1898,26 +1733,26 @@ l.100 　
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[28]) (./des/chapter3/session3/s3.tex
+[30]) (./des/chapter3/session3/s3.tex
 
-LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 29 undefined on input line 8.
+LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 31 undefined on input line 8.
 
-[29]
+[31]
 
-LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 30 undefined on input line 19.
+LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 32 undefined on input line 19.
 
 
 Overfull \hbox (0.79845pt too wide) in paragraph at lines 34--38
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
-[30]
-<dirbn.png, id=142, 679.53876pt x 301.125pt>
+[32]
+<dirbn.png, id=154, 679.53876pt x 301.125pt>
 File: dirbn.png Graphic file (type png)
 <use dirbn.png>
 Package pdftex.def Info: dirbn.png  used on input line 41.
 (pdftex.def)             Requested size: 369.88582pt x 163.9054pt.
- [31 <./dirbn.png>]) (./des/chapter4/heading/h.tex [32]
+ [33 <./dirbn.png>]) (./des/chapter4/heading/h.tex [34]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1968,9 +1803,9 @@ l.18 ...sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag
 you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
-[33
+[35
 
-]) (./des/bib/b.tex [34]
+]) (./des/bib/b.tex [36]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 [] 
  []
@@ -1978,6 +1813,14 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
  [] 
+ []
+
+[37
+
+
+]
+Underfull \hbox (badness 3209) in paragraph at lines 60--61
+[]\OT1/cmr/m/n/12 Chib, Sid-dhartha, and Ed-ward Green-berg. "Un-der-stand-ing the
  []
 
 )
@@ -1994,10 +1837,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[35
-
-
-] (./unswthesis.aux)
+[38] (./unswthesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -2010,19 +1850,19 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2610 strings out of 480471
- 34296 string characters out of 5899396
- 273044 words of memory out of 5000000
- 18566 multiletter control sequences out of 15000+600000
+ 2628 strings out of 480471
+ 34472 string characters out of 5899396
+ 273073 words of memory out of 5000000
+ 18582 multiletter control sequences out of 15000+600000
  539791 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,989b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,991b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (40 pages, 678517 bytes).
+Output written on unswthesis.pdf (43 pages, 708671 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 141 compressed objects within 2 object streams
+ 226 PDF objects out of 1000 (max. 8388607)
+ 149 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 26 words of extra memory for PDF output out of 10000 (max. 10000000)
 
