@@ -102,6 +102,7 @@ OUTPUT unswthesis.toc
 INPUT des/introduction/intro.tex
 INPUT des/introduction/intro.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
+INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/session1/s1.tex
@@ -129,12 +130,17 @@ INPUT ./lda.png
 INPUT ./lda.png
 INPUT des/chapter3/session3/s3.tex
 INPUT des/chapter3/session3/s3.tex
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT dirbn.png
 INPUT ./dirbn.png
 INPUT ./dirbn.png
 INPUT des/chapter4/heading/h.tex
 INPUT des/chapter4/heading/h.tex
+INPUT ubdn.png
+INPUT ./ubdn.png
+INPUT ./ubdn.png
+INPUT res.png
+INPUT ./res.png
+INPUT ./res.png
 INPUT des/bib/b.tex
 INPUT des/bib/b.tex
 INPUT unswthesis.aux

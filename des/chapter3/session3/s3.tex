@@ -1,24 +1,17 @@
 \section{Dirichlet belief networks}
-As can be seen from the above, the bright distribution of topics and word matrices obey Dirichlet distribution, which is an effective assumption, but it also brings many limitations. Recently,people introduce different generative models
+As can be seen from the above, the prior distribution of topics and word matrices should obey Dirichlet distribution, which is an effective assumption, but it also brings many limitations. Recently,people introduce different generative models based on Latent Dirichle Model
 \subsection{Research on Topic Distribution}
 
 The LDA model assumes that the topics are independent of each other, however, this assumption
-It is very inconsistent with the actual data set. To overcome this defect, Blei
-In 2006, a related topic model (Correlated Topic Model,
-CTM)\cite{A CORRELATED TOPIC MODEL OF SCIENCE 1}, the model extracts the topic from the Logistic Normal distribution, overcoming the disadvantage that
- LDA model cannot extract relatation of  information between texts.This model mentioned
+It is very inconsistent with the actual data set. To overcome this defect, in 2006 Blei proposes a related topic model called Correlated Topic Model,
+CTM\cite{corr}, the model extracts the topic from the Logistic Normal distribution, succeddfully overcoming the disadvantage that LDA model cannot extract relatation of  information between documents. This model mentioned
 above have been successfully applied in extracting scientific subjects and image extraction.
 
-Another well-known research on topic-distribution is Hierarchical Dirichlet processes\cite{Teh}.
-Based on the deformation of Dirichlet Process,
-HDP is A non-parametric Bayesian model that can automatically train the most suitable from the document set
-Appropriate number of topics K. Nonparametric characteristics of HDP through Dirichlet process
-Solve the problem of selecting the number of topics in LDA, and the experiment confirms  that
-The optimal number of topics selected by HDP is equal to the optimal number of topics selected based on perplexity
-.
-LDA model assumes that topic of each word is subject to multinomial distribution and the document is converted into count  matrix by Bag of Word model.Poisson Factor \cite{Beta-Negative Binomial Process and Poisson Factor Analysis} Analysis introduces poisson distribution.
+Another well-known research on topic-distribution is Hierarchical Dirichlet processes\cite{Teh}. Based on the deformation of Dirichlet Process, HDP is A non-parametric Bayesian model that can automatically train the most suitable from the document set appropriate number of topics $K$. Nonparametric characteristics of HDP through Dirichlet process solve the problem of selecting the number of topics in LDA model, and the experiment confirms  that the optimal number of topics selected by HDP model is equal to the optimal number of topics selected based on perplexity.
+
+LDA model assumes that topic of each word is subject to multinomial distribution and the document is converted into count  matrix by Bag of Word model.Poisson Factor Analysis \cite{han}  introduces poisson distribution to generate the words of document. The total count of word will be assign different latent topic.
 \[
-  x_pi = \sum_{k=1}^{K} x_{pik}
+  x_{pi} = \sum_{k=1}^{K} x_{pik}
 \]
 \[
   x_{pik} \sim Pois(\gamma_{pk}\theta_{ki})
@@ -29,18 +22,17 @@ and topic-distribution is subject to gamma distribution:
 \]
 
 \subsection{Introduction of DIRBN}
-Compared to considerable researchs  topic model,The word model has not been fully studied and The Dirichlet Belief Network (DBN)\cite{Zhao} introduces a deep generative model where each layer is weighted by sets of  topics.
+Compared to considerable researchs  topic model,the word model has not been fully studied and The Dirichlet Belief Network (DBN)\cite{Zhao} introduces a deep generative model where each layer is weighted by sets of  topics.
 
-Different from single layer dirichlet,DirBN model proposed a multi-layer Dirchlet layer generative process on word-distribution.The latent distri-
-butions in each layer of DBN are generated as Dirichlet
+Different from single layer dirichlet,DirBN model proposed a multi-layer Dirchlet layer generative process on word-distribution.The latent distributions in each layer of DBN are generated as Dirichlet
 random variables and can thus be interpreted as categorical
 distributions.Then  the hidden units are connected with gamma-distributed weights.
 
 \begin{figure}[htbp]
 % \centering % 图片居中
 \includegraphics[width = 13cm]{dirbn.png}
-\caption{The caption of this figure.}
-\label{fig:figure1label}
+\caption{DirBN Model}
+\label{fig:DirBN Model}
 \end{figure}
 
 In comparison to existing deep generative models,DirBN have better Interpretability on topics annd higher modelling accuracy.However,the current formulation of DBN odel suffers from decay during information passing.

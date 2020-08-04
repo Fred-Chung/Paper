@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  2 AUG 2020 23:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  4 AUG 2020 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -145,7 +145,13 @@ File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 LaTeX Warning: Label `fig:boat1' multiply defined.
 
 
-LaTeX Warning: Label `fig:figure1label' multiply defined.
+LaTeX Warning: Label `fig:DirBN Model' multiply defined.
+
+
+LaTeX Warning: Label `fig:DirBN Model' multiply defined.
+
+
+LaTeX Warning: Label `ccl' multiply defined.
 
 )
 \openout1 = `unswthesis.aux'.
@@ -553,7 +559,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.16 ...{2.3.4}MCMC Sampling and M-H Sampling}{19}
+l.16 ...mberline {2.3.4}MCMC and M-H Sampling}{19}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -700,7 +706,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.28 ...mberline {3.3.2}Introduction of DIRBN}{32}
+l.28 ...mberline {3.3.2}Introduction of DIRBN}{33}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -748,7 +754,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.32 ...e {section}{\numberline {4.2}Inferene}{35}
+l.32 ...n}{\numberline {4.2}Inference Process}{37}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -760,7 +766,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \contentsline {chapter}{References}{37}
+l.33 ...{section}{\numberline {4.3}Experiment}{39}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:34: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.34 ...er}{\numberline {Chapter 5}Conclusion}{40}
+                                                  %
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+./unswthesis.toc:35: LaTeX Error: Something's wrong--perhaps a missing \item.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.35 \contentsline {chapter}{References}{41}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -999,6 +1029,9 @@ l.16 \begin{itemize}
                     
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Citation `hdp' on page 2 undefined on input line 24.
 
 [2]
 Overfull \hbox (25.38696pt too wide) in paragraph at lines 32--33
@@ -1444,8 +1477,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 Then we can sample$n$ values ​
-                                     ​in the $[a,b]$, interval: $x_0,x_1,\...
+l.18 Then we can sample $n$ values ​
+                                      ​in the $[a,b]$, interval: $x_1,\dot...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1457,8 +1490,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 Then we can sample$n$ values ​​
-                                        in the $[a,b]$, interval: $x_0,x_1,\...
+l.18 Then we can sample $n$ values ​​
+                                         in the $[a,b]$, interval: $x_1,\dot...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1514,95 +1547,81 @@ l.18 ...��​to represent all $f(x)$ values ​​
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[14]
-Overfull \hbox (45.25694pt too wide) in paragraph at lines 36--38
-[]\OT1/cmr/m/n/12 Assuming that $\OML/cmm/m/it/12 x$ \OT1/cmr/m/n/12 is a con-tin-u-ous ran-dom vari-able, sub-ject to a ran-dom distribution$\OML/cmm/m/it/12 f\OT1/cmr/m/n/12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$,
- []
-
-[15]
-<reject.png, id=92, 349.7868pt x 252.2223pt>
+[14] [15]
+<reject.png, id=93, 349.7868pt x 252.2223pt>
 File: reject.png Graphic file (type png)
 <use reject.png>
-Package pdftex.def Info: reject.png  used on input line 56.
+Package pdftex.def Info: reject.png  used on input line 57.
 (pdftex.def)             Requested size: 423.94588pt x 305.69794pt.
- [16] [17 <./reject.png>] [18]
-./des/chapter2/session3/s3.tex:164: Undefined control sequence.
-l.164   \pi(i)Q(i,j)\alpha(i,j) \eq
-                                    \pi(j)Q(j,i)\alpha(j,i)
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+ [16] [17 <./reject.png>] [18] [19]
 
-[19]
-
-./des/chapter2/session3/s3.tex:184: Package inputenc Error: Unicode character ， (U+FF0C)
+./des/chapter2/session3/s3.tex:180: Package inputenc Error: Unicode character ， (U+FF0C)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.184       \item if $u<\pi(x_*)*Q(x_*|x_0)$，
+l.180       \item if $u<\pi(x_*)*Q(x_*|x_0)$，
                                                then accept $x_*$.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:189: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:185: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 ...ch as 0.1, most of our sampled values ​
+l.185 ...ch as 0.1, most of our sampled values ​
                                                   ​are rejected and the sa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:189: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:185: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.189 ...as 0.1, most of our sampled values ​​
+l.185 ...as 0.1, most of our sampled values ​​
                                                   are rejected and the sampl...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [20]
 
-./des/chapter2/session3/s3.tex:205: Package inputenc Error: Unicode character 　 (U+3000)
+./des/chapter2/session3/s3.tex:201: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.205 ...s very low. At the same time, $\alpha$　
+l.201 ...very low. At the same time, $ \alpha $　
                                                   is generally less than 1. ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
+[21]
 
-./des/chapter2/session3/s3.tex:227: Package inputenc Error: Unicode character 　 (U+3000)
+./des/chapter2/session3/s3.tex:223: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.227 ...en any two points meets Detail balance　
+l.223 ...en any two points meets Detail balance　
                                                   conditions! In the same wa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[21]) (./des/chapter3/heading/h.tex [22]
+) (./des/chapter3/heading/h.tex [22]
 Chapter 3.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
@@ -1617,7 +1636,7 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
 ) (./des/chapter3/session1/s1.tex [23
 
 ]
-<plsa.png, id=121, 301.125pt x 129.48375pt>
+<plsa.png, id=122, 301.125pt x 129.48375pt>
 File: plsa.png Graphic file (type png)
 <use plsa.png>
 Package pdftex.def Info: plsa.png  used on input line 28.
@@ -1633,7 +1652,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ) (./des/chapter3/session2/s2.tex [25 <./plsa.png>]
-<lda.png, id=129, 1084.05pt x 548.0475pt>
+<lda.png, id=130, 1084.05pt x 548.0475pt>
 File: lda.png Graphic file (type png)
 <use lda.png>
 Package pdftex.def Info: lda.png  used on input line 8.
@@ -1733,26 +1752,17 @@ l.100 　
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
-[30]) (./des/chapter3/session3/s3.tex
-
-LaTeX Warning: Citation `A CORRELATED TOPIC MODEL OF SCIENCE 1' on page 31 undefined on input line 8.
-
-[31]
-
-LaTeX Warning: Citation `Beta-Negative Binomial Process and Poisson Factor Analysis' on page 32 undefined on input line 19.
-
-
-Overfull \hbox (0.79845pt too wide) in paragraph at lines 34--38
+[30]) (./des/chapter3/session3/s3.tex [31] [32]
+Overfull \hbox (0.79845pt too wide) in paragraph at lines 27--30
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
-[32]
 <dirbn.png, id=154, 679.53876pt x 301.125pt>
 File: dirbn.png Graphic file (type png)
 <use dirbn.png>
-Package pdftex.def Info: dirbn.png  used on input line 41.
+Package pdftex.def Info: dirbn.png  used on input line 33.
 (pdftex.def)             Requested size: 369.88582pt x 163.9054pt.
- [33 <./dirbn.png>]) (./des/chapter4/heading/h.tex [34]
+[33 <./dirbn.png>]) (./des/chapter4/heading/h.tex [34]
 Chapter 4.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1764,27 +1774,35 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
  [] 
  []
 
+<ubdn.png, id=161, 777.90625pt x 472.76625pt>
+File: ubdn.png Graphic file (type png)
+<use ubdn.png>
+Package pdftex.def Info: ubdn.png  used on input line 9.
+(pdftex.def)             Requested size: 423.94588pt x 257.6561pt.
+[35
 
-./des/chapter4/heading/h.tex:6: Package amsmath Error: \tag not allowed here.
+ <./ubdn.png>]
+
+./des/chapter4/heading/h.tex:15: Package amsmath Error: \tag not allowed here.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.6 ...lti(M^l;\pi_{i'.}^l \otimes w_{i'.}^l) \tag
+l.15 ...ti(M^l;\pi_{i'.}^1 \otimes w_{i'.}^l) \tag
                                                   {1}$$
 \tag cannot be used at this point. If you don't understand why
 you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
 
-./des/chapter4/heading/h.tex:7: Package amsmath Error: \tag not allowed here.
+./des/chapter4/heading/h.tex:16: Package amsmath Error: \tag not allowed here.
 
 See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.7 ...Dirihlet(\alpha_d +\sum_{i'}{C_{i'.i}})\tag
+l.16 ...irihlet(\alpha_d +\sum_{i'}{C_{i'.i}})\tag
                                                   {2}$$
 \tag cannot be used at this point. If you don't understand why
 you should consult the documentation.
@@ -1797,15 +1815,73 @@ See the amsmath package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 ...sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag
+l.18 ...ti(M^l;\pi_{i'.}^l \otimes w_{i'.}^l) \tag
+                                                  {1}$$
+\tag cannot be used at this point. If you don't understand why
+you should consult the documentation.
+But don't worry: just continue, and I'll forget what happened. 
+
+
+./des/chapter4/heading/h.tex:19: Package amsmath Error: \tag not allowed here.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.19 ...ihlet(\alpha_d +\sum_{i'}{C_{i'.i}^l})\tag
+                                                  {2}$$
+\tag cannot be used at this point. If you don't understand why
+you should consult the documentation.
+But don't worry: just continue, and I'll forget what happened. 
+
+[36]
+
+./des/chapter4/heading/h.tex:48: Package inputenc Error: Unicode character π (U+03C0)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.48 ...� variable for each latent distribution π
+                                                   and we can thus easily ob...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+./des/chapter4/heading/h.tex:50: Package amsmath Error: \tag not allowed here.
+
+See the amsmath package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.50 ...sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag
                                                   {3}$$
 \tag cannot be used at this point. If you don't understand why
 you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
-[35
+[37] [38]
+<res.png, id=175, 914.41624pt x 602.25pt>
+File: res.png Graphic file (type png)
+<use res.png>
+Package pdftex.def Info: res.png  used on input line 125.
+(pdftex.def)             Requested size: 423.94588pt x 279.2163pt.
+ [39 <./res.png>]
+Chapter 5.
 
-]) (./des/bib/b.tex [36]
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 131--131
+[] 
+ []
+
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 131--131
+ [] 
+ []
+
+) (./des/bib/b.tex [40
+
+]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
 [] 
  []
@@ -1815,7 +1891,7 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
  [] 
  []
 
-[37
+[41
 
 
 ]
@@ -1837,7 +1913,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[38] (./unswthesis.aux)
+[42] (./unswthesis.aux)
 
 LaTeX Warning: There were undefined references.
 
@@ -1850,19 +1926,19 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2628 strings out of 480471
- 34472 string characters out of 5899396
- 273073 words of memory out of 5000000
- 18582 multiletter control sequences out of 15000+600000
+ 2642 strings out of 480471
+ 34622 string characters out of 5899396
+ 273084 words of memory out of 5000000
+ 18594 multiletter control sequences out of 15000+600000
  539791 words of font info for 53 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,991b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,1009b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
 amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (43 pages, 708671 bytes).
+Output written on unswthesis.pdf (47 pages, 809328 bytes).
 PDF statistics:
- 226 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
+ 241 PDF objects out of 1000 (max. 8388607)
+ 157 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

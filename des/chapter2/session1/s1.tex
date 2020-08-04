@@ -1,12 +1,12 @@
 \section{Bayesian Theorem}\label{}
 
-There was a hit-and-run accident in a certain city. There were only two-color cars in the city, 15 \% blue and 85 \% green. When the accident happen, a person saw it at the scene, and he identified it as a blue car. However, according to the on-site analysis by experts, the probability that  the evident was correct is 80 \%. So, what is the probability that the car involved in the accident is a blue car?
+There was a hit-and-run accident in a certain city and there were only two-color cars in the city, 15 \% blue and 85 \% green. When the accident happen, a person saw it at the scene, and he identified it as a blue car. However, according to the  analysis by experts, the probability that  the evident was correct is 80 \%. So, what is the probability that the car involved in the accident is a blue car?
 
 
 Let $B$ be the event where the car is blue in the city, $G$ be the event where the car is green, and $E$ be the event where the car is observed to be blue. Then, from the known information
 $$P(B)=0.15$$
 
-$$P(G)=P(~B)=0.85$$
+$$P(G)=P(-B)=0.85$$
 
 
 If no witness sees the car of the perpetrator, then we can only guess blindly. Therefore, the probability that the car of the perpetrator is blue can only be the probability that the car is blue in the entire city, which is the prior probability $P(B)= 0.15$, because at this time we have no other evidence  and can only make a rough estimate.
@@ -16,7 +16,7 @@ The witness said he saw the car and said it was blue. Note that there are two si
 
 \begin{enumerate}
   \item
-The car is indeed blue, and the witness correctly distinguished color of car.
+The car is indeed blue, and the witness correctly distinguished the olor of car.
 $$P(E,B) = P(E|B) * P(B) = 0.15 * 0.8 = 0.12$$
 \item
 The car is green , but the witness sees it as blue．
@@ -42,7 +42,7 @@ P(B|E) &=& 　\frac{P(B,E)}{P(E)} \\
 Bayesian statistics considers that unknown models or parameters are uncertain and subkect to a certain probability distribution.
 In particular, we will first make a guess about this probability distribution based on subjective judgment or past experience, which is called the prior distribution.Then given more and more observations,we can modify the guess of the probability distribution and the final probability distribution is called the posterior distribution. As we obtain more and more data or evidence, our knowledge of reality has been updated and improved.
 Let us review the formule of Bayesian Thoerem:
-$$ \text{posterior distribution = likelihood info + prior disteibution}$$
+$$ \text{Posterior distribution = Likelihood info + Prior distribution}$$
 
 \begin{eqnarray*}
 P(A|B) &=& \frac{P(A,B)}{P(B)} \\
@@ -95,6 +95,6 @@ The probabiity function is larger than 1,so that the probabilty that the color o
 The posterior probability refers to the probability that the cause of the event is caused by a factor under the condition that the event has occurred. It is the conditional probability after considering an event.
 
 \subsection{conjugate prior}
-If the prior distribution and the likelihood function can make the prior distribution and the posterior distribution  have the same form, then the prior distribution and the likelihood function are said to be conjugate. Therefore, conjugate refers to the prior probability distribution and likelihood function. If the posterior probability $p(\theta|x)$ and the  prior probability $p(\theta)$ of a random variable $\theta$ belong to the same distribution cluster, then $p(\theta|x)$ and $p(\theta)$ are called conjugate distributions, and  Also called $p(\theta)$ is the conjugate prior of the likelihood function $p(x|\theta)$.
+If the prior distribution and the likelihood function can make the prior distribution and the posterior distribution  have the same form, then the prior distribution and the likelihood function are said to be conjugate. Therefore, conjugate refers to the prior probability distribution and likelihood function. If the posterior probability $p(\theta|x)$ and the  prior probability $p(\theta)$ of a random variable $\theta$ belong to the same distribution cluster, then $p(\theta|x)$ and $p(\theta)$ are called conjugate distributions, and  also called $p(\theta)$ is the conjugate prior of the likelihood function $p(x|\theta)$.
 
 The conjugate prior and posterior have the same form. This can easily form an iteration in the calculation process. According to the new observation data, the original posterior probability becomes a new prior probability, and then a new posterior probability is updated. The parameters of this posterior probability are more accurate.This process greatly simplifies Bayesian analysis.

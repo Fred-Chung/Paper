@@ -13,7 +13,7 @@
 \contentsline {subsection}{\numberline {2.3.1}Monte Carlo Method}{14}%
 \contentsline {subsection}{\numberline {2.3.2}Sampling Method}{15}%
 \contentsline {subsection}{\numberline {2.3.3}Markov Chain}{17}%
-\contentsline {subsection}{\numberline {2.3.4}MCMC Sampling and M-H Sampling}{19}%
+\contentsline {subsection}{\numberline {2.3.4}MCMC and M-H Sampling}{19}%
 \contentsline {subsection}{\numberline {2.3.5}Gibbs Sampling}{21}%
 \contentsline {chapter}{\numberline {Chapter 3}Latent Dirichlet Allocation}{23}%
 \contentsline {section}{\numberline {3.1}Model construction}{23}%
@@ -25,9 +25,11 @@
 \contentsline {subsection}{\numberline {3.2.3}Perplexity and Inference}{31}%
 \contentsline {section}{\numberline {3.3}Dirichlet belief networks}{31}%
 \contentsline {subsection}{\numberline {3.3.1}Research on Topic Distribution}{32}%
-\contentsline {subsection}{\numberline {3.3.2}Introduction of DIRBN}{32}%
+\contentsline {subsection}{\numberline {3.3.2}Introduction of DIRBN}{33}%
 \contentsline {subsection}{\numberline {3.3.3}Inference of DirBN}{33}%
 \contentsline {chapter}{\numberline {Chapter 4}Bound Dirichlet Belief Model}{35}%
 \contentsline {section}{\numberline {4.1}Introduction}{35}%
-\contentsline {section}{\numberline {4.2}Inferene}{35}%
-\contentsline {chapter}{References}{37}%
+\contentsline {section}{\numberline {4.2}Inference Process}{37}%
+\contentsline {section}{\numberline {4.3}Experiment}{39}%
+\contentsline {chapter}{\numberline {Chapter 5}Conclusion}{40}%
+\contentsline {chapter}{References}{41}%

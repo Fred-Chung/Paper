@@ -1,10 +1,10 @@
 \section{Markov Chain Monte Carlo and Gibbs Sampling}\label{bases}
 
 \subsection{Monte Carlo Method}
-The Monte Carlo method is a calculation method. The principle is to understand a system through a large number of random samples, and then get the value to be calculated.
+The Monte Carlo method is a calculation method. The principle is to understand a event through a large number of random samples, and then get the value to be calculated.
 
-It is very powerful and flexible and  quite easy to understand and  implement. For many problems, it is often the simplest calculation method, and sometimes even the only feasible method.
-As a random sampling method, Markov Chain Monte Carlo has a wide range of applications in the fields of machine learning, deep learning, and natural language processing, and is the basis of many complex algorithms.
+It is very powerful and flexible method,and  quite easy to understand and  implement. For many problems, it is often the simplest calculation method, and sometimes even the only feasible method.
+As a random sampling method, Markov Chain Monte Carlo has a wide range of applications in the fields of machine learning, deep learning, and natural language processing. It is also the basis of many complex algorithms.
 
 The early Monte Carlo methods were designed to solve some summation or integration problems that are not very easy to solve. Such as :
 \[
@@ -12,10 +12,10 @@ Y = \int_a^b f(x)
 
 \]
 
-We can get the answer by Newton-Leibniz formula if the function is simple enough.However,
-In most cases, it is difficult to find the original function of $f(x)$. Of course, we can use the Monte Carlo method to simulate the conversion approximation
+We can get the answer by Newton-Leibniz formula if the function is simple enough. However,
+In most cases, it is difficult to find the original function of $f(x)$. Of course, we can use the Monte Carlo method to simulate the conversion approximation.
 
-Then we can sample$n$ values ​​in the $[a,b]$, interval: $x_0,x_1,\dots,x_n$, and use their average values ​​to represent all $f(x)$ values ​​in the $[a,b]$ interval. So our approximate solution to the definite integral above is:
+Then we can sample $n$ values ​​in the $[a,b]$, interval: $x_1,\dots,x_n$, and use their average values ​​to represent all $f(x)$ values ​​in the $[a,b]$ interval. So our approximate solution to the definite integral above is:
 \[
   Y = \frac{b-a}{n}\sum^n f(x_i)
 \]
@@ -29,11 +29,12 @@ Y &=& \int_a^b f(x) \\
 
 Our question now turns to how to find the distribution of $x$
 \subsection{Sampling Method}
-The key to the Monte Carlo method is to get the probability distribution of $x$. If the probability distribution of $x$ is found, we can sample n sample sets based on this probability distribution based on the probability distribution and bring it into the Monte Carlo summation formula to solve.
+The key to the Monte Carlo method is to get the probability distribution of $x$. If the probability distribution of $x$ is found, we can sample n sample sets based on this probability distribution  and bring it into the Monte Carlo summation formula to solve.
 
-For the common uniform distribution $uniform (0,1)$,It  is very easy to get samples, generally through the linear congruential generator that can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by $uniform (0,1)$ sample conversion.
+For the common uniform distribution $\mathcal U (0,1)$,It  is very easy to get samples, generally through the linear congruential generator that can easily generate between (0,1) Pseudo-random number samples. For other common probability distributions, whether they are discrete distributions or continuous distributions, their samples can be infered by sample conversion of uniform distribution.
 
-Assuming that $x$ is a continuous random variable, subject to a random distribution$f(x)$, its cumulative distribution function is $F(X)$.We assume that $Y = F(X)$ is subject to 0-1 uniform distribution and $F^{-1}(Y)$ have same distribution with $X$.For example:
+Assuming that $x$ is a continuous random variable, subject to a random distribution $f(x)$, its cumulative distribution function is $F(X)$.We assume that $Y = F(X)$ is subject to $\mathcal U (0,1)$ and $F^{-1}(Y)$ have same distribution with $X$.For example:
+
 PDF of Expoential distribution:
 \[
   f(x) = \lambda e^{\lambda*x}
@@ -72,11 +73,6 @@ We can solve some cases  by Reject-Sampling when the probability distribution is
 
 
 From the probability density function $p(X)$ of a known distribution, we want to get  samples $X$that subject to this distribution.
-\begin{itemize}
-  \item Sample $Y$ from proposal distribution $p(x)$
-  \item Sample $U$ from uniform(0-1) distribution
-  \item if $U<\frac{f(Y)}{c*g(Y)}$,then we accept Y,else continue.
-\end{itemize}
 
 
 \subsection{Markov Chain}
@@ -152,7 +148,7 @@ If we can obtain the Markov chain state transition matrix corresponding to the s
 
 But an important question is, given a random distribution at will, how to get the Markov chain state transition matrix $P$ corresponding to it?
 
-\subsection{MCMC Sampling and M-H Sampling}
+\subsection{MCMC  and M-H Sampling}
 Mostly,target stationary distribution $\pi(x)$and a certain Markov chain state transition matrix $Q$ does not satisfy the detailed balance condition:
 \[
   \pi(i)Q(i,j) \neq \pi(j)Q(j,i)
@@ -161,7 +157,7 @@ Mostly,target stationary distribution $\pi(x)$and a certain Markov chain state t
 
 We introduce a $\alpha(i,j)$ so that the above formula can take the equal sign.
 \[
-  \pi(i)Q(i,j)\alpha(i,j) \eq \pi(j)Q(j,i)\alpha(j,i)
+  \pi(i)Q(i,j)\alpha(i,j) = \pi(j)Q(j,i)\alpha(j,i)
 \]
 
 But how can we get the $\alpha$ by symmetry:
@@ -171,9 +167,9 @@ But how can we get the $\alpha$ by symmetry:
 \end{eqnarray*}
 
 
-$\alpha$ is generally called acceptance rate, and the value is between $[0  \sim 1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar.\cite{mh}
+$\alpha$ is generally called acceptance rate, and the value is between $[0  \sim 1]$, which can be understood as a probability value. This is much like accept-reject sampling, where a common distribution is obtained through a certain acceptance-rejection probability, and here is a common Markov chain state transition matrix $Q$ through a certain acceptance-rejection probability Obtaining the target transition matrix $p$, the two solutions to the problem are similar\cite{mh}.
 
-MCMC sampling algorithm is as follows:
+MCMC  algorithm is as follows:
 \begin{enumerate}
   \item Enter any given Markov chain state transition matrix $Q$, target stable distribution $\pi(x)$, set the threshold of state transition times $n_1$, the number of required samples $n_2$;
   \item Get the initial state value $x_0$ from any simple probability distribution;
@@ -188,21 +184,21 @@ MCMC sampling algorithm is as follows:
 
 But this sampling algorithm is still more difficult to apply in practice, because in the third step, the accept rate $\alpha$ may be very small, such as 0.1, most of our sampled values ​​are rejected and the sampling efficiency is very low. It is possible that we have sampled millions of Markov chains and have not yet converged, that is, the above $n_1$ should be  very large, which is unacceptable.
 
-At this time, it is our Metropolis-Hastings sampling Method.M-H sampling solves the problem of low MCMC sampling acceptance rate in the previous section.
+Metropolis-Hastings sampling also called M-H sampling can solve the problem of low  sampling acceptance rate in the previous section.
 
 We can expand both sides of
 \[
   \pi(i)Q(i,j)\alpha(i,j) =  \pi(j)Q(j,i)\alpha(j,i)
 \]
-At this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c\alpha(ij)$ (accurately, the maximum expansion of both sides is 1), so that we can Improves the acceptance rate of jumps in sampling, so we can take:
+At this time the detailed stationary condition is also satisfied. We expand the equation by $C$ times to make $c*\alpha(i,j)$ (accurately, the maximum expansion of both sides is 1), so that we can improves the acceptance rate of jumps in sampling, so we can take:
 \[
-  \alpha = min{\frac{Q(j,i)\alpha(j,i)}{Q(i,j)\alpha(i,j)},1}
+  \alpha = min(\frac{Q(j,i)\alpha(j,i)}{Q(i,j)\alpha(i,j)},1)
 \]
 
-However, in the era of big data, M-H sampling still faces two major challenges:
+Compare to basic MCMC method,Metropolic Hasting sampling  greatly improves the efficiency of sampling.However, in the era of big data, M-H sampling still faces two major challenges:
 \begin{enumerate}
 
-  \item Our data features are very many, due to the existence of the acceptance rate, the calculation time of M-H sampling required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, $\alpha$　is generally less than 1.  Can it be done without refusing to transfer?
+  \item Our data features are very many, due to the existence of the acceptance rate, the calculation time of M-H sampling required in high dimensions is very considerable, and the algorithm efficiency is very low. At the same time, $ \alpha $　is generally less than 1.  Can it be done without refusing to transfer?
 
   \item Due to the large feature dimension, it is often difficult to find the joint distribution of each feature dimension of the target, but it is convenient to find the conditional probability distribution between each feature. At this time, can we only have convenient sampling in the case of conditional probability distribution between various dimensions?
 \end{enumerate}
