@@ -52,6 +52,6 @@ The process of Inference involve two key parts:
 \begin{enumerate}
   \item Propagating the input count vector from
 Bottom to top.Due to the inconjugate property between these latent distri-butions, direct efficient Gibbs sampling over these random variables is difficult. Insteadchoose to first back propagates the observed counting information into each layer and then proceed forward variable Gibbs sampling.
-\item updating latent parameters from top to bottom.After back propagatation of latent count,update the variables by conjugate posterior distribution.
+\item Updating latent parameters from top to bottom.After back propagatation of latent count,we can update the variables by conjugate posterior distribution.
 
 \end{enumerate}

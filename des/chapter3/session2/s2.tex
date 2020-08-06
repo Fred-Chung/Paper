@@ -33,7 +33,7 @@ This process means that when generating the m-th document, a candidate for a top
 In the process of document construction,$ M$ documents correspond to $M$ independent Multinomial-Dirichlet conjugate structures, and $K$ topics also correspond to $K$ independent Multinomial-Dirichle conjugate structures. Among them, $M+K$ conjugate structures are all independent. Let’s discuss the document generative process further.
 
 
-From the first decomposition,We know that $\alpha \rightarrow \theta$ represents the theme corresponding to all documents, which is subject to the Dirichlet distribution. And $\theta  \rightarrow z$  is to generate the theme corresponding to each word, subject to the multinomial distribution. and the Dirichlet distribution is the conjugate distribution of the polynomial distribution. All the whole is a conjugate structure
+From the first decomposition\cite{coolaps},We know that $\alpha \rightarrow \theta$ represents the theme corresponding to all documents, which is subject to the Dirichlet distribution. And $\theta  \rightarrow z$  is to generate the theme corresponding to each word, subject to the multinomial distribution. and the Dirichlet distribution is the conjugate distribution of the polynomial distribution. All the whole is a conjugate structure
 \begin{eqnarray*}
   f(z_k|\alpha) &=& \int f(z_k|p)f(p|\alpha) d_p \\
               &=& \int \prod_{k=1}^K p_k^{n_k} Dir(p|\alphha) d_p \\
@@ -105,7 +105,7 @@ Repeat the Gibbs sampling based on coordinate axis rotation in step 3 until the 
 
 \subsection{Perplexity and Inference}
 
-In information theory, perplexity is a measure of judging the probability model or probability distribution prediction, and can be used to evaluate the quality of the model.
+In information theory, perplexity\cite{per} is a measure of judging the probability model or probability distribution prediction, and can be used to evaluate the quality of the model.
 \[
   perplexity(D) = exp(-\frac{\sum_{k=1}^{M}p(\vec{w_k})}{\sum_{k=1}^{M}N_k})
 \]

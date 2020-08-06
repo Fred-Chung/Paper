@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  4 AUG 2020 20:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 AUG 2020 22:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1030,15 +1030,7 @@ l.16 \begin{itemize}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-
-LaTeX Warning: Citation `hdp' on page 2 undefined on input line 24.
-
-[2]
-Overfull \hbox (25.38696pt too wide) in paragraph at lines 32--33
-\OT1/cmr/m/n/12 edge of Bayesian The-o-rem such as prior dis-tri-bu-tion ,pos-te-rior dis-tri-bu-tion,common
- []
-
-) (./des/chapter2/heading/h.tex [3] [4]
+[2] [3]) (./des/chapter2/heading/h.tex [4]
 Chapter 2.
 
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
@@ -1548,7 +1540,7 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [14] [15]
-<reject.png, id=93, 349.7868pt x 252.2223pt>
+<reject.png, id=92, 349.7868pt x 252.2223pt>
 File: reject.png Graphic file (type png)
 <use reject.png>
 Package pdftex.def Info: reject.png  used on input line 57.
@@ -1636,7 +1628,7 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 2--2
 ) (./des/chapter3/session1/s1.tex [23
 
 ]
-<plsa.png, id=122, 301.125pt x 129.48375pt>
+<plsa.png, id=121, 301.125pt x 129.48375pt>
 File: plsa.png Graphic file (type png)
 <use plsa.png>
 Package pdftex.def Info: plsa.png  used on input line 28.
@@ -1652,7 +1644,7 @@ the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
 ) (./des/chapter3/session2/s2.tex [25 <./plsa.png>]
-<lda.png, id=130, 1084.05pt x 548.0475pt>
+<lda.png, id=129, 1084.05pt x 548.0475pt>
 File: lda.png Graphic file (type png)
 <use lda.png>
 Package pdftex.def Info: lda.png  used on input line 8.
@@ -1757,7 +1749,7 @@ Overfull \hbox (0.79845pt too wide) in paragraph at lines 27--30
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
-<dirbn.png, id=154, 679.53876pt x 301.125pt>
+<dirbn.png, id=153, 679.53876pt x 301.125pt>
 File: dirbn.png Graphic file (type png)
 <use dirbn.png>
 Package pdftex.def Info: dirbn.png  used on input line 33.
@@ -1774,7 +1766,7 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 1--1
  [] 
  []
 
-<ubdn.png, id=161, 777.90625pt x 472.76625pt>
+<ubdn.png, id=160, 777.90625pt x 472.76625pt>
 File: ubdn.png Graphic file (type png)
 <use ubdn.png>
 Package pdftex.def Info: ubdn.png  used on input line 9.
@@ -1862,7 +1854,7 @@ you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
 [37] [38]
-<res.png, id=175, 914.41624pt x 602.25pt>
+<res.png, id=174, 914.41624pt x 602.25pt>
 File: res.png Graphic file (type png)
 <use res.png>
 Package pdftex.def Info: res.png  used on input line 125.
@@ -1891,15 +1883,25 @@ Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
  [] 
  []
 
-[41
+./des/bib/b.tex:24: Misplaced alignment tab character &.
+l.24 Teh, Y. W., Jordan, M. I., Beal, M. J., &
+                                               Blei, D. M. (2005). Sharing c...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
 
-]
-Underfull \hbox (badness 3209) in paragraph at lines 60--61
+Underfull \hbox (badness 3209) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Chib, Sid-dhartha, and Ed-ward Green-berg. "Un-der-stand-ing the
  []
 
-)
+[41
+
+
+])
 
 ./unswthesis.tex:145: LaTeX Error: \begin{enumerate} on input line 2 ended by \end{document}.
 
@@ -1915,9 +1917,6 @@ or  <return>  to continue without it.
 
 [42] (./unswthesis.aux)
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
  )
@@ -1926,19 +1925,19 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2642 strings out of 480471
- 34622 string characters out of 5899396
- 273084 words of memory out of 5000000
- 18594 multiletter control sequences out of 15000+600000
- 539791 words of font info for 53 fonts, out of 8000000 for 9000
+ 2644 strings out of 480471
+ 34626 string characters out of 5899396
+ 273100 words of memory out of 5000000
+ 18597 multiletter control sequences out of 15000+600000
+ 539484 words of font info for 52 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,1009b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (47 pages, 809328 bytes).
+ 31i,8n,27p,1005b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on unswthesis.pdf (47 pages, 803737 bytes).
 PDF statistics:
- 241 PDF objects out of 1000 (max. 8388607)
- 157 compressed objects within 2 object streams
+ 237 PDF objects out of 1000 (max. 8388607)
+ 154 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

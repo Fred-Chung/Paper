@@ -116,9 +116,9 @@ Unlike DirBN model which inference latent vairiables by propagating count matrix
 
 \section {Experiment}
 
-The experiment was conduct on a real-word datsets called Tag My News (TMN) which contains 32597 RSS news labelled with 7 categories and there are 13370 unique words in the documents.
+The experiment was conducted on a real-word datsets called Tag My News (TMN) \cite{data} which contains 32597 RSS news labelled with 7 categories and there are 13370 unique words in the documents.
 
-For UBD model,we set $M = 200,\eta = \beta = 1$
+For UBD model,we set $M = 200,\eta = \beta = 1$. We use 50 \% of data as our training data and make another other half of data as test data. We use perplexity as the evaluation criterion of the model. Obviously as the number of training increases, the value of Perplexity continues to decrease.
 
 \begin{figure}[b]
 % \centering % 图片居中
@@ -129,6 +129,10 @@ For UBD model,we set $M = 200,\eta = \beta = 1$
 
 
 \chapter{Conclusion}\label{ccl}
-We have present a new layerwise inference of Dirichlet Belief Model. With each topic in different layers, DBN model is able to deepen the uderstanding on topic hierarchies. By inserting auxiliary poisson random variable into the layerwise connections and appropriate design,direct efficient Gibbs sampling over random variables is available.
+In this paper, we first introduce the background of Latent Dirichlet Allocation such as bayesian theorem,basic distriubution and the method used in inference process including Gibbs sampling and Metropoli-Hasting sampling.Then we review the generative process of document,inferencing the latent variables in LDA models by Gibbs sampling.
 
-However,the limitation of this model is that the lengths of latent distrubutions in all the layers are restricted to be the same and need to be fixed.Further directions include introduction of Chinese Restaurant Process on the prior of the length of latent distribution
+For improving the performance of LDA model,Scientists have done a lot of research on word distribution and topic distribution. However,compared with lots of research on topic structure, word distribution attracts less interest. Zhao\cite{Zhao} proposed Dirichlet belief model to replace dirichlet prior distribution on word distribution,but it is hard for inference latent parameters with complex structure.
+
+We have present a new layerwise inference of Dirichlet Belief Model. With each topic in different layers, DBN model is able to deepen the understanding on topic hierarchies. By inserting auxiliary poisson random variable into the layerwise connections and appropriate design,direct efficient Gibbs sampling over random variables is available.
+
+However,the limitation of this model is that the lengths of latent distrubutions in all the layers are restricted to be the same and need to be fixed.Further directions include introduction of Chinese Restaurant Process on the prior of the length of latent distribution.

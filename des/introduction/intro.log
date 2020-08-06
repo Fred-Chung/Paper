@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  4 AUG 2020 13:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 AUG 2020 22:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -296,7 +296,7 @@ Missing character: There is no [ in font nullfont!
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
 l.6 ...rge amount of information{\cite{intro-back}
-                                                  }.Then, how to effectively...
+                                                  }. Then, how to effectivel...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -716,7 +716,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.9 S
-     uch data is sparse and discrete which is hard for computer to process.T...
+     uch data is sparse and discrete which is hard for computer to process. ...
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
@@ -3265,12 +3265,12 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no k in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no [ in font nullfont!
-\citation{zhao}
+\citation{dirbn}
 ./intro.tex:24: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.24 ...nn machines and neural network.\cite{zhao}
-                                                  .In hierarchical dirichlet...
+l.24 ...n machines and neural network.\cite{dirbn}
+                                                  . In hierarchical dirichle...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3278,7 +3278,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: Citation `zhao' on page  undefined on input line 24.
+LaTeX Warning: Citation `dirbn' on page  undefined on input line 24.
 
 Missing character: There is no ] in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -4000,14 +4000,14 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 Missing character: There is no Z in font nullfont!
 Missing character: There is no h in font nullfont!
+Missing character: There is no a in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no u in font nullfont!
 Missing character: There is no [ in font nullfont!
 \citation{dirbn}
 ./intro.tex:28: Undefined control sequence.
 <write> ...: Citation `\@citeb ' on page \thepage 
                                                   \space undefined\on@line .
-l.28 ... received much attention.Zhou \cite{dirbn}
+l.28 ...received much attention. Zhao \cite{dirbn}
                                                    introduces an alterative ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4502,11 +4502,13 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
+Missing character: There is no N in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no k in font nullfont!
 Missing character: There is no ( in font nullfont!
 Missing character: There is no U in font nullfont!
 Missing character: There is no D in font nullfont!
@@ -5602,9 +5604,9 @@ Missing character: There is no . in font nullfont!
 Here is how much of TeX's memory you used:
  21 strings out of 480471
  415 string characters out of 5899396
- 240272 words of memory out of 5000000
+ 241272 words of memory out of 5000000
  16153 multiletter control sequences out of 15000+600000
  532646 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,2n,23p,973b,104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,2n,23p,977b,104s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

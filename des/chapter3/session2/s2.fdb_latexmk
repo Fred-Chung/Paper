@@ -1,11 +1,13 @@
 # Fdb version 3
-["pdflatex"] 1596382244 "s2.tex" "s2.pdf" "s2" 1596382245
+["pdflatex"] 1596548938 "s2.tex" "s2.pdf" "s2" 1596548939
+  "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1136768653 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "/usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf" 1583102494 39451 60d7debd9ef8ece44cbe965493576c2d ""
   "/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1593824833 4863527 b2d9f2abe38f34624e86b0db34644c7e ""
   "/usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt" 1593824853 2435175 05af5cdc40097238cf9905ed504383af ""
   "/usr/local/texlive/2020/texmf.cnf" 1593824823 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "s2.aux" 1594086480 8 a94a2480d3289e625eea47cd1b285758 ""
-  "s2.tex" 1596382242 8498 82ab094893196be6f708313896535928 ""
+  "s2.tex" 1596548938 8522 a7d2f2f00688c5ae8bc72291e9e97ae2 ""
   (generated)
-  "s2.log"
   "s2.pdf"
+  "s2.log"

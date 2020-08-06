@@ -102,7 +102,6 @@ OUTPUT unswthesis.toc
 INPUT des/introduction/intro.tex
 INPUT des/introduction/intro.tex
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmcsc10.tfm
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/heading/h.tex
 INPUT des/chapter2/session1/s1.tex
@@ -145,7 +144,6 @@ INPUT des/bib/b.tex
 INPUT des/bib/b.tex
 INPUT unswthesis.aux
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
-INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb
