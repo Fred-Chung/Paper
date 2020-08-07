@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  6 AUG 2020 22:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.7.4)  7 AUG 2020 10:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,7 +718,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.29 ...\numberline {3.3.3}Inference of DirBN}{33}
+l.29 ...\numberline {3.3.3}Inference of DirBN}{34}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -778,7 +778,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 ...er}{\numberline {Chapter 5}Conclusion}{40}
+l.34 ...er}{\numberline {Chapter 5}Conclusion}{41}
                                                   %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -790,7 +790,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.35 \contentsline {chapter}{References}{41}
+l.35 \contentsline {chapter}{References}{42}
                                             %
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1053,27 +1053,27 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 ...green , but the witness sees it as blue．
+l.22 ...s green, but the witness saw it as blue．
                                                   
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session1/s1.tex:36: Package inputenc Error: Unicode character 　 (U+3000)
+./des/chapter2/session1/s1.tex:35: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.36 P(B|E) &=& 　
+l.35 P(B|E) &=& 　
                    \frac{P(B,E)}{P(E)} \\
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [6] [7] [8]) (./des/chapter2/session2/s2.tex [9]
-./des/chapter2/session2/s2.tex:16: Misplaced alignment tab character &.
-l.16   f(p|\alpha,\beta) &
+./des/chapter2/session2/s2.tex:17: Misplaced alignment tab character &.
+l.17   f(p|\alpha,\beta) &
                           =& \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\al...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1082,8 +1082,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./des/chapter2/session2/s2.tex:16: Misplaced alignment tab character &.
-l.16   f(p|\alpha,\beta) &=&
+./des/chapter2/session2/s2.tex:17: Misplaced alignment tab character &.
+l.17   f(p|\alpha,\beta) &=&
                              \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\al...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
@@ -1092,8 +1092,8 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./des/chapter2/session2/s2.tex:20: Undefined control sequence.
-l.20   f(n_1,n_2,\ndot
+./des/chapter2/session2/s2.tex:21: Undefined control sequence.
+l.21   f(n_1,n_2,\ndot
                       ,N|p) = p^{K}(1-p)^{N-K}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1101,10 +1101,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:25: Undefined control sequence.
+./des/chapter2/session2/s2.tex:26: Undefined control sequence.
 <argument> f(n_1,n_2,\ndot 
                            ,N|p)f(p|\alpha ,\beta )
-l.25   {f(n1,n2,...N,\alpha,\beta)}
+l.26   {f(n1,n2,...N,\alpha,\beta)}
                                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1112,8 +1112,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:30: Undefined control sequence.
-l.30 ...N,\alpha,\beta) &=& \int_p f(n_1,n_2,\ndot
+./des/chapter2/session2/s2.tex:31: Undefined control sequence.
+l.31 ...N,\alpha,\beta) &=& \int_p f(n_1,n_2,\ndot
                                                   ,N|p)f(p|\alpha,\beta) \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1122,8 +1122,8 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [10]
-./des/chapter2/session2/s2.tex:35: Undefined control sequence.
-l.35   f(n_1,n_2,\ndot
+./des/chapter2/session2/s2.tex:36: Undefined control sequence.
+l.36   f(n_1,n_2,\ndot
                       ,N|p)f(p|\alpha,\beta) &=& \frac{1}{B(\alpha,\beta)}x^...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1131,10 +1131,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:36: Undefined control sequence.
+./des/chapter2/session2/s2.tex:37: Undefined control sequence.
 <argument> f(n_1,n_2,\ndot 
                            ,N|p)f(p|\alpha ,\beta )
-l.36   {f(n1,n2,...N,\alpha,\beta)}
+l.37   {f(n1,n2,...N,\alpha,\beta)}
                                     \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1143,12 +1143,12 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (7.83727pt too wide) in alignment at lines 34--38
+Overfull \hbox (7.83727pt too wide) in alignment at lines 35--39
  [][][] []
  []
 
-./des/chapter2/session2/s2.tex:50: Undefined control sequence.
-l.50   f(x_1,x_2,\ndots
+./des/chapter2/session2/s2.tex:51: Undefined control sequence.
+l.51   f(x_1,x_2,\ndots
                        ,x_n|\alpha_1,\ndots,\alpha_n) = \frac{1}{B(\alpha)} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1156,8 +1156,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./des/chapter2/session2/s2.tex:50: Undefined control sequence.
-l.50   f(x_1,x_2,\ndots,x_n|\alpha_1,\ndots
+./des/chapter2/session2/s2.tex:51: Undefined control sequence.
+l.51   f(x_1,x_2,\ndots,x_n|\alpha_1,\ndots
                                            ,\alpha_n) = \frac{1}{B(\alpha)} ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1167,7 +1167,7 @@ and I'll forget about whatever was undefined.
 
 ./des/chapter2/session2/s2.tex:60: Undefined control sequence.
 l.60 ...ty distribution $Dirichlet(\alpha_1,\ndots
-                                                  ,\alpha_N)$ ,
+                                                  ,\alpha_N)$,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1176,7 +1176,7 @@ and I'll forget about whatever was undefined.
 
 ./des/chapter2/session2/s2.tex:61: Undefined control sequence.
 l.61 ...rrences of each situation $[x_1,x_2,\ndots
-                                                  ,x_n]$, the posterior prob...
+                                                  ,x_n]$, and the posterior ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1185,7 +1185,7 @@ and I'll forget about whatever was undefined.
 
 ./des/chapter2/session2/s2.tex:61: Undefined control sequence.
 l.61 ...ubject to $Dirichlet(\alpha_1 + x_1,\ndots
-                                                  ,\alpha_n+x_n)$.Prove:
+                                                  ,\alpha_n+x_n)$. Prove:
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1350,6 +1350,10 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [12]
+Overfull \hbox (7.28394pt too wide) in paragraph at lines 118--119
+[]\OT1/cmr/m/n/12 Multinomial Dis-tri-bu-tion is a gen-er-al-iza-tion of Bi-no-mial Dis-tri-bu-tion. Bernoulli
+ []
+
 ./des/chapter2/session2/s2.tex:121: Undefined control sequence.
 l.121   f(x_1,x_2,\ndot
                        ,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,...
@@ -1469,8 +1473,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 Then we can sample $n$ values ​
-                                      ​in the $[a,b]$, interval: $x_1,\dot...
+l.18 People can sample $n$ values ​
+                                     ​in the interval $[a,b]$: $x_1,\dots,...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1482,8 +1486,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.18 Then we can sample $n$ values ​​
-                                         in the $[a,b]$, interval: $x_1,\dot...
+l.18 People can sample $n$ values ​​
+                                        in the interval $[a,b]$: $x_1,\dots,...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1543,72 +1547,86 @@ You may provide a definition with
 <reject.png, id=92, 349.7868pt x 252.2223pt>
 File: reject.png Graphic file (type png)
 <use reject.png>
-Package pdftex.def Info: reject.png  used on input line 57.
+Package pdftex.def Info: reject.png  used on input line 58.
 (pdftex.def)             Requested size: 423.94588pt x 305.69794pt.
- [16] [17 <./reject.png>] [18] [19]
+ [16] [17 <./reject.png>] [18]
 
-./des/chapter2/session3/s3.tex:180: Package inputenc Error: Unicode character ， (U+FF0C)
+./des/chapter2/session3/s3.tex:168: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.180       \item if $u<\pi(x_*)*Q(x_*|x_0)$，
+l.168 ...tance-rejection probability. Obviously　
+                                                  the two solutions to the p...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+[19]
+
+./des/chapter2/session3/s3.tex:178: Package inputenc Error: Unicode character ， (U+FF0C)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178       \item if $u<\pi(x_*)*Q(x_*|x_0)$，
                                                then accept $x_*$.
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:185: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:183: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ...ch as 0.1, most of our sampled values ​
+l.183 ...ch as 0.1, most of our sampled values ​
                                                   ​are rejected and the sa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 
-./des/chapter2/session3/s3.tex:185: Package inputenc Error: Unicode character ​ (U+200B)
+./des/chapter2/session3/s3.tex:183: Package inputenc Error: Unicode character ​ (U+200B)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.185 ...as 0.1, most of our sampled values ​​
+l.183 ...as 0.1, most of our sampled values ​​
                                                   are rejected and the sampl...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [20]
 
-./des/chapter2/session3/s3.tex:201: Package inputenc Error: Unicode character 　 (U+3000)
+./des/chapter2/session3/s3.tex:200: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.201 ...very low. At the same time, $ \alpha $　
+l.200 ...very low. At the same time, $ \alpha $　
                                                   is generally less than 1. ...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [21]
 
-./des/chapter2/session3/s3.tex:223: Package inputenc Error: Unicode character 　 (U+3000)
+./des/chapter2/session3/s3.tex:222: Package inputenc Error: Unicode character 　 (U+3000)
 (inputenc)                not set up for use with LaTeX.
 
 See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.223 ...en any two points meets Detail balance　
+l.222 ...en any two points meets Detail balance　
                                                   conditions! In the same wa...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1678,45 +1696,167 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+./des/chapter3/session2/s2.tex:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./des/chapter3/session2/s2.tex:81: Missing } inserted.
+<inserted text> 
+                }
+l.81 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter3/session2/s2.tex:81: Missing } inserted.
+<inserted text> 
+                }
+l.81 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter3/session2/s2.tex:81: Missing } inserted.
+<inserted text> 
+                }
+l.81 
+     
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+./des/chapter3/session2/s2.tex:81: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.81 
+     
+I'm guessing that you meant to end an alignment here.
+
+./des/chapter3/session2/s2.tex:81: Missing { inserted.
+<inserted text> 
+                {
+l.81 
+     
+I've put in what seems to be necessary to fix
+the current column of the current alignment.
+Try to go on, since this might almost work.
+
+./des/chapter3/session2/s2.tex:81: Missing $ inserted.
+<inserted text> 
+                $
+l.81 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./des/chapter3/session2/s2.tex:81: Missing $$ inserted.
+<to be read again> 
+                   \@@par 
+l.81 
+     
+Displays can use special alignments (like \eqalignno)
+only if nothing but the alignment itself is between $$'s.
+
 [29]
+./des/chapter3/session2/s2.tex:81: Extra }, or forgotten \endgroup.
+\@par ... \@noitemerr {\@@par }\fi \else {\@@par }
+                                                  \fi 
+l.81 
+     
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝐾 (U+1D43E)
-(inputenc)                not set up for use with LaTeX.
+./des/chapter3/session2/s2.tex:82: Misplaced alignment tab character &.
+\reserved@a ->&
+                & &
+l.82 \end{eqnarray*}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
+./des/chapter3/session2/s2.tex:82: Misplaced alignment tab character &.
+\reserved@a ->& &
+                  &
+l.82 \end{eqnarray*}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter3/session2/s2.tex:82: Misplaced alignment tab character &.
+\reserved@a ->& & &
+                   
+l.82 \end{eqnarray*}
+                    
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./des/chapter3/session2/s2.tex:82: Misplaced \cr.
+\@@eqncr ...l \@eqnswtrue \global \@eqcnt \z@ \cr 
                                                   
-l.98 ...em  Choose the right number of topics 𝐾
-                                                  , choose the right hyperpa...
-You may provide a definition with
-\DeclareUnicodeCharacter 
+l.82 \end{eqnarray*}
+                    
+I can't figure out why you would want to use a tab mark
+or \cr or \span just now. If something like a right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
 
+./des/chapter3/session2/s2.tex:82: Extra }, or forgotten \endgroup.
+\endeqnarray ->\@@eqncr \egroup 
+                                \global \advance \c@equation \m@ne $$\@ignor...
+l.82 \end{eqnarray*}
+                    
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
-./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character 𝛼 (U+1D6FC)
-(inputenc)                not set up for use with LaTeX.
+./des/chapter3/session2/s2.tex:82: Missing $ inserted.
+<inserted text> 
+                $
+l.82 \end{eqnarray*}
+                    
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...hoose the right hyperparameter vector 𝛼
-                                                  ⃗$\vec{\alpha}$ and $\ve...
-You may provide a definition with
-\DeclareUnicodeCharacter 
-
-
-./des/chapter3/session2/s2.tex:98: Package inputenc Error: Unicode character ⃗ (U+20D7)
-(inputenc)                not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.98 ...se the right hyperparameter vector 𝛼⃗
-                                                  $\vec{\alpha}$ and $\vec{\...
-You may provide a definition with
-\DeclareUnicodeCharacter 
+./des/chapter3/session2/s2.tex:82: Display math should end with $$.
+<to be read again> 
+                   \endgroup 
+l.82 \end{eqnarray*}
+                    
+The `$' that I just saw supposedly matches a previous `$$'.
+So I shall assume that you typed `$$' both times.
 
 
 ./des/chapter3/session2/s2.tex:99: Package inputenc Error: Unicode character 　 (U+3000)
@@ -1727,7 +1867,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.99 　
-        \item Corresponding to each word of each document in the corpus, ran...
+        \item Randomly assign a topic number $z$ for every word in each docu...
 You may provide a definition with
 \DeclareUnicodeCharacter 
 
@@ -1745,14 +1885,14 @@ You may provide a definition with
 \DeclareUnicodeCharacter 
 
 [30]) (./des/chapter3/session3/s3.tex [31] [32]
-Overfull \hbox (0.79845pt too wide) in paragraph at lines 27--30
+Overfull \hbox (0.79845pt too wide) in paragraph at lines 26--29
 []\OT1/cmr/m/n/12 Different from sin-gle layer dirich-let,DirBN model pro-posed a multi-layer Dirch-
  []
 
 <dirbn.png, id=153, 679.53876pt x 301.125pt>
 File: dirbn.png Graphic file (type png)
 <use dirbn.png>
-Package pdftex.def Info: dirbn.png  used on input line 33.
+Package pdftex.def Info: dirbn.png  used on input line 32.
 (pdftex.def)             Requested size: 369.88582pt x 163.9054pt.
 [33 <./dirbn.png>]) (./des/chapter4/heading/h.tex [34]
 Chapter 4.
@@ -1835,7 +1975,7 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 ...� variable for each latent distribution π
+l.48 ..." variable for each latent distribution π
                                                    and we can thus easily ob...
 You may provide a definition with
 \DeclareUnicodeCharacter 
@@ -1854,24 +1994,35 @@ you should consult the documentation.
 But don't worry: just continue, and I'll forget what happened. 
 
 [37] [38]
+./des/chapter4/heading/h.tex:123: Undefined control sequence.
+<recently read> \w 
+                   
+l.123 ...bution with the parameter $\beta$ and $\w
+                                                  _{i'.}^1$ also wil be extr...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 <res.png, id=174, 914.41624pt x 602.25pt>
 File: res.png Graphic file (type png)
 <use res.png>
-Package pdftex.def Info: res.png  used on input line 125.
+Package pdftex.def Info: res.png  used on input line 130.
 (pdftex.def)             Requested size: 423.94588pt x 279.2163pt.
- [39 <./res.png>]
+[39] [40 <./res.png>]
 Chapter 5.
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 131--131
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 136--136
 [] 
  []
 
 
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 131--131
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 136--136
  [] 
  []
 
-) (./des/bib/b.tex [40
+) (./des/bib/b.tex [41
 
 ]
 Overfull \hbox (29.3747pt too wide) in paragraph at lines 4--4
@@ -1898,7 +2049,7 @@ Underfull \hbox (badness 3209) in paragraph at lines 48--49
 []\OT1/cmr/m/n/12 Chib, Sid-dhartha, and Ed-ward Green-berg. "Un-der-stand-ing the
  []
 
-[41
+[42
 
 
 ])
@@ -1915,7 +2066,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[42] (./unswthesis.aux)
+[43] (./unswthesis.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
@@ -1925,19 +2076,19 @@ LaTeX Warning: There were multiply-defined labels.
 ### semi simple group (level 1) entered at line 2 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 2644 strings out of 480471
- 34626 string characters out of 5899396
+ 2641 strings out of 480471
+ 34606 string characters out of 5899396
  273100 words of memory out of 5000000
- 18597 multiletter control sequences out of 15000+600000
+ 18594 multiletter control sequences out of 15000+600000
  539484 words of font info for 52 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 31i,8n,27p,1005b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 31i,8n,27p,1015b,349s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy8.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on unswthesis.pdf (47 pages, 803737 bytes).
+Output written on unswthesis.pdf (48 pages, 804486 bytes).
 PDF statistics:
- 237 PDF objects out of 1000 (max. 8388607)
- 154 compressed objects within 2 object streams
+ 240 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  36 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,7 +1,7 @@
 \chapter{Bound Dirichlet Belief Model}\label{ccl}
 
 \section{Introduction}
-In this work, we propse Bound Dirichlet Belief Network to address the issue of DirBN model and enlarge the modelling capability. By inserting auxiliary Poisson random variables into the  layerwise connections and appropraite design.we assume that there are $N$ objects to be modelled in this word,where $\pi_{i'}$ is used to denote the $i'$-th latent distribution in the $l$-th layer.There are $L$ hidden layers in the deep architure.
+In this work, we propse Bound Dirichlet Belief Network to address the issue of DirBN model and enlarge the modelling capability. By inserting auxiliary Poisson random variables into the  layerwise connections and appropraite design. This model assumes that there are $N$ objects to be modelled in this word,where $\pi_{i'}$ is used to denote the $i'$-th latent distribution in the $l$-th layer.There are $L$ hidden layers in the deep architure.
 
 
 \begin{figure}
@@ -18,11 +18,11 @@ $$\dots$$
 $$C_{i'..}^{l} \sim Multi(M^l;\pi_{i'.}^l \otimes w_{i'.}^l) \tag{1}$$
 $$\pi_{i}^{l+1} \sim Dirihlet(\alpha_d +\sum_{i'}{C_{i'.i}^l})\tag{2}$$
 \begin{itemize}
-  \item Information pass from Topic i' to Topic i;
-  \item $\pi_{i'.}^l$ is the Topic-Word matrix in layer $l$;
-  \item All layer has same Topic number;
+  \item Information pass from topic i' to topic i;
+  \item $\pi_{i'.}^l$ is the topic-word matrix in layer $l$;
+  \item All layer has same number of topic;
   \item $w_{i'i}^l$ is the probability that information pass from topic i' to i;
-  \item This is the reconstruction process;;
+  \item This process include a reconstruction process;
   \item  $\sum_{i'}{C_{i'.i}}$  is a (V*K) by 1 Vector;
 \end{itemize}
 
@@ -37,7 +37,7 @@ Since $\sum_k w_{i'k}^l =1$ ,we can further get :
 $$
 \sum_{i'}{C_{i'.i}} \sim Multinomial(M^{l};\pi_{i'}^l)
 $$
-That is to say, the normalized proportion vector can be ragard as an approximator of $\pi_{i'}^l$. We reorganiza the counting variables and calculate the recevied counts information for rach node $i$. For any node $i$, it will receive latent counts from all the nodes in this layer. These received counts can then be used to consistute the concentration parameter vector of the receiving node $i's$ Dirichlet distribution.
+That is to say, the normalized proportion vector can be regard as an approximator of $\pi_{i'}^l$. We reorganiza the counting variables and calculate the recevied counts information for rach node $i$. For any node $i$, it will receive latent counts from all the nodes in this layer. These received counts can then be used to consistute the concentration parameter vector of the receiving node $i's$ Dirichlet distribution.
 
 The number $M^{l}$ of events records the total intensity of relating the latent representation to the related counts. Larger
 values of $M^{l}$ will remind a closer approximation to $\pi^{l}$. Further, the introduction of Poisson counts help to decompose the additive effect of the weights, which is quite difficult to have closed Gibbs sampling format.
@@ -45,7 +45,7 @@ values of $M^{l}$ will remind a closer approximation to $\pi^{l}$. Further, the 
 This key contribution needs to be emphasized again. The
 introduction of the counts variable $C$ enables us to use a
 layerwise sampling method for all the variables and thus
-avoid the complicated strategy of backward counts propagation and forward variable sampling. $C_{i'}^{{l}}$plays the role of “likelihood” variable for each latent distribution π and we can thus easily obtain Gibbs sampling for $\pi_{i'}^{(l)}$.
+avoid the complicated strategy of backward counts propagation and forward variable sampling. $C_{i'}^{{l}}$ plays the role of "likelihood" variable for each latent distribution π and we can thus easily obtain Gibbs sampling for $\pi_{i'}^{(l)}$.
  Based on Poisson-Multinomial Equivalence,we can get:
  $$C_{i'ki}^{l} \sim Poisson(M^l \pi_{i'k}^l w_{i'i}^l)\tag{3}$$
  Combining its likelihood, we can easily obtain all its potential posterior proportional
@@ -53,22 +53,22 @@ avoid the complicated strategy of backward counts propagation and forward variab
 
 
 \section{Inference Process}
-Unlike DirBN model which inference latent vairiables by propagating count matrix with Chinese Restaurant Table (CRT) distribution.In DBN model,we can directly use Gibbs sampling stratrgy for model inference.
+Unlike DirBN model which inference latent vairiables by propagating count matrix with Chinese Restaurant Table (CRT) distribution.In DBN model,we can directly use Gibbs sampling stratrgy for model inference. Obivously Dirichlet distribution and multinomial is conjugate so that the posterior dsitribution is alse Dirichlet distribution. The detail of inference is as follow:
 \begin{enumerate}
-  \item Input matrix is topic-word matrix  $z$ which is a K by V matrix and then sample $\pi_{i'}^{L}$:
+  \item The input matrix of model is a topic-word matrix  $z$ which is a K by V matrix and then sample $\pi_{i'}^{L}$:
 
   $$\pi_{i'}^{L} \sim Dirichlet(z + C_{i'.i}^L)$$
 
-  \item Sampling $C_{i'ki}^l$.
+  \item Sampl $C_{i'ki}^l$.
   $$P(C_{i'ki}^{l}|.) \sim \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}^{l}!}$$
 
   $$P(\pi_i^{l+1}|C_{i'ki}^{l},..) = \frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1}$$
 
-  The posterior distribution of $C_{i'ki}^{l}$ is:
+  the posterior distribution of $C_{i'ki}^{l}$ is:
 
   $$P(C_{i'ki}^{l}|.) \propto \frac{(M^l \pi_{i'k}^l w_{i'i}^l)^{C_{i'ki}}}{C_{i'ki}!} .\frac{1}{B({\alpha_d +\sum_{i'}{C_{i'.i}^{l})}}} \prod^V \pi_{ik}^{\alpha_d+C_{i'ki}^l-1} $$
 
-  and
+  given that:
 
   $$\sum_{k,i}{C_{i'ki}^l} = M^l$$
 
@@ -79,7 +79,7 @@ Unlike DirBN model which inference latent vairiables by propagating count matrix
  $$
 
 
-  \item Sampling $\pi_{i'}^l$,its posterior distribution is Dirichlet distribution.Given that :
+  \item Sample $\pi_{i'}^l$, its posterior distribution is Dirichlet distribution.
   \[
     \pi_{i'..}^l \sim Dirihlet(\alpha_d +\sum_{i'}{C_{i'.i}^{(l-1)}})
   \]
@@ -97,19 +97,19 @@ Unlike DirBN model which inference latent vairiables by propagating count matrix
      \pi_{i'.}^1 \sim Dirichlet(\beta +  \sum_i{C_{i'ki}})
     $$
 
-  \item  Sampling $w_{i'}$.Given that:
+  \item  Sample $w_{i'}$.
 
   \[
     w_{i'}^l \sim Dirichlet(\eta)
   \]
-  * Likelihood
+  Likelihood function:
   $$\sum_k{C_{i'ki}} \sim Multi(M^l;w_{i'.}^l)$$
 
-  * Prior distribution
+  Prior distribution:
 
   $$W_{i'i} \sim Dirichlet(\alpha_w)$$
 
-  * Posterior distribution
+  Posterior distribution:
 
   $$p(w_{i'}|..) \sim Dirichlet(\alpha_w+w_{i'.})$$
 \end{enumerate}
@@ -118,7 +118,12 @@ Unlike DirBN model which inference latent vairiables by propagating count matrix
 
 The experiment was conducted on a real-word datsets called Tag My News (TMN) \cite{data} which contains 32597 RSS news labelled with 7 categories and there are 13370 unique words in the documents.
 
-For UBD model,we set $M = 200,\eta = \beta = 1$. We use 50 \% of data as our training data and make another other half of data as test data. We use perplexity as the evaluation criterion of the model. Obviously as the number of training increases, the value of Perplexity continues to decrease.
+For UBD model,we set $M = 200,\eta = \beta = 1$. We use 50 \% of data as our training data and make another other half of data as test data.
+
+Firstly, we need to initilize the model from top to down. For example,for the first layer,the $\pi_{i'}^1$ is subject to Dirichlet distribution with the parameter $\beta$ and $\w_{i'.}^1$ also wil be extracted from the dichlet distribution and then sampling other variables layer by layer.
+
+In the experiment, we will test the performance of UDB model with one and UDB model with two layer structure seperately. Finally,
+we use perplexity as the evaluation criterion of the model. Obviously as the number of training increases, the value of perplexity continues to decrease.
 
 \begin{figure}[b]
 % \centering % 图片居中

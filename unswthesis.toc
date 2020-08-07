@@ -26,10 +26,10 @@
 \contentsline {section}{\numberline {3.3}Dirichlet belief networks}{31}%
 \contentsline {subsection}{\numberline {3.3.1}Research on Topic Distribution}{32}%
 \contentsline {subsection}{\numberline {3.3.2}Introduction of DIRBN}{33}%
-\contentsline {subsection}{\numberline {3.3.3}Inference of DirBN}{33}%
+\contentsline {subsection}{\numberline {3.3.3}Inference of DirBN}{34}%
 \contentsline {chapter}{\numberline {Chapter 4}Bound Dirichlet Belief Model}{35}%
 \contentsline {section}{\numberline {4.1}Introduction}{35}%
 \contentsline {section}{\numberline {4.2}Inference Process}{37}%
 \contentsline {section}{\numberline {4.3}Experiment}{39}%
-\contentsline {chapter}{\numberline {Chapter 5}Conclusion}{40}%
-\contentsline {chapter}{References}{41}%
+\contentsline {chapter}{\numberline {Chapter 5}Conclusion}{41}%
+\contentsline {chapter}{References}{42}%

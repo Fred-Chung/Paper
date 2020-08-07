@@ -1,6 +1,6 @@
 \section{Bayesian Theorem}\label{}
 
-There was a hit-and-run accident in a certain city and there were only two-color cars in the city, 15 \% blue and 85 \% green. When the accident happen, a person saw it at the scene, and he identified it as a blue car. However, according to the  analysis by experts, the probability that  the evident was correct is 80 \%. So, what is the probability that the car involved in the accident is a blue car?
+There was a hit-and-run accident in a certain city and there were only two-color cars in the city, 15 \% blue and 85 \% green. When the accident happen, a person saw it at the scene, and identified it as a blue car. However, according to the analysis by experts, the probability that the evident was correct is 80 \%. So, what is the probability that the car involved in the accident is a blue car?
 
 
 Let $B$ be the event where the car is blue in the city, $G$ be the event where the car is green, and $E$ be the event where the car is observed to be blue. Then, from the known information:
@@ -9,29 +9,28 @@ $$P(B)=0.15$$
 $$P(G)=P(-B)=0.85$$
 
 
-If no witness sees the car of the perpetrator, then we can only guess blindly. Therefore, the probability that the car of the perpetrator is blue can only be the probability that the car is blue in the entire city, which is the prior probability $P(B)= 0.15$, because at this time we have no other evidence  and can only make a rough estimate.
+If no witness sees the car then the color of car can only be guess blindly. Therefore, the probability that the car of the perpetrator is blue can only be the probability that the car is blue in the entire city, which is the prior probability $P(B)= 0.15$, because at this time without other evidences, only a rough estimate will be made.
 
 
-The witness said he saw the car and said it was blue. Note that there are two situations.
+The witness said car in the accident was blue. Note that there are two situations.
 
 \begin{enumerate}
   \item
 The car is indeed blue, and the witness correctly distinguished the olor of car.
 $$P(E,B) = P(E|B) * P(B) = 0.15 * 0.8 = 0.12$$
 \item
-The car is green , but the witness sees it as blue．
+The car is green, but the witness saw it as blue．
 $$P(E,~B) = P(E|~B) * P(~B) = 0.85 * 0.2 = 0.17$$
 \end{enumerate}
 
 
-What we are asking for is actually the probability that the car is blue under the condition of witnesses:
+What actually is the probability that the car is blue under the condition of witnesses:
 $$
 \frac{0.12}{0.12+0.17} = 0.41
 $$
 
 
-Now the police found a new witness, and he also thinks the car that caused the accident is blue
-.So what is answer of above question?We have updated our original knowledge. We believe that the probability that the vehicle in the accident is blue is  $0.41$ rather than  $0.15$
+Now the police found a new witness who also comfirmed the car that caused the accident is blue. So what is answer of above question? The original knowledge is updated. The probability that the vehicle in the accident is blue is  $0.41$ rather than  $0.15$
 \begin{eqnarray*}
 P(B|E) &=& 　\frac{P(B,E)}{P(E)} \\
 & = &  \frac{P(E|B)P(B)}{P(E|B)P(B)+P(E|~B)P(~B)} \\
@@ -39,9 +38,8 @@ P(B|E) &=& 　\frac{P(B,E)}{P(E)} \\
 & = &  0.735 \\
 \end{eqnarray*}
 
-Bayesian statistics considers that unknown models or parameters are uncertain and subkect to a certain probability distribution.
-In particular, we will first make a guess about this probability distribution based on subjective judgment or past experience, which is called the prior distribution.Then given more and more observations,we can modify the guess of the probability distribution and the final probability distribution is called the posterior distribution. As we obtain more and more data or evidence, our knowledge of reality has been updated and improved.
-Let us review the formule of Bayesian Thoerem:
+Bayesian statistics considers that unknown models or parameters are uncertain and subject to a certain probability distribution.
+In particular, Bayesian theorem will first make a guess about this probability distribution based on subjective judgment or past experience, which is called the prior distribution. Then given more and more observations, Bayesian will modify the guess of the probability distribution and the final probability distribution is called the posterior distribution. As more and more data or evidence obtained, the knowledge of reality has been updated and improved. Here is the formula of Bayesian Thoerem:
 $$ \text{Posterior distribution = Likelihood info + Prior distribution}$$
 
 \begin{eqnarray*}
@@ -61,40 +59,40 @@ P(A|B) &=& \frac{P(A,B)}{P(B)} \\
 \end{itemize}
 \subsection{Prior Probability}
 
-A priori probability refers to an event that has not yet occurred, and an estimate of the probability of the event occurring, describing a variable in the absence of something.Prior information comes from experience and historical data.Take the coin toss example , before you toss it, you will judge that the probability of heads is 0.5. This is the so-called prior probability.In our example,we known that car of the city only have two color,and the pribability that the color is blue is 0.15.It is also regarded as priro distibuton.
+A prior probability refers to an event that has not yet occurred, and an estimate of the probability of the event occurring, describing a variable in the absence of something. Prior information comes from experience and historical data. Take the coin toss as an example, before tossing it, people will judge that the probability of heads is 0.5. This is the so-called prior probability. In above example, the car of the city only have two color, and the pribability that the color is blue is 0.15. It is also regarded as prior distibuton.
 
 
-A reasonable prior distribution is very useful for the estimation of unknown event. Judgments on many practical problems in life are related to people's knowledge, experience, and insights. In this case, if we combine the finite and observed data with the priors obtained from knowledge and experience, we will get better inferences about the unknown.
+A reasonable prior distribution is very useful for the estimation of unknown event. Judgments on many practical problems in life are related to people's knowledge, experience, and insights. In this case, by combining the finite and observed data with the priors obtained from knowledge and experience, people will get better inferences about the unknown event.
 
 
 
 \subsection{Likelihood Probability}
-We assume that the distribution of $x$ is $f(x|\theta)$.$x_1,x_2,\dots,x_n$  are the samples from the observations,so that the joint distribution of samples is:
+Assuming that the distribution of $x$ is $f(x|\theta)$. $x_1,x_2,\dots,x_n$  are the samples from the observations, so that the joint distribution of sample is:
 \begin{eqnarray*}
 L(x_1,x_2,\dots,x_n;\theta) &=& f(x_1|\theta)f(x_2|\theta)..f(x_n|\theta) \\
 \end{eqnarray*}
 
-This formula  can be regarded as a function of $\theta$ and $L$ is a probability density function which is called linklihood function.$P(B)$ is a standardized constant.
+This formula  can be regarded as a function of $\theta$ and $L$ is a probability density function which is called linklihood function. $P(B)$ is a standardized constant.
 $\frac{P(B|A)}{P(B)}$ is called likelihood, which is an adjustment factor, that is, the adjustment of the occurrence of new information event B. The effect is to make the prior probability closer to the true probability.
 \begin{itemize}
-  \item If the probability function $\frac{P(B|A)}{P(B)}>1$, it means that the "prior probability" is enhanced and the probability of the occurrence of event A becomes greater;
+  \item If the probability function $\frac{P(B|A)}{P(B)}>1$, it means that the prior probability is enhanced and the probability of the occurrence of event A becomes greater;
   \item If probability function = 1, it means that event B does not help to determine the possibility of event A;
-  \item If the probability function $> 1$, it means that the "prior probability" is weakened, and the probability of event A becomes smaller.
+  \item If the probability function $> 1$, it means that the prior probability is weakened, and the probability of event A becomes smaller;
 \end{itemize}
 
-In our example,likelihood function is $P(E|B)$ and the standardized constant is $P(B)$.The likelihood is:
+In our example, likelihood function is $P(E|B)$ and the standardized constant is $P(B)$. The likelihood is:
 \begin{eqnarray*}
   \frac{P(E|B)}{P(B)}  &=& \frac{P(E|B)}{P(B)}  \\
   & = & \frac{P(E|B)}{P(E|B)P(B)+P(E|~B)P(~B)} \\
   & = & \frac{0.8}{0.15*0.8 + 0.85 * 0.2} = 2.79\\
 \end{eqnarray*}
 
-The probabiity function is larger than 1,so that the probabilty that the color of car is blue becomes  larger.
+The probabiity function is larger than 1, so that the probabilty that the car is blue becomes larger.
 
 \subsection{Posterior probability}
-The posterior probability refers to the probability that the cause of the event is caused by a factor under the condition that the event has occurred. It is the conditional probability after considering an event.
+The posterior probability is the probability of an event occurring after considering all the background information. It is the conditional probability after considering an event.
 
 \subsection{conjugate prior}
-If the prior distribution and the likelihood function can make the prior distribution and the posterior distribution  have the same form, then the prior distribution and the likelihood function are said to be conjugate. Therefore, conjugate refers to the prior probability distribution and likelihood function. If the posterior probability $p(\theta|x)$ and the  prior probability $p(\theta)$ of a random variable $\theta$ belong to the same distribution cluster, then $p(\theta|x)$ and $p(\theta)$ are called conjugate distributions, and  also called $p(\theta)$ is the conjugate prior of the likelihood function $p(x|\theta)$.
+If the prior distribution and the likelihood function can make the prior distribution and the posterior distribution  have the same form, then the prior distribution and the likelihood function are said to be conjugate. Therefore, conjugate refers to the prior probability distribution and likelihood function. If the posterior probability $p(\theta|x)$ and the  prior probability $p(\theta)$ of a random variable $\theta$ belong to the same distribution cluster, then $p(\theta|x)$ and $p(\theta)$ are called conjugate distributions, and  $p(\theta)$ can be called the conjugate prior of the likelihood function $p(x|\theta)$.
 
-The conjugate prior and posterior have the same form. This can easily form an iteration in the calculation process. According to the new observation data, the original posterior probability becomes a new prior probability, and then a new posterior probability is updated. The parameters of this posterior probability are more accurate.This process greatly simplifies Bayesian analysis.
+The conjugate prior and posterior have the same form. This can easily form an iteration in the calculation process. According to the new observation data, the original posterior probability becomes a new prior probability, and then a new posterior probability is updated. The parameters of this posterior probability are more accurate. This process greatly simplifies Bayesian analysis.

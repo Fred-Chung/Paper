@@ -1,15 +1,16 @@
 \section{Basic distribution}
 
 \subsection{Beta distribution}
-The beta distribution can represent the probability distribution of a probability. When you don't know the specific probability of a thing, it can be called the probability of the occurrence of all probabilities.
+The beta distribution can represent the probability distribution of a probability. When the specific probability of a thing is unknown, it can be regards as  the probability of the occurrence of all probabilities.
 
-Definition The Beta Function,For each positive $\alpha$ and $\beta$.define:
+The definition of Beta Function is as follow:
+For each positive $\alpha$ and $\beta$:
 $$P(x|\alpha,\beta) = \frac{1}{B(\alpha,\beta)}x^{\alpha-1}(1-x)^{\beta-1} $$
 %
 % The function B is called beta function.
 $$B(\alpha,\beta) = \frac{\Gamma(\alpha)  \Gamma(\beta)}{\Gamma{\alpha+\beta}}$$
 
-For example,carry out $N$ times of Bernoulli test, the probability of success of the test p is subject to a priori probability density distribution $Beta(\alpha,\beta)$ , and the test result appears $K$ times of success of the test. The posterior probability density distribution of the probability p of the test success is $Beta(\alpha + K,\beta+N-K)$.Prove:
+For example, carry out $N$ times of Bernoulli test, the probability of success of the test p is subject to a prior probability density distribution $Beta(\alpha,\beta)$, and the test result appears $K$ times of success of the test. The posterior probability density distribution of the probability p of the test success is $Beta(\alpha + K,\beta+N-K)$. Prove:
 
 Prior distribution:
 \[
@@ -45,20 +46,19 @@ So that:
 
 
 \subsection{Dirichlet distribution}
-Dirichlet distribution is a generalization of the beta distribution in high dimensions.So we can define the probility density function:
+Dirichlet distribution is a generalization of the beta distribution in high dimensions. So the definition of  probility density function is:
 \[
   f(x_1,x_2,\ndots,x_n|\alpha_1,\ndots,\alpha_n) = \frac{1}{B(\alpha)} \prod_{i=1}^n x_i^{\alpha_i-1}
 \]
 where the parameter $\alpha_1,\dots,\alpha_n > 0$ and $\sum_{i=1}^n =1$
 
-Besides,the normalizing constant $B(\alpha)$ is the multivariate beta function:
+Besides, the normalizing constant $B(\alpha)$ is the multivariate beta function:
 \[
   B(\alpha) = \frac{\prod_{i=1}^n \Gamma(\alpha_i) }{\Gamma(\sum_{i=1}^k \alpha_i)}
 \]
 
-For example,carry out $K$ times of test, but
-This experiment will have $n$ results and the  probability of result is subject to a priori probability density distribution $Dirichlet(\alpha_1,\ndots,\alpha_N)$ ,
-The results of the experiment record the number of occurrences of each situation $[x_1,x_2,\ndots,x_n]$, the posterior probability density distribution of the probability of the test is subject to $Dirichlet(\alpha_1 + x_1,\ndots,\alpha_n+x_n)$.Prove:
+For example,$K$ times of test will be carried out in this experiment and each event will get $n$ results and the probability of result is subject to a prior probability density distribution $Dirichlet(\alpha_1,\ndots,\alpha_N)$,
+the experiment will record the number of occurrences of each situation $[x_1,x_2,\ndots,x_n]$, and the posterior probability density distribution of the probability of the test is subject to $Dirichlet(\alpha_1 + x_1,\ndots,\alpha_n+x_n)$. Prove:
 
 Prior distribution:
 \[
@@ -100,10 +100,10 @@ f(p_1,p_2,\dots,p_n|k,x_1 \dots x_n,\alpha_1 \dots \alpha_n) &=& \frac{1}{B(\alp
 
 \subsection{Poisson and Multinomial distribution}
 
-The Poisson process is a continuous time random process with discrete values. Poisson process is used to describe the number of occurrences of events in a period of time, so it is also a counting process. Given the time-dependent random variable as $N_t$, which is used to describe the number of occurrences of an event from time 0 to time $t$.
+The Poisson process is a continuous time random process with discrete values. Poisson process is used to describe the number of occurrences of events in a period of time, so it is called a counting process. Given the time-dependent random variable as $N_t$, poisson distribution is used to describe the number of occurrences of an event from time 0 to time $t$.
 
 
-In short,according to the average number of occurrences of a random event in a certain period of time or in a certain space in the past, poisson distribution can predict the probability that the random event will occur $k$ times in the same long time or the same large space in the future. Its probability mass function is:
+In short, according to the average number of occurrences of a random event in a certain period of time or in a certain space in the past, poisson distribution can predict the probability that the random event will occur $k$ times in the same long time or the same large space in the future. Its probability mass function is:
 \[
   P(X=K|\lambda) = \frac{e^{-\lambda} \lambda^k}{k!}
 \]
@@ -115,7 +115,7 @@ $\lambda$ is the average number of random events in a certain period of time or 
 \end{itemize}
 
 
-Multinomial Distribution is a generalization of Binomial Distribution. Binomial does $n$ Bernoulli experiments, which stipulates that there are only two results for each experiment. However if we do $n$ experiments now, there can be as many as $m$ results for each experiment, and the probability of occurrence of m results exclusive and the sum of probability is 1, then the probability that one of the results happens $X$ times subject to  a multinomial distribution.
+Multinomial Distribution is a generalization of Binomial Distribution. Bernoulli experiments stipulates that there are only two results for Bernoulli test. However, multinomial distribution assumes that there are as many as $m$ results for each experiment, and the sum of probability is equal to 1, then the probability that one of the results happens $X$ times subject to  a multinomial distribution.
 
 \[
   f(x_1,x_2,\ndot,x_n|k,p_1,p_2,\dots,p_n) &=&  \frac{k!}{x_1!,\ndots,x_n} \prod_{i=1}^n p_i^{x_i}
@@ -123,7 +123,7 @@ Multinomial Distribution is a generalization of Binomial Distribution. Binomial 
 
 where $\sum_{i=1}^n = k$.
 
-There is some transformation betweem poisson distribution and multinomial distribution\cite{han}.we assume that:
+There is some transformation betweem poisson distribution and multinomial distribution\cite{han}. Assuming that:
 \[
   x_{pi} = \sum_{k=1}^K x_{pik}
 \]
@@ -132,7 +132,7 @@ There is some transformation betweem poisson distribution and multinomial distri
 \]
 
 
-We introduce another equivalent augmentation\cite{bunt} as :
+An equivalent augmentation is\cite{bunt}:
 \[
   x_{pi} \sim Pois(\sum_{k=1}^K \alpha_{pk}\theta_{ki})
 \]
